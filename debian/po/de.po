@@ -28,6 +28,7 @@ msgstr ""
 "PO-Revision-Date: 2010-10-02 22:33+0200\n"
 "Last-Translator: Holger Wansing <linux@wansing-online.de>\n"
 "Language-Team: Debian German <debian-l10n-german@lists.debian.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -101,8 +102,8 @@ msgid ""
 msgstr ""
 "Das Passwort für den Superuser root sollte nicht leer sein. Wenn Sie es leer "
 "lassen, wird der root-Zugang deaktiviert und der als erstes einrichtete "
-"Benutzer in diesem System erhält die nötigen Rechte, mittels »sudo«-Befehl zu "
-"root zu wechseln."
+"Benutzer in diesem System erhält die nötigen Rechte, mittels »sudo«-Befehl "
+"zu root zu wechseln."
 
 #. Type: password
 #. Description

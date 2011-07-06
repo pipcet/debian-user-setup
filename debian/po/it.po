@@ -29,10 +29,10 @@ msgstr ""
 "PO-Revision-Date: 2010-10-27 07:25-0400\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
 
 #. Type: boolean
 #. Description
@@ -167,8 +167,8 @@ msgid ""
 "'imurdock' or 'rms'."
 msgstr ""
 "È possibile creare tale account anche dopo (e se ne possono creare quanti si "
-"desidera), digitando «adduser <nomeutente>» come root, dove <nomeutente> è il "
-"nome dell'utente da creare, come «mario» o «carlo»."
+"desidera), digitando «adduser <nomeutente>» come root, dove <nomeutente> è "
+"il nome dell'utente da creare, come «mario» o «carlo»."
 
 #. Type: string
 #. Description
@@ -328,10 +328,11 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Le «shadow password» rendono il sistema più sicuro, perché nessuno può vedere "
-"nemmeno le password cifrate: queste ultime vengono memorizzate in un file "
-"separato, visibile solo attraverso programmi speciali. L'uso delle «shadow "
-"password» è raccomandato, tranne in alcuni casi come ambienti che usano NIS."
+"Le «shadow password» rendono il sistema più sicuro, perché nessuno può "
+"vedere nemmeno le password cifrate: queste ultime vengono memorizzate in un "
+"file separato, visibile solo attraverso programmi speciali. L'uso delle "
+"«shadow password» è raccomandato, tranne in alcuni casi come ambienti che "
+"usano NIS."
 
 #. Type: title
 #. Description
