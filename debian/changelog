@@ -1,4 +1,4 @@
-user-setup (1.40) UNRELEASED; urgency=low
+user-setup (1.40) unstable; urgency=low
 
   [ Christian Perrier ]
   * Fix typo in German translation. Closes: #633553
@@ -7,7 +7,22 @@ user-setup (1.40) UNRELEASED; urgency=low
   * Add first user to debian-tor group, which will allow vidalia to be used
     to control tor.
 
- -- Christian Perrier <bubulle@debian.org>  Tue, 12 Jul 2011 21:57:15 +0200
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * German (de.po) by Holger Wansing
+  * Hebrew (he.po) by Lior Kaplan
+  * Hindi (hi.po) by Kumar Appaiah
+  * Italian (it.po) by Milo Casagrande
+  * Kannada (kn.po) by vignesh prabhu
+  * Macedonian (mk.po) by Arangel Angov
+  * Polish (pl.po) by Marcin Owsiany
+  * Romanian (ro.po) by Ioan Eugen Stan
+  * Sinhala (si.po) by Danishka Navin
+  * Turkish (tr.po) by Mert Dirik
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Otavio Salvador <otavio@debian.org>  Sat, 19 Nov 2011 16:21:23 -0200
 
 user-setup (1.39) unstable; urgency=low
 
