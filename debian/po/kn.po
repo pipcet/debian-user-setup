@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2009-04-28 22:50+0000\n"
-"PO-Revision-Date: 2011-11-18 19:11+0530\n"
+"PO-Revision-Date: 2011-11-27 23:24+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -271,6 +271,7 @@ msgstr "ಗುಪ್ತಪದ ದಾಖಲಿಸುವಲ್ಲಿ ದೋಷ"
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
 msgstr ""
+"ನೀವು ದಾಕಲಿಸಿದ ಎರಡೂ ಗುಪ್ತಪದಗಳು ಒಂದನ್ನೊಂದು ಹೋಲುತ್ತಿಲ್ಲ. ದಯಮಾಡಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
 
 #. Type: error
 #. Description
@@ -293,7 +294,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr ""
+msgstr "ಛಾಯಾ ಗುಪ್ತಪದಗಳನ್ನು ಸಾಧ್ಯಗೊಳಿಸುವುದೆ?"
 
 #. Type: boolean
 #. Description
