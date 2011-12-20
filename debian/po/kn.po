@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2009-04-28 22:50+0000\n"
-"PO-Revision-Date: 2011-11-27 23:24+0530\n"
+"PO-Revision-Date: 2011-12-17 11:35+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -144,6 +144,9 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
+"ದೈನಂದಿನ ಚಟುವಟಿಕೆಗಳಿಗೆ (ಉದಾಹರಣೆಗೆ ಇ-ಅಂಚೆ ಓದುವುದು) ಮೂಲ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು "
+"ಬಳಸುವುದು ಉತ್ತಮ ಅಭ್ಯಾಸವಲ್ಲ ಏಕೆಂದರೆ ಒಂದು ಸಣ್ಣ ತಪ್ಪು ಕೂಡ ವಿಪತ್ತನ್ನುಂಟು ಮಾಡಬಹುದು. "
+"ಆದ್ದರಿಂದ ನೀವು ದೈನಂದಿನ ಕಾರ್ಯಗಳಿಗೆ ಸಾಮಾನ್ಯ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಸೃಷ್ಟಿಸುವುದು ಉತ್ತಮ."
 
 #. Type: boolean
 #. Description
@@ -154,6 +157,9 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
+"ನೀವು ಮೂಲ ಬಳಕೆದಾರನಾಗಿ 'adduser <username>' ಅಜ್ಞೆಯನ್ನು ನೀಡುವುದರಿಂದ ಅದನ್ನು "
+"ನಂತರದಲ್ಲಿ ನಿರ್ಮಿಸಬಹುದು (ಅಲ್ಲದೆ ಇನ್ನಾವುದಾದರೂ ಹೆಚ್ಚುವರಿ ಖಾತೆಯನ್ನು ಸಹ), ಇಲ್ಲಿ "
+"<username> ಬಳಕೆದಾರ ನಾಮವಾಗಿದೆ, ಉದಾಹರಣೆಗೆ 'ಐಮುರ್ಡೊಕ್' ಅಥವಾ 'ಆರ್ಎಮ್ಎಸ್'."
 
 #. Type: string
 #. Description
@@ -222,7 +228,7 @@ msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters."
-msgstr "ನೀವು  ದಾಖಲಿಸಿದ  ಬಳಕೆದಾರನ ಹೆಸರು ಸರಿಯಾಗಿಲ್ಲ. "
+msgstr "ನೀವು ದಾಖಲಿಸಿದ ಬಳಕೆದಾರನ ಹೆಸರು ಸರಿಯಾಗಿಲ್ಲ. "
 
 #. Type: error
 #. Description
@@ -239,6 +245,8 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
+"ನೀವು ಕೊಟ್ಟ್ ಬಳಕೆದಾರ ನಾಮ (${USERNAME}) ಗಣಕವು ತನ್ನ ಬಳಕೆಗಾಗಿ ಕಾಯ್ದಿರಿಸಿಕೊಂಡಿದೆ. "
+"ದಯಮಾಡಿ ಬೇರೊಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
 
 #. Type: password
 #. Description
@@ -288,6 +296,8 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
+"ನೀವು ಗುಪ್ತಪದವನ್ನು ಖಾಲಿ ಬಿಟ್ಟಿದ್ದೀರಿ, ಇದನ್ನು ಗಣಕವು ಸಮ್ಮತಿಸುವುದಿಲ್ಲ. ದಯಮಾಡಿ ಖಾಲಿಯಲ್ಲದ "
+"ಗುಪ್ತಪದವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
 
 #. Type: boolean
 #. Description
@@ -306,6 +316,11 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
+"ಶ್ಯಾಡೊ ಗುಪ್ತಪದಗಳು ನಿಮ್ಮ ಗಣಕವನ್ನು ಹೆಚ್ಚು ಸುರಕ್ಷಿತವನ್ನಾಗಿ ಮಾಡುತ್ತದೆ ಏಕೆಂದರೆ ಯಾರೂ ಕೂಡ "
+"ಗೂಢಲಿಪೀಕರಿಸಿದ ಗುಪ್ತ ಪದಗಳನ್ನೂ ಸಹ ನೋಡಲಾರರು. ಗುಪ್ತ ಪದಗಳನ್ನು ಕೇವಲ ವಿಶೇಷ ಪ್ರೋಗ್ರಾಂಗಳು "
+"ಓದಬಲ್ಲಂತಹ ಒಂದು ಪ್ರತ್ಯೇಕವಾದ ಕಡತದಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗಿಡುತ್ತದೆ. ಕೆಲವು ವಿಶೇಷ ಸಂಧರ್ಭಗಳನ್ನು "
+"ಬಿಟ್ಟು, ಉದಾಹರಣೆಗೆ NIS ಪರಿಸರದಲ್ಲಿ, ಎಲ್ಲೆಡೆ ಶ್ಯಾಡೊ ಗುಪ್ತಪದಗಳ ಬಳಕೆಯನ್ನು ಬಲವಾಗಿ "
+"ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ."
 
 #. Type: title
 #. Description
