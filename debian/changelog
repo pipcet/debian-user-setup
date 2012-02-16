@@ -1,3 +1,10 @@
+user-setup (1.41) UNRELEASED; urgency=low
+
+  * Check that usernames are no more than 32 characters long (closes:
+    #571750).
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 16 Feb 2012 11:14:01 +0000
+
 user-setup (1.40) unstable; urgency=low
 
   [ Christian Perrier ]
