@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-01-25 02:09+0200\n"
+"PO-Revision-Date: 2012-02-17 22:38+0200\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -232,26 +232,21 @@ msgstr "Kasutajanimi ei sobi"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
-#| msgid ""
-#| "The username you entered is invalid. Note that usernames must start with "
-#| "a lower-case letter, which can be followed by any combination of numbers "
-#| "and more lower-case letters."
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Sinu sisestatud kasutajanimi on sobimatu. Pane tähele, et kasutajanimed "
-"peavad algama väiketähega, millele võib järgneda vabalt valitud "
-"kombinatsioon numbreid või väiketähti."
+"Sinu sisestatud kasutajanimi on sobimatu. Kasutajanimi peab algama "
+"väiketähega, millele võivad järgneda numbrid või väiketähed. Kasutajanimi ei "
+"saa olla pikem kui 32 märki."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Reserveeritud kontonimi"
+msgstr "Reserveeritud kasutajanimi"
 
 #. Type: error
 #. Description
@@ -261,7 +256,7 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Sinu valitud kontonimi (${USERNAME}) on reserveeritud süsteemi poolt "
+"Sinu valitud kasutajanimi (${USERNAME}) on reserveeritud süsteemi poolt "
 "kasutamiseks. Palun vali mõni teine nimi."
 
 #. Type: password
