@@ -6,6 +6,12 @@
 # Irish messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
+#
+# Translations from iso-codes:
+# Alastair McKinstry <mckinstry@computer.org>, 2001,2002
+# Free Software Foundation, Inc., 2001,2003
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2008, 2009, 2011.
+# Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
@@ -219,19 +225,14 @@ msgstr "Ainm úsáideora neamhbhailí"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
-#| msgid ""
-#| "The username you entered is invalid. Note that usernames must start with "
-#| "a lower-case letter, which can be followed by any combination of numbers "
-#| "and more lower-case letters."
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"D'iontráil tú ainm neamhbhailí.  Ba chóir litir bheag a bheith ag tosach an "
-"ainm, agus ceadaítear aon teaghrán d'uimhreacha agus litreacha beaga tar éis "
-"sin."
+"Chuir tú ainm neamhbhailí isteach.  Ba chóir litir bheag a bheith ag tosach "
+"an ainm, agus ceadaítear aon teaghrán d'uimhreacha agus litreacha beaga tar "
+"éis sin, 32 carachtar ar a mhéad."
 
 #. Type: error
 #. Description

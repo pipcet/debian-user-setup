@@ -10,8 +10,16 @@
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
 # Contributor:
-# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2009
+# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2011
 #
+#
+# Translations from iso-codes:
+#   - translations from ICU-3.0
+#
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Kartik Mistry <kartik.mistry@gmail.com>, 2006, 2007, 2008.
+#   Ankit Patel <ankit644@yahoo.com>, 2009,2010.
+#   Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: d-i\n"
@@ -216,18 +224,14 @@ msgstr "અયોગ્ય વપરાશકર્તાનામ"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
-#| msgid ""
-#| "The username you entered is invalid. Note that usernames must start with "
-#| "a lower-case letter, which can be followed by any combination of numbers "
-#| "and more lower-case letters."
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
 "તમે દાખલ કરેલ વપરાશકર્તાનામ અયોગ્ય છે. ધ્યાનમાં રાખો કે વપરાશકર્તાનામો નાનાં-અક્ષરોથી "
-"શરુ થવા જોઇએ, જેના પછી આંકડાઓ અને નાનાં અક્ષરોનું મિશ્રણ હોઇ શકે છે."
+"શરુ થવા જોઇએ, જે પછી આંકડાઓ અને નાનાં અક્ષરોનું મિશ્રણ હોઇ શકે છે, અને ૩૨ અક્ષરોથી લાંબુ ન "
+"જ હોવું જોઈએ."
 
 #. Type: error
 #. Description

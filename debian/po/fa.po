@@ -7,13 +7,25 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 # , 2005.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry - further translations from ICU-3.0
+#   Alastair McKinstry <mckinstry@computer.org>, 2001,2004.
+#   Free Software Foundation, Inc., 2001,2003,2004
+#   Roozbeh Pournader <roozbeh@farsiweb.info>, 2004,2005.
+#   Sharif FarsiWeb, Inc., 2004
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Translations from kde:
+#   - FarsiKDE Team <info@farsikde.org>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2010-07-29 02:08+0330\n"
-"Last-Translator: Ebrahim Byagowi <ebraminio@gmail.com>\n"
+"PO-Revision-Date: 2012-02-18 00:04+0330\n"
+"Last-Translator: Hamid <hamid.r1988@gmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -214,11 +226,6 @@ msgstr "نام‌کاربری نامعتبر"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
-#| msgid ""
-#| "The username you entered is invalid. Note that usernames must start with "
-#| "a lower-case letter, which can be followed by any combination of numbers "
-#| "and more lower-case letters."
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
@@ -226,7 +233,7 @@ msgid ""
 msgstr ""
 "نام‌کاربری که وارد کرده‌اید نامعتبر است. توجه کنید که نام‌های‌کاربری باید با "
 "حرف‌کوچک شروع شوند، که می‌تواند با هر ترکیبی از اعداد و حروف‌کوچک بیشتر دنبال "
-"شود."
+"شود و همچنین نباید بیشتر از ۳۲ کارکتر طول داشته باشند."
 
 #. Type: error
 #. Description
