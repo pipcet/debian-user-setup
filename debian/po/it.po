@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2011-08-21 18:53+0200\n"
+"PO-Revision-Date: 2012-02-19 17:03+0100\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -248,11 +248,6 @@ msgstr "Nome utente non valido"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
-#| msgid ""
-#| "The username you entered is invalid. Note that usernames must start with "
-#| "a lower-case letter, which can be followed by any combination of numbers "
-#| "and more lower-case letters."
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
@@ -260,7 +255,7 @@ msgid ""
 msgstr ""
 "Il nome utente inserito non è valido. I nomi utenti devono iniziare con una "
 "lettera minuscola a cui fa seguito una qualsiasi combinazione di numeri e "
-"lettere minuscole."
+"lettere minuscole e non deve superare i 32 caretteri di lunghezza."
 
 #. Type: error
 #. Description
