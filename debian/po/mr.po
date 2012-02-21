@@ -12,13 +12,18 @@
 # in doc/i18n/i18n.txt
 #
 #
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Priti Patil <prithisd@gmail.com>, 2007.
+#   Sampada Nakhare, 2007.
+#   Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2009-05-03 21:07+0530\n"
-"Last-Translator: Sampada <sampadanakhare@gmail.com>\n"
+"PO-Revision-Date: 2012-02-21 21:03+0530\n"
+"Last-Translator: sampada <sampadanakhare@gmail.com>\n"
 "Language-Team: Marathi, janabhaaratii, C-DAC, Mumbai, India "
 "<janabhaaratii@cdacmumbai.in>\n"
 "Language: \n"
@@ -216,18 +221,13 @@ msgstr "अवैध वापरदारनाव"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
-#| msgid ""
-#| "The username you entered is invalid. Note that usernames must start with "
-#| "a lower-case letter, which can be followed by any combination of numbers "
-#| "and more lower-case letters."
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"आपण दिलेले वापरदारनाव अवैध आहे. वापरदारनाव (इंग्रजीसाठी लहान अक्षराने सुरू होणे आवश्यक "
-"आहे) अंक व अक्षरे कशीही एकत्रित करून बनवता येईल."
+"आपण दिलेले वापरदारनाव अवैध आहे. वापरदारनाव लहान अक्षराने सुरू होणे आवश्यक आहे, त्यानंतर "
+"अंक व अक्षरे कशीही एकत्रित करून बनवता येईल, व 32 वर्णांहून अधिक असता कामा नये."
 
 #. Type: error
 #. Description
