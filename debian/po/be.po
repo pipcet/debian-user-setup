@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2011-09-15 17:17+0300\n"
-"Last-Translator: Viktar Siarheichyk <vics@eq.by>\n"
+"PO-Revision-Date: 2012-03-04 17:29+0300\n"
+"Last-Translator: Viktar Siarheichyk <viсs@eq.by>\n"
 "Language-Team: Belarusian (Official spelling) <debian-l10n-belarusian@lists."
 "debian.org>\n"
 "Language: \n"
@@ -226,19 +226,15 @@ msgstr "Няслушнае імя карыстальніка"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
-#| msgid ""
-#| "The username you entered is invalid. Note that usernames must start with "
-#| "a lower-case letter, which can be followed by any combination of numbers "
-#| "and more lower-case letters."
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Прапанаванае імя карыстальніка з'яўляецца памылковым. Майце на ўвазе, што "
-"імёны карыстальнікаў мусяць пісацца лацінкай і пачынацца з маленькай літары, "
-"пасля якой можна ўжываць сумесь лічбаў і маленькіх лацінскіх літараў."
+"Імя карыстальніка, якое вы ўвялі, непрыдатнае. Майце на ўвазе, што імёны "
+"карыстальнікаў мусяць пачынацца з маленькай лацінскай літары, пасля якой "
+"можна ўжываць сумесь лічбаў і маленькіх лацінскіх літараў, не даўжэй за 32 "
+"знакаў цалкам."
 
 #. Type: error
 #. Description
