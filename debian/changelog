@@ -1,3 +1,35 @@
+user-setup (1.43) unstable; urgency=low
+
+  * Team upload
+  * Replace XC-Package-Type with Package-Type
+  * Explicitly link GPL-2 document in debian/copyright
+
+  [ Updated translations ]
+  * Amharic (am.po) by Tegegne Tefera
+  * Asturian (ast.po) by ivarela
+  * Tibetan (bo.po) by Tennom
+  * Welsh (cy.po) by Dafydd Tomos
+  * Basque (eu.po) by Piarres Beobide
+  * Finnish (fi.po) by Timo Jyrinki
+  * Galician (gl.po) by Jorge Barreiro
+  * Hebrew (he.po) by Omer Zak
+  * Hungarian (hu.po) by SZERVÁC Attila
+  * Icelandic (is.po) by Sveinn í Felli
+  * Lao (lo.po) by Anousak Souphavanh
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Latvian (lv.po) by Rūdolfs Mazurs
+  * Macedonian (mk.po) by Arangel Angov
+  * Malayalam (ml.po) by Praveen Arimbrathodiyil
+  * Panjabi (pa.po) by A S Alam
+  * Portuguese (Brazil) (pt_BR.po) by Felipe Augusto van de Wiel (faw)
+  * Romanian (ro.po) by ioan-eugen stan
+  * Slovenian (sl.po) by Vanja Cvelbar
+  * Tamil (ta.po) by Kumar Appaiah
+  * Vietnamese (vi.po) by Hai-Nam Nguyen
+  * Traditional Chinese (zh_TW.po) by Yao Wei (魏銘廷)
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 15 Jun 2012 18:19:02 +0200
+
 user-setup (1.42) unstable; urgency=low
 
   [ Updated translations ]
