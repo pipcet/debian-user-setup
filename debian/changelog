@@ -1,3 +1,10 @@
+user-setup (1.48) unstable; urgency=low
+
+  [ Updated translations ]
+  * Japanese (ja.po) by Kenshi Muto
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 13 Dec 2012 05:56:11 +0100
+
 user-setup (1.47) unstable; urgency=low
 
   [ Updated translations ]
