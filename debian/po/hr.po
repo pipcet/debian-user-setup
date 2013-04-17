@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2013-04-16 05:30+0200\n"
+"PO-Revision-Date: 2013-04-17 18:08+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -146,9 +146,9 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Nije dobro koristiti korijenski račun za svakodnevne aktivnosti., primjerice "
-"čitanje i slanje e-pošte, jer vam i mala pogreška može pričiniti veliku "
-"štetu. Zato trebate načiniti obični korisnički račun."
+"Nije dobro koristiti administratorski račun za svakodnevne aktivnosti, "
+"primjerice čitanje i slanje e-pošte, jer vam i mala greška može pričiniti "
+"veliku štetu. Zato trebate načiniti običan korisnički račun."
 
 #. Type: boolean
 #. Description
@@ -159,9 +159,10 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Možete ga načiniti i kasnije (kao i bilo koji dodatni korisnički račun) tako "
-"da utipkate 'adduser <ime_korisnika>', prijavljeni  kao korijenski korisnik. "
-"To <ime_korisnika> može biti proizvoljno, primjerice 'pero', 'ana'..."
+"Primijetite da ga možete načiniti i kasnije (kao i bilo koji dodatni "
+"korisnički račun) tako da utipkate 'adduser <ime_korisnika>', prijavljeni "
+"kao administratorski korisnik. To <ime_korisnika> može biti proizvoljno, "
+"primjerice 'pero', 'ana'..."
 
 #. Type: string
 #. Description
@@ -232,9 +233,9 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Korisničko ime koje ste unijeli nije valjano. Korisnička imena moraju "
-"započinjati malim slovima, mogu se sastojati od bilo koje kombinacije "
-"brojaka i malih slova i ne smiju biti dulja od 32 znaka."
+"Korisničko ime koje ste unijeli nije ispravno. Korisnička imena moraju "
+"započinjati malim slovom, mogu se sastojati od bilo koje kombinacije brojaka "
+"i malih slova i ne smiju biti dulja od 32 znaka."
 
 #. Type: error
 #. Description
@@ -277,7 +278,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Pogreška pri unošenju lozinke"
+msgstr "Greška pri unošenju lozinke"
 
 #. Type: error
 #. Description
@@ -301,7 +302,7 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Unijeli ste praznu lozinku, što nije dozvoljeno. Molim odaberite lozinku."
+"Unijeli ste praznu lozinku, što nije dozvoljeno. Molim izaberite lozinku."
 
 #. Type: boolean
 #. Description
@@ -321,8 +322,8 @@ msgid ""
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
 "'Shadow' lozinke čine vaš sustav sigurnijim jer nitko ne može vidjeti čak "
-"niti enkriptirane lozinke. Sve one su spremljene u posebnu datoteku koju "
-"mogu čitati samo posebni programi. Uporaba 'shadow' lozinki se najtoplije "
+"niti šifrirane lozinke. Sve one su spremljene u posebnu datoteku koju mogu "
+"čitati samo posebni programi. Korištenje 'shadow' lozinki se najtoplije "
 "preporuča, osim u par slučajeva kao npr. ako ste u NIS okruženju."
 
 #. Type: title
