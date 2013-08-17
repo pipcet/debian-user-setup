@@ -1,3 +1,10 @@
+user-setup (1.51) unstable; urgency=low
+
+  [ Updated translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 17 Aug 2013 10:55:40 +0200
+
 user-setup (1.50) unstable; urgency=low
 
   [ Dmitrijs Ledkovs ]
