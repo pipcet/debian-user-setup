@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-02-18 16:31+0100\n"
+"PO-Revision-Date: 2012-03-16 13:07+0100\n"
 "Last-Translator: Armin Besirovic <armin@linux.org.ba>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
@@ -72,10 +72,10 @@ msgid ""
 "easily associated with you."
 msgstr ""
 "Trebate postaviti šifru za 'root' - račun sistemskog administratora. "
-"Zlonamjerni ili nekvalifikovani korisnik sa root pristupom može napraviti "
+"Zlonamjerni ili nekvalificirani korisnik sa root pristupom može napraviti "
 "štetu, tako da se trebate pobrinuti da izaberete root šifru koju nije lahko "
-"pogoditi. Ona nebi trebala predstavljati riječ iz rječnika, ili riječ koja "
-"bi se lahko mogla povezati sa vama, poput vašeg nadimka."
+"pogoditi. Ona ne bi trebala predstavljati riječ iz rječnika, ili riječ koja "
+"bi se lahko mogla povezati sa Vama, poput vašeg nadimka."
 
 #. Type: password
 #. Description
@@ -109,7 +109,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Primjetite da nećete moći vidjeti šifru dok je budete ukucavali."
+msgstr "Uočavate da se šifra ne vidi tokom ukucavanja."
 
 #. Type: password
 #. Description
@@ -198,7 +198,7 @@ msgid ""
 "reasonable choice."
 msgstr ""
 "Molim unesite stvarno ime ovog korisnika. Ova informacija će biti korištena "
-"npr. kao podrazumjevano porijeklo email poruka poslatih od strane ovog "
+"npr., kao podrazumjevano porijeklo email poruka poslatih od strane ovog "
 "korisnika kao i od strane svakog programa koji prikazuje ili koristi "
 "korisnikovo stvarno ime. Vaše ime i prezime je razuman izbor."
 
@@ -219,7 +219,7 @@ msgid ""
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
 "Izaberite korisničko ime za novi račun. Vaše ime je razuman izbor. "
-"Korisničko ime treba počinjati sa malim slovom koje može pratiti bilo kakva "
+"Korisničko ime treba počinjati malim slovom koje može pratiti bilo kakva "
 "kombinacija brojeva i još malih slova."
 
 #. Type: error
@@ -337,7 +337,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Postavi korisnike i šifre"
+msgstr "Postavite korisnike i šifre"
 
 #. Type: text
 #. Description
@@ -345,4 +345,4 @@ msgstr "Postavi korisnike i šifre"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Postavljam korisnike i šifre..."
+msgstr "Postavljanje korisnika i šifri..."
