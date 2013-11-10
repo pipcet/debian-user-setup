@@ -1,3 +1,11 @@
+user-setup (1.53) unstable; urgency=low
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+  * Ukrainian (uk.po) by Yuri Chornoivan
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 10 Nov 2013 14:57:08 +0100
+
 user-setup (1.52) unstable; urgency=low
 
   [ Updated translations ]
