@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2013-11-27 21:12+0100\n"
+"PO-Revision-Date: 2013-11-29 19:21+0100\n"
 "Last-Translator: Amila Valjevčić <valjevcic.amila@gmail.com>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
@@ -150,10 +150,10 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Korištenje root računa za normalne svakodnevne aktivnosti poput čitanja "
-"elektronske pošte, nije dobra ideja, zato što čak i najmanja pogreška može "
-"dovesti do havarije. Trebate napraviti normalni korisnički račun i koristiti "
-"za svakodnevne aktivnosti."
+"Korištenje root računa za normalne svakodnevne aktivnosti, poput čitanja "
+"elektronske pošte, nije dobra ideja, jer čak i najmanja pogreška može "
+"dovesti do katastrofe. Trebate napraviti normalni korisnički račun i "
+"koristiti za svakodnevne aktivnosti."
 
 #  Type: boolean
 #  Description
@@ -167,8 +167,8 @@ msgid ""
 "'imurdock' or 'rms'."
 msgstr ""
 "Primjetite da ga možete napraviti kasnije (kao i bilo koji drugi račun) "
-"ukucavajući 'adduser <korisničko ime>' kao root, gdje je korisničko ime, "
-"poput 'mujo' ili 'suljo'."
+"ukucavajući 'adduser <korisničko ime>' kao root, gdje je <korisničko ime> "
+"korisničko ime, poput 'mujo' ili 'suljo'."
 
 #. Type: string
 #. Description
@@ -240,8 +240,8 @@ msgid ""
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
 "Korisničko ime koje ste unijeli nije ispravno. Obratite pažnju da korisnička "
-"imena počinju sa malim slovom, koje može može pratiti bilo kakva kombinacija "
-"brojeva i još malih slova i ne smiju biti duža od 32 karaktera."
+"imena počinju malim slovom, koje može pratiti bilo kakva kombinacija brojeva "
+"i još malih slova i ne smiju biti duža od 32 karaktera."
 
 #. Type: error
 #. Description
@@ -309,7 +309,7 @@ msgid ""
 "empty password."
 msgstr ""
 "Unijeli ste praznu šifru što nije dopušteno. Molim odaberite šifru koja nije "
-"prazna"
+"prazna."
 
 #. Type: boolean
 #. Description
@@ -328,10 +328,10 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Shadow šifre čine vaš sistem sigurnijim zato što niko ne može vidjeti čak ni "
+"Shadow šifre čine Vaš sistem sigurnijim zato što niko ne može vidjeti čak ni "
 "ekriptovane šifre. Šifre se čuvaju u posebnoj datoteci koju samo posebni "
-"programi mogu čitati. Upotreba shadow šifri je čvrsto preporučuje, osim u "
-"par slučajeva poput NIS okolína."
+"programi mogu čitati. Upotreba shadow šifri se čvrsto preporučuje, osim u "
+"nekoliko slučajeva poput NIS okolína."
 
 #. Type: title
 #. Description
