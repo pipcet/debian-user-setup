@@ -1,3 +1,10 @@
+user-setup (1.55) UNRELEASED; urgency=low
+
+  * Add first created user to lpadmin group so that it can use local
+    printers when installed. Closes: #697331
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Jan 2014 08:47:40 +0100
+
 user-setup (1.54) unstable; urgency=low
 
   [ Updated translations ]
