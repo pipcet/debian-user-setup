@@ -135,13 +135,19 @@ msgstr ""
 "Írja be újra a 'root' felhasználó jelszavát, hogy megerősítse, hogy helyesen "
 "gépelte be."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Létrehozol egy sima felhasználói hozzáférést most?"
+msgstr "Létrehoz most egy sima felhasználói hozzáférést?"
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -155,9 +161,12 @@ msgstr ""
 "A mindennapi tevékenységekre a 'root' felhasználót, rendszergazdai jogokat "
 "soha de soha nem használjuk, például nem olvasunk vele levelet és az "
 "ilyenfajta felhasználás nagyon rossz ötlet, mert a legkisebb hiba is "
-"katasztrófát okozhat. Egy sima felhasználói hozzáférést kell létrehoznod a "
+"katasztrófát okozhat. Hozzon létre egy sima felhasználói hozzáférést a "
 "mindennapi használathoz."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -169,7 +178,7 @@ msgid ""
 msgstr ""
 "A most létrehozandó sima felhasználó mellé továbbiakat később is létre lehet "
 "hozni például az 'adduser <felhasználónév>' paranccsal rendszergazdaként, "
-"ahol a <felhasználónév> egy szokásos felhasználónév formájú, mint például "
+"ahol a <felhasználónév> szokásos felhasználónév formájú, mint például "
 "'imurdock' vagy 'rms'."
 
 #. Type: string
@@ -226,13 +235,19 @@ msgstr ""
 "felelni a célra. A lényeg, hogy a felhasználónév kisbetűvel kezdődjön, "
 "azután számok és további kisbetűk tetszőleges kombinációja állhat."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Helytelen felhasználónév"
+msgstr "Érvénytelen felhasználónév"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -242,10 +257,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"A megadott felhasználónév nem érvényes. A felhasználónévnek kisbetűvel kell "
-"kezdődnie, aztán számok és további kisbetűk tetszőleges kombinációja állhat, "
-"és nem lehet 32 karakternél hosszabb."
+"A megadott felhasználónév érvénytelen. A felhasználónévnek kisbetűvel kell "
+"kezdődnie, azután számok és további kisbetűk tetszőleges kombinációja "
+"állhat, és nem lehet 32 karakternél hosszabb."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -253,6 +271,9 @@ msgstr ""
 msgid "Reserved username"
 msgstr "Foglalt felhasználónév"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -261,8 +282,8 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"A megadott felhasználónevet (${USERNAME}) a rendszer használja. Kérlek, egy "
-"másikat válassz."
+"A megadott felhasználónevet (${USERNAME}) a rendszer használja. Kérem, "
+"válasszon másikat."
 
 #. Type: password
 #. Description
@@ -280,6 +301,9 @@ msgid ""
 "correctly."
 msgstr "Írja be újra a jelszót, hogy megerősítse, hogy helyesen gépelte be."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -287,13 +311,24 @@ msgstr "Írja be újra a jelszót, hogy megerősítse, hogy helyesen gépelte be
 msgid "Password input error"
 msgstr "Jelszóbeviteli hiba"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "A két megadott jelszó eltér. Most próbáld újra."
+msgstr "A két megadott jelszó eltér. Próbálja újra."
 
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl2:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
 #. Type: error
 #. Description
 #. :sl2:
@@ -301,6 +336,14 @@ msgstr "A két megadott jelszó eltér. Most próbáld újra."
 msgid "Empty password"
 msgstr "Üres jelszó"
 
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl2:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
 #. Type: error
 #. Description
 #. :sl2:
@@ -310,6 +353,9 @@ msgid ""
 "empty password."
 msgstr "Üres jelszó megadása nem engedélyezett. Nem-üres jelszót kell megadni."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -317,6 +363,9 @@ msgstr "Üres jelszó megadása nem engedélyezett. Nem-üres jelszót kell mega
 msgid "Enable shadow passwords?"
 msgstr "Árnyék jelszavak legyenek?"
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
