@@ -1,3 +1,11 @@
+user-setup (1.56) UNRELEASED; urgency=medium
+
+  [ Updated translations ]
+  * Hungarian (hu.po) by Judit Gyimesi
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2014 19:08:53 +0100
+
 user-setup (1.55) unstable; urgency=low
 
   * Add first created user to lpadmin group so that it can use local
