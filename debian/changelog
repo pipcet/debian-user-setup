@@ -1,9 +1,13 @@
-user-setup (1.57) UNRELEASED; urgency=medium
+user-setup (1.57) unstable; urgency=medium
 
   * Drop powerdev from groups to which the first created user is added.
     Thanks to Michael Biebl for pointing this.
 
- -- Christian Perrier <bubulle@debian.org>  Sun, 17 Aug 2014 15:56:20 +0200
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Estonian (et.po) by Mattias Põldaru
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 06 Sep 2014 09:38:28 +0200
 
 user-setup (1.56) unstable; urgency=medium
 
