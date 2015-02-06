@@ -1,3 +1,10 @@
+user-setup (1.59) unstable; urgency=low
+
+  [ Updated translations ]
+  * Dutch (nl.po) by Frans Spiesschaert
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 06 Feb 2015 07:07:12 +0100
+
 user-setup (1.58) unstable; urgency=low
 
   [ Updated translations ]
