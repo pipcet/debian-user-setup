@@ -1,3 +1,10 @@
+user-setup (1.60) unstable; urgency=low
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 09 Mar 2015 08:55:14 +0100
+
 user-setup (1.59) unstable; urgency=low
 
   [ Updated translations ]
