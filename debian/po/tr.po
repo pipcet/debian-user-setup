@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2014-09-09 18:44+0200\n"
+"PO-Revision-Date: 2015-06-09 16:17+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -141,7 +141,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Şimdi normal bir kullanıcı hesabı oluşturulsun mu?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -153,10 +153,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Root kullanıcısını elektronik posta okumak gibi normal günlük etkinliklerde "
-"kullanmak kötü bir fikirdir, çünkü küçük bir hata bile felâketle "
-"sonuçlanabilir. Bu tip günlük işlemlerde kullanmak için normal bir kullanıcı "
-"hesabı oluşturmalısınız."
 
 #. Type: boolean
 #. Description
@@ -167,10 +163,6 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Aklınızda bulunsun, bu kullanıcı hesabını (ve diğer ek kullanıcı "
-"hesaplarını) daha sonra 'adduser <kullanıcı_adı>' komutunu root olarak "
-"yazarak yaratabilirsiniz. <kullanıcı_adı>, 'imurdock' ya da 'rms' gibi bir "
-"kullanıcı adıdır."
 
 #. Type: string
 #. Description
@@ -230,29 +222,30 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
+#, fuzzy
 msgid "Invalid username"
-msgstr "Geçersiz kullanıcı adı"
+msgstr "Geçersiz disk"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
+#, fuzzy
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Girdiğiniz kullanıcı adı geçersiz. Dikkat edin, kullanıcı adları küçük "
-"harfle başlamak zorundadır. Daha sonra rakam ve başka küçük harflerin "
-"bileşimi ile devam edebilir. Kullanıcı adları 32 karakterden daha uzun "
-"olmamalıdır."
+"Yeni kullanıcı hesabı için bir kullanıcı adı seçin. İlk adınız makul bir "
+"seçimdir. Kullanıcı adları küçük harfle başlamak zorundadır. Daha sonra "
+"rakam ve başka küçük harflerin kombinasyonu ile devam edebilir."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Rezerve edilmiş kullanıcı adı"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -262,8 +255,6 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Seçtiğiniz kullanıcı adı (${USERNAME}) sistem tarafından kullanılmak üzere "
-"rezerve edilmiş. Lütfen başka bir ad seçin."
 
 #. Type: password
 #. Description
@@ -287,21 +278,22 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Parola giriş hatası"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "Girdiğiniz iki parola aynı değil. Lütfen tekrar deneyiniz."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
+#, fuzzy
 msgid "Empty password"
-msgstr "Boş parola"
+msgstr "Root parolası:"
 
 #. Type: error
 #. Description
@@ -311,15 +303,14 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Boş bir parola girdiniz. Buna izin verilmiyor. Lütfen boş olmayan bir parola "
-"girin."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
+#, fuzzy
 msgid "Enable shadow passwords?"
-msgstr "Gölge (shadow) parolaları etkinleştirilsin mi?"
+msgstr "Kullanıcıları ve parolaları oluştur"
 
 #. Type: boolean
 #. Description
@@ -331,10 +322,6 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Gölge (shadow) parolalar sisteminizi daha güvenli yapar, zira hiç kimse bu "
-"parolaları şifrelenmiş halde dahî göremez. Parolalar sadece özel "
-"programlarla okunabilecek ayrı bir dosyada saklanır. Gölge parola kullanımı, "
-"NIS gibi nadir bazı ortamlar hariç, şiddetle tavsiye edilir."
 
 #. Type: title
 #. Description
