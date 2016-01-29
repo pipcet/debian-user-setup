@@ -1,6 +1,7 @@
 user-setup (1.64) UNRELEASED; urgency=medium
 
   * Update reserved-usernames from base-passwd 3.5.39.
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
 
  -- Christian Perrier <bubulle@debian.org>  Fri, 29 Jan 2016 14:11:06 +0000
 
