@@ -3,42 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Serbian/Cyrillic messages for debian-installer.
-# Copyright (C) 2010 Software in the Public Interest, Inc.
-# Copyright (C) 2008 THE cp6Linux'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the debian-installer package.
-# Karolina Kalic <karolina@resenje.org>, 2010-2011.
-# Janos Guljas <janos@resenje.org>, 2010-2011.
-# Veselin Mijušković <veselin.mijuskovic@gmail.com>, 2008.
-#
-#
-# Translations from iso-codes:
-#   Aleksandar Jelenak <aleksandar.jelenak@gmail.com>, 2010.
-#   Copyright (C) 2003, 2004 Free Software Foundation, Inc.
-#   Danilo Segan <dsegan@gmx.net>, 2003, 2004, 2005.
-#   Milos Komarcevic <kmilos@gmail.com>, Caslav Ilic <caslav.ilic@gmx.net>, 2009.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-02-17 21:48+0100\n"
-"Last-Translator: Karolina Kalic <karolina@resenje.org>\n"
-"Language-Team: Serbian/Cyrillic\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Дозволити логовање на систем као „root“ корисник?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -48,16 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Ако одаберете да не дозволите логовање за „root“ корисника, онда ће бити "
-"креиран кориснички налог и дата му могућност да постане корисник „root“ "
-"користећи „sudo“ команду."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Лозинка за „root“ корисника:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -70,11 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Морате поставити лозинку за „root“ корисника, системски административни "
-"налог. Злонамеран или неквалификован корисник са правима приступа „root“ "
-"корисника може имати погубне ефекте, тако да водите рачуна да одаберете "
-"лозинку која се не може лако погодити. То не би требало да буде реч из "
-"речника или реч која се може лако повезати са вама."
 
 #. Type: password
 #. Description
@@ -87,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Добра лозинка ће садржати мешавину слова, цифара и знакова интерпункције и "
-"треба да буде мењана у регуларним интервалима."
 
 #. Type: password
 #. Description
@@ -99,16 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"Корисник „root“ не би требало да има празну лозинку. Уколико остане празно "
-"поље, „root“ корисник ће бити онемогућен и иницијални кориснички налог ће "
-"имати могућност да добије „root“ дозволе користећи „sudo“ команду."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Обратите пажњу да нећете моћи да видите лозинку док је укуцавате."
+msgstr ""
 
 #. Type: password
 #. Description
@@ -118,7 +75,7 @@ msgstr "Обратите пажњу да нећете моћи да видите
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Поново унесите лозинку ради провере:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -128,14 +85,13 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Унесите исту „root“ лозинку поново ради провере да ли сте је унели исправно."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Креирати нормалан кориснички налог?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -147,10 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Лоша пракса је да се root налог користи за нормалне свакодневне активности "
-"као што је читање електронске поште, пошто и најмања грешка може довести до "
-"катастрофе. Требало би да креирате нормалан кориснички налог ради "
-"свакодневних активности."
 
 #. Type: boolean
 #. Description
@@ -161,16 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Обратите пажњу да налог можете креирати и касније (као и било који додатни "
-"налог) извршавајући команду „adduser <username>“ као root, где је <username> "
-"корисничко име, као „imurdock“ или „rms“."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Пуно име новог корисника:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -180,8 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Кориснички налог ће бити креиран за употребу уместо „root“ налога за "
-"неадминистративне активности."
 
 #. Type: string
 #. Description
@@ -193,16 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Унесите име овог корисника. Ова информација ће бити употребљена нпр. у "
-"адреси пошиљаоца имејла као и у било ком програму који исписује или користи "
-"корисниково право име. Ваше пуно име је разуман избор за вредност овог поља."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Корисничко име за ваш налог:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -213,16 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Изаберите корисничко име за нови налог. Ваше име је разуман избор. "
-"Корисничко име мора почети са малим словом, које може бити праћено било "
-"каквом комбинацијом цифара и малих слова."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Неисправно корисничко име"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -233,16 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Корисничко име које сте унели није исправно. Обратите пажњу да корисничка "
-"имена морају почети са малим словом, које може бити праћено било којом "
-"комбинацијом цифара и малих слова, и мора бити највише 32 карактера дуго."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Резервисано корисничко име"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -252,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Корисничко име  (${USERNAME}) је резервисано за системску употребу. "
-"Изаберите неко друго корисничко име."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Изаберите лозинку за новог корисника:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -270,29 +206,27 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Унесите исту корисничку лозинку поново како би проверили да ли сте је "
-"исправно унели."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Грешка при уносу лозинке"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "Две лозинке које сте унели се разликују. Пробајте поново."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Празна лозинка"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -301,14 +235,14 @@ msgstr "Празна лозинка"
 msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
-msgstr "Унели сте празну лозинку, што није допуштено. Изаберите лозинку."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "Укључити скривене лозинке?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -320,17 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Скривене лозинке чине ваш систем сигурнијим зато што нико не може да види "
-"чак ни шифроване лозинке. Лозинке су смештене у засебном фајлу којем могу "
-"приступити само посебни програми. Употреба скривених лозинки се строго "
-"препоручује, изузев у малом броју случајева као што су NIS окружења."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Подеси кориснике и лозинке"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -338,4 +268,4 @@ msgstr "Подеси кориснике и лозинке"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Подешавање корисника и лозинки..."
+msgstr ""

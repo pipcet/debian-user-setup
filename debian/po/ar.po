@@ -3,42 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ar.po to Arabic
-# Arabic messages for debian-installer. Copyright (C) 2003 Software in the Public Interest, Inc. This file is distributed under the same license as debian-installer. Ossama M. Khayat <okhayat@yahoo.com>, 2005.
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from kde-i18n/desktop.po:
-#
-# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2007, 2008, 2009, 2010.
-#   Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2002.
-#   Free Software Foundation, Inc., 2002, 2004.
-#   Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008, 2010.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Mohammad Gamal <f2c2001@yahoo.com>, 2001.
-# Ossama Khayat <okhayat@yahoo.com>, 2011, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: ar\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-02-26 10:26+0300\n"
-"Last-Translator: Ossama Khayat <okhayat@yahoo.com>\n"
-"Language-Team: American English <support@arabeyes.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 && n⇐10 ? "
-"3 : n>=11 && n⇐99 ? 4 : 5\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "اسمح الإتّصال كالجذر"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -48,15 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"إن اخترت أن لا تسمح للمستخدم root بتسجيل الدخول، فسيتم إنشاء حساب مستخدم "
-"يعطى صلاحية المستخدم root عبر الأمر 'sudo'."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "كلمة سر الجذر:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -69,9 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"عليك تعيين كلمة سر 'للجذر'، حساب مدير النّظام. حصول مستخدمٍ خبيث أو غير مؤهّل "
-"على إمكانيّات الجذر قد يكون له عواقب وخيمة لذا حاول جهدك أن تختار كلمة سرٍّ "
-"يصعب تخمينها. لا ينبغي أن تكون كلمةً موجودةً في القاموس أو كلمةً يسهل ربطها بك."
 
 #. Type: password
 #. Description
@@ -84,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"كلمة السّر الجيّدة تحتوي خليطاً من الحروف والأرقام وعلامات التنقيط وتغيّر "
-"بانتظام."
 
 #. Type: password
 #. Description
@@ -96,16 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"يجب أن لا تكون كلمة المرور للمستخدم root فارغة. إن تركت هذا المربع فارغاً، "
-"فسيتم تعطيل المستخدم root وسيُعطى حساب أول مستخدم صلاحية المستخدم root عبر "
-"الأمر \"sudo\"."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "لاحظ أنّك لن تتمكّن من رؤية كلمة السّر أثناء كتابتها."
+msgstr ""
 
 #. Type: password
 #. Description
@@ -115,7 +75,7 @@ msgstr "لاحظ أنّك لن تتمكّن من رؤية كلمة السّر أ
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "إدخال كلمة السّر مجدّداً للتّأكيد:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -124,14 +84,14 @@ msgstr "إدخال كلمة السّر مجدّداً للتّأكيد:"
 msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
-msgstr "رجاءً أدخل كلمة سرّ الجذر ذاتها مجدّداً للتّأكّد أنّك أدخلتها بشكلٍ صحيح."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "هل تريد إنشاء حساب مستخدمٍ عادي الآن؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -143,9 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"لا يحبّذ أن تستعمل الحساب الجذر للنّشاطات العاديّة اليوميّة كقراءة البريد "
-"الإلكتروني، وذلك لأنّ أصغر الغلطات قد تأتي بكارثة. يستحسن أن تنشئ حساب مستخدمٍ "
-"عادي وتخصّصه لتلك المهام اليوميّة."
 
 #. Type: boolean
 #. Description
@@ -156,15 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"لاحظ أنّ بإمكانك إنشاءه لاحقاً (إضافةً لأيّ حساباتٍ أخرى) بإدخال 'adduser "
-"<username>' بصفة الجذر حيث <username>' هو اسم مستخدم مثل 'imurdock' أو 'rms'."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "الاسم الكامل للمستخدم الجديد:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -173,7 +128,7 @@ msgstr "الاسم الكامل للمستخدم الجديد:"
 msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
-msgstr "سيُنشأ حساب مستخدم لك لتستعمله بدلاً من الجذر للأغراض الغير إداريّة."
+msgstr ""
 
 #. Type: string
 #. Description
@@ -185,17 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"الرجاء إدخال الاسم الحقيقي لهذا المستخدم. ستستخدم هذه المعلومات على سبيل "
-"المثال كمصدر افتراضي للرسائل الإلكترونية المرسلة من قبل هذا المستخدم "
-"بالإضافة إلى أي برنامج يعرض أو يستخدم اسم المستخدم الحقيقي. لذا فإن الاسم "
-"الحقيقي خيار معقول."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "اسم المستخدم لحسابك:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -206,15 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"اختر اسم مستخدمٍ لحسابك الجديد. اسمك الأوّل اختيارٌ معقول. يفترض أن يبدأ اسم "
-"المستخدم بحرفٍ صغير متبوعاً بأيّ خليطٍ من الأرقام و المزيد من الأحرف الصّغيرة."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "اسم مستخدم غير سليم"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -225,16 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"اسم المستخدم الذي أدخلته غير صالح. لاحظ أن أسماء المستخدمين يجب أن تبدأ بحرفٍ "
-"صغير متبوعاً بأيّ خليطٍ من الأرقام والمزيد من الأحرف الصّغيرة، ويجب أن يتعدى "
-"طوله 32 حرفاً."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "اسم مستخدم محجوز"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -244,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"اسم المستخدم الذي أدخلته (${USERNAME}) محجوز لاستخدام النظام. الرجاء اختيار "
-"اسم آخر."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "كلمة مرور المستخدم الجديد:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -262,28 +206,27 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"الرجاء إدخال كلمة سرّ المستخدم ذاتها مجدّداً للتّأكّد من أنّك أدخلتها بشكلٍ صحيح."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "خطأ في إدخال كلمة المرور"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "كلمتا السر اللتان أدخلتهما ليستا متطابقتين. الرجاء المحاولة مجدداً."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "كلمة مرور فارغة"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -293,15 +236,13 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"لقد أدخلت كلمة مرور فارغة، والذي هو غير مسموح. الرجاء اختيار كلمة مرور غير "
-"فارغة."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "هل تريد تمكين كلمات المرور المظلّلة؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -313,17 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"كلمات المرور المظلّلة تجعل نظامك أكثر آماناً لأنّ لا أحد سيتمكّن من رؤية حتّى "
-"كلمات المرور المشفّرة. كلمات المرور تخزّن في ملفٍّ منفصل لا يستطيع قراءته إلا "
-"برامج خاصّة. ينصح بشدّة باستعمال كلمات المرور المظلّلة. عدا في حالة قليلة خاصة "
-"كبيئات NIS."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "إعداد المستخدمين وكلمات السر"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -331,4 +268,4 @@ msgstr "إعداد المستخدمين وكلمات السر"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "تعيين المستخدمين وكلمات المرور..."
+msgstr ""

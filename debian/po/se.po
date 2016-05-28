@@ -3,34 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of se.po to Northern Saami
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt#
-#
-# Børre Gaup <boerre@skolelinux.no>, 2006, 2010.
-msgid ""
-msgstr ""
-"Project-Id-Version: se\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2010-12-31 02:09+0100\n"
-"Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
-"Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
-"Language: se\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Galgágo root-sisačáliheapmi leat olámuttus?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -40,15 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Jus válljet ahte root-sisačáliheapmi ii galgga leat olámuttus, de \n"
-"geavaheaddjikontu ráhkaduvvo ja oažžu root-vuoigatvuođaid «sudo»-gohččumiin."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Root-beassansátni:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -61,12 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Fertet ráhkadit beassansátni «root»-kontui. Root leat "
-"vuogádathálddašankontu.\n"
-"Bahádahki dahje čuorbi mas lea root-vuoigatvuođat sáhttá leat ruossu, danne\n"
-"galggat válljet beassansáni mii ii galgga leat álki árvidit.\n"
-"Dat ii galgga leat sátni mii gávdno sátnegirjjiin, dahje sátni mii lea álki\n"
-"čatnat dutnje."
 
 #. Type: password
 #. Description
@@ -79,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Buorre beassansánis galgá leat bustávat, logut ja erenoamáš mearkkat, ja \n"
-"dan galggašii rievdadit dávjá."
 
 #. Type: password
 #. Description
@@ -91,17 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"root-geavaheaddjis ii galgga leat guorus beassansátni. Jus guođát dan\n"
-"guorusin, de root-kontu ii aktiverejuvvo, ja vuogádaga vuosttaš "
-"geavaheaddji\n"
-"oažžu vejolašvuohta šaddat root «sudo»-gohččuma bokte."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Fuomáš ahte it oainne beassansáni dan čáledettiin."
+msgstr ""
 
 #. Type: password
 #. Description
@@ -111,7 +75,7 @@ msgstr "Fuomáš ahte it oainne beassansáni dan čáledettiin."
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Čális beassansáni ođđasit nannen dihte:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -121,7 +85,6 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Čális seamma beassansáni ođđasit nannen dihte ahte lea rievttes beassansátni."
 
 #. Type: boolean
 #. Description
@@ -156,7 +119,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Ođđa geavaheaddji olles namma:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -166,8 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Geavaheaddjikontu ráhkaduvvo dutnje mii geavahuvvo beaivválaš bargguide, "
-"iige administratiiva bargguide."
 
 #. Type: string
 #. Description
@@ -179,16 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Čális dán geavaheaddji albma nama. Dát diehtu geavahuvvo ovdamearka dihte go "
-"e-boasta sáddejuvvo ja maid eará prográmmain mat čájehit dahje geavahit "
-"geavaheaddji albma nama. "
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Du konttu geavaheaddjinama:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -199,40 +157,30 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Vállje geavaheaddjinama dan ođđa kontui. Geavat áinnas iežat nama, gaskkaid "
-"haga. Geavaheaddjinama ferte álgit smávva bustávain, muđuid "
-"geavaheaddjinamas sáhttá leat sihke logut ja eará smávva bustávaid (muhto "
-"eai sáhte leat gaskamearkkat)."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
 msgid "Invalid username"
-msgstr "Gustohis sturrodat"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Vállje geavaheaddjenama dan ođđa kontui. Geavat áinnas iežat nama, gaskkaid "
-"haga. Geavaheaddjenama ferte álgit smávva bustávain, muđuid "
-"geavaheaddjenamas sáhttá leat sihke logut ja eará smávva bustávaid (muhto "
-"eai sáhte leat gaskamearkkat)."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Ovdagihtii várrejuvvon geavaheaddjinamma"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -248,7 +196,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Vállje beassansáni ođđa geavaheaddjái:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -258,7 +206,6 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Čális seamma beassansáni ođđasit nannen dihte ahte lea rievttes beassansátni."
 
 #. Type: error
 #. Description
@@ -271,16 +218,15 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
-#, fuzzy
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "Dát beassansánit eai leat seamma lágán. Geahččal fas."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Guorus beassansátni"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -290,16 +236,13 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Leat čállán guorus beassansáni, mii lea geldojuvvon. Čális beassansáni mii "
-"ii leat guorus."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
-#, fuzzy
 msgid "Enable shadow passwords?"
-msgstr "Heivet geavaheaddjiid ja beassansániid"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -317,7 +260,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Heivet geavaheddjiid ja beassansániid"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -325,4 +268,4 @@ msgstr "Heivet geavaheddjiid ja beassansániid"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Heiveheamen geavaheddjiid ja beassansániid"
+msgstr ""

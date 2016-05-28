@@ -3,49 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_hi.po to Hindi
-# translation of debian-installer_packages_po_sublevel1_hi.po to
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-#
-#
-#
-# Translations from iso-codes:
-#   Data taken from ICU-2.8; originally from:
-#   - Shehnaz Nagpurwala and Anwar Nagpurwala [first version]
-#   - IBM NLTC:  http://w3.torolab.ibm.com/gcoc/documents/india/hi-nlsgg.htm
-#   - Arundhati Bhowmick [IBM Cupertino]
-#
-#
-# Nishant Sharma <me@nishants.net>, 2005, 2006.
-# Kumar Appaiah <akumar@ee.iitm.ac.in>, 2008.
-# Kumar Appaiah <a.kumar@alumni.iitm.ac.in>, 2008, 2009, 2010.
-# Kumar Appaiah <kumar.appaiah@gmail.com>, 2009.
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-# Kumar Appaiah <a.kumar@alumni.iitm.ac.in>, 2008.
-# Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-02-22 12:05-0600\n"
-"Last-Translator: Kumar Appaiah\n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: en_US\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: 2X-Generator: KBabel 1.11.2\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "रूट की तरह लॉगिन की आज्ञा दें?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -55,15 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"यदि आप रूट को लॉगिन की आज्ञा नहीं देंगे तो एक उपयोक्ता खाता बनाया जाएगा जिसको ऐसा "
-"अधिकार दिया जाएगा कि वह 'sudo' कमांड का प्रयोग करके रूट बन जाए."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "रूट कूटशब्द:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -76,10 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"आपको 'root', जोकि तंत्र प्रबंधक का खाता है, के लिए पासवर्ड सेट करना है. कोई दुर्जन या "
-"अयोग्य उपयोक्ता जिसको रूट की पहुँच है, घातक सिद्ध हो सकता है, इसलिये ऐसा पासवर्ड चुनें "
-"जिसका आसानी से अंदाज़ा लगाना कठिन हो. यह ऐसा शब्द नहीं होना चाहिए जोकि शब्दकोश में "
-"आसानी से मिल जाए या आसानी से आपसे संबद्ध हो जाए."
 
 #. Type: password
 #. Description
@@ -92,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"एक अच्छे कूटशब्द में अक्षरों, अंकों और विराम चिन्हों का अच्छा मिश्रण होना चाहिए और इसे आपको "
-"समय-समय पर बदलते रहना चाहिए."
 
 #. Type: password
 #. Description
@@ -104,16 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-" रूट लॉगिन का कूट शब्द रिक्त नहीं होना चाहिए. अगर आप इसे रिक्त छोडते हैं, तो प्रथम "
-"उपयोक्ता खाता को ऐसा अधिकार दिया जाएगा कि वह 'sudo' कमांड का प्रयोग करके रूट बन "
-"जाए."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "ज्ञात रहे कि टाइप करते समय कूटशब्द आपको दिखाई नहीं पड़ेगा."
+msgstr ""
 
 #. Type: password
 #. Description
@@ -123,7 +75,7 @@ msgstr "ज्ञात रहे कि टाइप करते समय क
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "पुष्टि करने के लिए कूटशब्द दोबारा भरें:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -132,14 +84,14 @@ msgstr "पुष्टि करने के लिए कूटशब्द �
 msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
-msgstr "वही रूट कूटशब्द पुनः भरें जिससे कि यह जाँचा जा सके की आपने सही टाइप किया है."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "अभी एक साधारण उपयोक्ता खाता बनाएँ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -151,9 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"रूट खाते को दिन-प्रतिदिन के कार्यकलापों, जैसे कि ई-मेल पढ़ना, के लिए प्रयोग करना समझदारी "
-"का काम नहीं है क्योंकि एक छोटी सी भूल भी घातक सिद्ध हो सकती है. आपको ऐसे कार्यकलापों के "
-"लिए एक साधारण उपयोक्ता खाता बना लेना चाहिए."
 
 #. Type: boolean
 #. Description
@@ -164,16 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"संज्ञान लें कि आप इसे बाद में भी बना सकते हैं (साथ ही कोई अतिरिक्त खाता भी). इसके लिए रूट "
-"की तरह टाइप करें 'adduser <username>', जहाँ <username> एक उपयोक्ता खाते का नाम है "
-"जैसे कि 'imurdock' या 'rms'."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "नए उपयोक्ता का पूरा नाम:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -183,8 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"गैर-प्रबंधन क्रियाकलापों के लिए रूट खाते का प्रयोग करने के स्थान पर आपके लिए एक सामान्य "
-"उपयोक्ता खाता बनाया जाएगा."
 
 #. Type: string
 #. Description
@@ -196,17 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"कृपया इस उपयोक्ता के वास्तविक नाम की प्रविष्टि करें. यह जानकारी उन अनुप्रयोगों में प्रयोग "
-"की जाएगी जो उपयोक्ता का वास्तविक नाम प्रदर्शित करते हैं या फिर इस उपयोक्ता के द्वारा "
-"भेजी गई ई-मेल में प्रेषक के नाम के स्थान पर इसका प्रयोग होगा. आपका पूरा नाम एक अच्छा "
-"विकल्प है."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "आपके खाते के लिए उपयोक्ता नाम:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -217,16 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"नये खाते के लिए उपयोक्ता का नाम चुनें. आपका नाम एक अच्छा विकल्प है. उपयोक्ता का नाम "
-"अंग्रेजी के छोटे अक्षर से प्रारंभ होना चाहिए, जिसके बाद अंकों या अन्य छोटे अक्षरों का प्रयोग "
-"किसी भी क्रम में किया जा सकता है."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "अवैध उपयोक्ता  नाम"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -237,16 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"आपके द्वारा प्रविष्ट उपयोगकर्ता नाम अवैध है. संज्ञान लें कि उपयोक्ता का नाम अंग्रेजी के छोटे "
-"अक्षर से प्रारंभ होना चाहिए, जिसके बाद अंकें या अन्य छोटे अक्षरों का प्रयोग किसी भी क्रम में "
-"किया जा सकता है, और इसे कुल ३२ अक्षरों से अधिक नहीं होना चाहिए."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "आरक्षित उपयोक्ता नाम"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -256,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"आपके द्वारा प्रविष्ट उपयोक्ता नाम (${USERNAME}) जोकि सिस्टम द्वारा उपयोग के लिए "
-"आरक्षित है. कृपया कोई भिन्न नाम चुनें."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "नये उपयोक्ता के लिए कूटशब्द चुनें:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -274,29 +206,27 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"यह पुष्टि करने के लिए कि आपने सही प्रविष्टि की है, कृपया उपयोक्ता का वही कूटशब्द फिर से "
-"भरें."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "पासवर्ड भरने में त्रुटि"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "आपके द्वारा भरे गये दोनों कूटशब्द एक नहीं थे. कृपया पुनः प्रयास करें."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "खाली कूटशब्द"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -305,14 +235,14 @@ msgstr "खाली कूटशब्द"
 msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
-msgstr "आपने रिक्त कूटशब्द भरा है जोकि स्वीकार्य नहीं है. कृपया रिक्त कूटशब्द न भरें."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "शैडो पासवर्ड समर्थ करें?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -324,17 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"शैडो कूटशब्द आपके तंत्र को अधिक सुरक्षित बनाते हैं क्योंकि कोई भी कूटबद्ध कूटशब्दो तक को नहीं "
-"देख सकता है. कूटशब्द एक अलग फाइल में लिखे होते हैं जिन्हे कुछ विशेष अनुप्रयोग ही पढ़ सकते हैं. "
-"शैडो कूटशब्दों के प्रयोग की संस्तुति की जाती है, पर कुछ परिस्थितयों को छोड़ कर जैसे कि "
-"एनआईएस परिवेश."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "उपयोक्ता व पासशब्द सेटअप करें"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -342,4 +268,4 @@ msgstr "उपयोक्ता व पासशब्द सेटअप क�
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "उपयोक्ता व पासशब्द सेटअप कर रहे हैं..."
+msgstr ""

@@ -3,37 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-# astur <malditoastur@gmail.com>, 2010
-# Marquinos <maacub@gmail.com>, 2010.
-# Translations from iso-codes:
-# Marcos Alvarez Costales <marcoscostales@gmail.com>, 2009, 2010.
-# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# Marquinos <maacub@gmail.com>, 2008.
-# Mikel González <mikelglez@softastur.org>, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-10-09 13:08+0100\n"
-"Last-Translator: ivarela <ivarela@ubuntu.com>\n"
-"Language-Team: Softastur\n"
-"Language: ast\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "¿Permitir identificación como root?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -43,15 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Si escueyes nun permitir identificación de root, entós crearáse una cuenta "
-"d'usuariu que tendrá'l poder de root, usando'l comandu 'sudo'."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Contraseña root:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -64,12 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Necesites escoyer una contraseña pal superusuariu ('root'), la cuenta "
-"d'alministración del sistema. Un usuariu maliciosu o que nun tenga accesu a "
-"la cuenta d'alministración pue provocar dellos resultaos perdesastrosos, "
-"asina que tienes de tener curiáu pa que la contraseña del superusuariu nun "
-"seya fácil d'aldovinar. Nun tien que ser una pallabra del diccionariu, o una "
-"pallabra que pueda asociase contigo fácilmente."
 
 #. Type: password
 #. Description
@@ -82,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Una bona contraseña contendrá un entemezu de lletres, númberos y "
-"puntuaciones y debiera camudase a intervalos regulares."
 
 #. Type: password
 #. Description
@@ -94,16 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"L'usuariu root nun debiera tener una contraseña erma. Si la dexes erma, la "
-"cuenta de root desactivaráse y la cuenta del usuariu inicial del sistema "
-"tendrá los privilexos de root usando'l comandu \"sudo\"."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Ten en cuenta que nun pues ver la contraseña qu'escribisti."
+msgstr ""
 
 #. Type: password
 #. Description
@@ -113,7 +75,7 @@ msgstr "Ten en cuenta que nun pues ver la contraseña qu'escribisti."
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Reintroduz la contraseña pa verificar:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -123,15 +85,13 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Por favor, introduz la mesma contraseña root otra vegada pa comprobar que la "
-"escribisti bien."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "¿Crear una cuenta d'usuariu normal agora?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -143,10 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Ye una mala idega usar la cuenta root pa facer xeres diaries, como lleer el "
-"corréu electrónicu, porque cualesquier pequeñu error puede resultar nun "
-"desastre. Debieres crear una cuenta d'usuariu normal pa usar coles xeres del "
-"día a día."
 
 #. Type: boolean
 #. Description
@@ -157,16 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Ten en cuenta que pues crear esto n'otru momentu (como una cuenta adicional) "
-"escribiendo 'adduser <username>' como root, au <username> ye un nome "
-"d'usuariu, como 'xoseanton' o 'xahf'."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Nome completu pal nuevu usuariu:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -176,8 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Va crease una cuenta d'usuariu pa tí, pa usar en cuentes de la cuenta root, "
-"pa xeres non alministratives."
 
 #. Type: string
 #. Description
@@ -189,17 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Por favor, introduz el nome real d'esti usuariu. Esta información va usase "
-"por defeutu como orixe d'emails unviaos por esti usuariu y por cualesquier "
-"otru programa que visualice o use'l nome real del usuariu. El to nome "
-"completu ye una bona eleición."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Nome d'usuariu pa la to cuenta:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -210,16 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Seleiciona un nome d'usuariu pa la nueva cuenta. El to primer nome ye una "
-"bona eleición. El nome d'usuariu pue entamar con lletres minúscules, que "
-"pueden siguise de cualesquier entemzu de númberos y más lletres minúscules."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Nome d'usuariu non válidu"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -230,17 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"El nome d'usuariu qu'introduxisti nun ye válidu. Ten en cuenta que los nomes "
-"d'usuariu deben entamar por una lletra minúscula, que pue siguir de "
-"cualesquier combinación de númberos o más lletres minúscules, y nun tien de "
-"pasar de 32 caráuteres."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Nome d'usuariu reserváu"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -250,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"El nome d'usuariu qu'introduxisti (${USERNAME}) ta reserváu pa usu pol "
-"sistema. Por favor, seleiciona ún distintu."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Escueye una contraseña pal nuevu usuariu:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -268,15 +206,13 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Por favor, introduz la mesma contraseña otra vegada pa comprobar que la "
-"escribisti bien."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Fallu d'entrada de contraseña"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -284,15 +220,13 @@ msgstr "Fallu d'entrada de contraseña"
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
 msgstr ""
-"Les dos contraseñes qu'introduxisti nun son iguales. Por favor, intentalo "
-"otra vegada."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Contraseña erma"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -302,15 +236,13 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Introduxisti una contraseña erma, y eso nun ta permitío. Por favor, escueyi "
-"una contraseña non balera."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "¿Habilitaste les contraseñes tapecíes?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -322,18 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Les contraseñes tapecíes faen el to sistema más seguru, porque naide podrá "
-"ver nin les contraseñes cifraes. Les contraseñes atróxense nun ficheru a "
-"parte, que namái puede lleese con programes especiales. Encamentámoste "
-"permuncho l'emplegu de les contraseñes tapecíes, menos en dellos casos como "
-"entornos NIS."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Afitar usuarios y contraseñes"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -341,4 +268,4 @@ msgstr "Afitar usuarios y contraseñes"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Afitando usuarios y contraseñes..."
+msgstr ""

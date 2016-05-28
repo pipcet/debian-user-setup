@@ -3,42 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of be.po to Belarusian (Official spelling)
-# Andrei Darashenka <adorosh2@it.org.by>, 2005, 2006.
-# Nasciona Piatrouskaja <naska.pet@gmail.com>, 2006.
-# Pavel Piatruk <berserker@neolocation.com>, 2006, 2007, 2008.
-# Hleb Rubanau <g.rubanau@gmail.com>, 2006, 2007.
-# Nasciona Piatrouskaja <naska1@tut.by>, 2006.
-# Paul Petruk <berserker@neolocation.com>, 2007.
-# Pavel Piatruk <piatruk.p@gmail.com>, 2008, 2009, 2011.
-# Viktar Siarheichyk <vics@eq.by>, 2010, 2011, 2012, 2015.
-# Translations from iso-codes:
-# Alastair McKinstry <mckinstry@debian.org>, 2004.
-# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007, 2010.
-# Viktar Siarheichyk <viсs@eq.by>, 2014.
-# Viktar Siarheichyk <vics@fsfe.org>, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: be\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-03-04 01:58+0300\n"
-"Last-Translator: Viktar Siarheichyk <vics@eq.by>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
-"Language: be\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Дазваляць уваход карыстальніка root?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -48,15 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Калі Вы не дазволіце адміністратыўны ўваход, будзе створаны рахунак "
-"карыстальніка з магчымасцю набыцця правоў root праз каманду 'sudo'."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Пароль карыстальніка root:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -69,11 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Вам трэба вызначыць пароль для карыстальніка 'root' (сістэмнага "
-"адміністратара). Праца некваліфікаванага карыстальніка з правамі root можа "
-"прывесці да катастрафічных наступстваў, таму паклапаціцеся, каб пароль не "
-"было лёгка падабраць. Гэта не мусіць быць слова са слоўніку альбо нешта, што "
-"шчыльна асацыюецца з Вашай асобай."
 
 #. Type: password
 #. Description
@@ -86,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Добры пароль мусіць складацца з сумесі літараў, лічбаў і знакаў прыпынку. А "
-"яшчэ яго варта рэгулярна змяняць."
 
 #. Type: password
 #. Description
@@ -98,16 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"Суперкарыстальнік не павінен мець пустога пароля. Калі пакінеце пустым, яго "
-"рахунак будзе адключаны, і пачатковаму карыстальніку будзе нададзена "
-"паўнамоцтва карыстальніка шляхам выканання каманды \"sudo\"."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Майце на ўвазе, што пры ўвядзенні пароль не бачны."
+msgstr ""
 
 #. Type: password
 #. Description
@@ -117,7 +75,7 @@ msgstr "Майце на ўвазе, што пры ўвядзенні парол�
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Увядзіце пароль яшчэ раз, каб не памыліцца:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -127,14 +85,13 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Калі ласка, увядзіце пароль зноў, каб пераканацца, што ён набраны правільна."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Стварыць рахунак звычайнага карыстальніка?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -146,9 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Выкарыстоўваць рахунак root для штодзённай працы (кшталту чытання пошты) - "
-"благая ідэя, бо маленькая выпадковая памылка можа \"пакласці\" сістэму. Для "
-"штодзённых задачаў варта стварыць звычайны рахунак."
 
 #. Type: boolean
 #. Description
@@ -159,16 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Майце на ўвазе, што стварыць яго можна і пазней (гэтаксама як любы дадатковы "
-"рахунак карыстальніка) з дапамогай каманды 'adduser <карыстальнік>' ад імя "
-"root. Пры гэтым <карыстальнік> - імя новага карыстальніка (лацінкай)."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Поўнае імя новага карыстальніка:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -178,8 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Рахунак карыстальніка будзе створаны, каб Вы маглі ўжываць яго замест "
-"рахунку root для любых не-адміністратыўных задачаў."
 
 #. Type: string
 #. Description
@@ -191,17 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Калі ласка, адзначце сапраўднае імя гэтага карыстальніка. Гэтая інфармацыя "
-"будзе ўжытая для подпісу ў лістах, якія ён дасылае. Таксама з яе можа "
-"скарыстацца любая праграма, што ўжывае рэальнае імя карыстальніка. Поўныя "
-"пашпартныя дадзеныя выглядаюць лагічна, але вырашайце самі, ці яно Вам трэба."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Імя карыстальніка для Вашага рахунку:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -212,16 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Пазначце імя карыстальніка для новага рахунку (лацінкай). Вашае імя або "
-"псеўданім будуць нармалёвым варыянтам. Імя карыстальніка мусіць пачынацца з "
-"маленькай літары, далей можа ісці любая камбінацыя лічбаў і маленькіх літар."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Няслушнае імя карыстальніка"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -232,17 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Імя карыстальніка, якое вы ўвялі, непрыдатнае. Майце на ўвазе, што імёны "
-"карыстальнікаў мусяць пачынацца з маленькай лацінскай літары, пасля якой "
-"можна ўжываць сумесь лічбаў і маленькіх лацінскіх літараў, не даўжэй за 32 "
-"знакаў цалкам."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Імя карыстальніка занятае"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -252,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Прапанаванае імя карыстальніка ${USERNAME} занятае для выкарыстання ў "
-"сістэме. Калі ласка, абярыце штосці іншае."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Вызначце пароль для новага карыстальніка:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -270,29 +206,27 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Калі ласка, увядзіце такі самы пароль зноў, каб пераканацца, што ў ім няма "
-"памылак."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Памылка пры ўводзе пароля"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "Уведзеныя паролі не супадаюць. Калі ласка, паспрабуйце яшчэ раз."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Пусты пароль"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -302,15 +236,13 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Вы прапанавалі пусты пароль - гэта, на жаль, не дазволена. Калі ласка, "
-"абярыце непусты пароль."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "Дазволіць прыхаваныя паролі?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -322,17 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Прыхаваныя паролі робяць сістэму больш абароненай, бо ніхто і ніколі не "
-"зможа прачытаць зашыфраваныя паролі. У такім варыянце паролі захоўваюцца ў "
-"асобным файле, доступ да чытання якога маюць толькі спецыяльныя праграмы. "
-"Прыхаваныя паролі рэкамендаваныя ўсюды, апрэч NIS асяродкаў."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Наладзіць карыстальнікаў і паролі"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -340,4 +268,4 @@ msgstr "Наладзіць карыстальнікаў і паролі"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Наладка карыстальнікаў і пароляў..."
+msgstr ""
