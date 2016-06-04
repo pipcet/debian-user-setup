@@ -3,40 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Kazakh messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Talgat Daniyarov
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2011
-# Dauren Sarsenov <daur88@inbox.ru>, 2008, 2009
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Sairan Kikkarin <sairan@sci.kz>, 2006
-#   KDE Kazakh l10n team, 2006
-#   Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008, 2009, 2010
-#   Dauren Sarsenov <daur88@inbox.ru>, 2009
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Kazakh\n"
-"Language: kk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Root cуперпайдаланушы ретінде жүйеге кіруге рұқсат беру керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -46,16 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Егер сіз жүйеңізге root атымен кіруге рұқсат бермесеңіз, онда тек кәдімгі "
-"пайдаланушы тіркеу жазбасы құрылады, ал суперпайдаланушы құқығын алу үшін "
-"'sudo' командасын қолдану керек."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Root паролі:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -68,11 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Сіз \"root\" деген әкімшілік тіркелгіге пароль жазуыңыз керек. Жаман ойы бар "
-"немесе тәжірибесіз пайдаланушы осы тіркелгімен кіретін болса, жүйеге кері "
-"әсерін тигізуі мүмкін, сондықтан сіз қиын пароль таңдауыңыз керек. Пароль "
-"сөздіктен алынған сөз немесе сізге байланысты сөз (мысалы, әкеңіздің аты) "
-"болмауы тиіс."
 
 #. Type: password
 #. Description
@@ -85,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Жақсы пароль әріптер, сандар мен тыныс белгілерінен тұруы керек, және уақыт "
-"өте ауысу керек."
 
 #. Type: password
 #. Description
@@ -97,16 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"Root пайдаланушысының паролі бос болмауы керек. Оны бос қалдырсаңыз, "
-"жүйеңізде root тіркелгісі сөндіріледі, ал бірінші тіркелген пайдаланушыға "
-"root құқығын алу үшін 'sudo' командасын қолдану құқығы беріледі."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Енгізу кезінде пароль көрінбейтінін ескеріңіз."
+msgstr ""
 
 #. Type: password
 #. Description
@@ -116,7 +75,7 @@ msgstr "Енгізу кезінде пароль көрінбейтінін ес
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Тексеру үшін парольді қайта енгізіңіз:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -126,15 +85,13 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Енгізген суперпайдаланушы паролінің дұрыстығын тексеру үшін, оны тағы да бір "
-"рет енгізіңіз."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Кәдімгі пайдаланушы жүйелік тіркеу жазбасын құру керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -146,11 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Суперпайдаланушының тіркеу жазбасын күнделікті жұмыс үшін қолдану (мысалы, "
-"электронды пошта оқу) дұрыс емес, өйткені Сіз жіберген кішкентай қатенің "
-"нәтижесі апатқа әкелуі мүмкін. Қазір Сіз кәдімгі пайдаланушы жүйелік тіркеу "
-"жазбасын құра аласыз, оның атынан жүйеңізде күнделікті жұмыспен айналыса "
-"аласыз."
 
 #. Type: boolean
 #. Description
@@ -161,17 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Сіз пайдаланушының жүйедегі тіркеу жазбасын (бірнешеуін де) кейін де қоса "
-"аласыз, ол үшін (root атынан)  'adduser <аты>' командасын орындау керек, бұл "
-"жердегі <аты> - пайдаланушы аты (басқаша атауы - тіркеу жазбасы ), мысалы "
-"'imurdock' немесе 'rms'."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Жаңа пайдаланушының толық аты:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -181,8 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Әкімшілік емес әрекеттерді жасауда суперпайдаланушы тіркелгісі орнына "
-"қолдану үшін кәдімгі пайдаланушы тіркелгісі жасалады."
 
 #. Type: string
 #. Description
@@ -194,16 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Пайдаланушының шын атын енгізіңіз. Бұл ақпарат  пайдаланушы электронды пошта "
-"жібергенде \"Кімнен\" жолында, басқа да пайдаланушының шын атын керек ететін "
-"бағдарламалар үшін қолданылады. Сіздің толық атыңызды қолдануға болады."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Тіркелгіңіз үшін пайдаланушы аты:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -214,17 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Жүйеңізде тіркелетін пайдаланушы атын (тіркелгі) таңдаңыз. Ол ретінде сіздің "
-"шын атыңызды қолдануға болады. Пайдаланушы аты кіші латын әрпінен басталуы "
-"керек, одан кейін сандар мен кіші латын әріптерінің кез-келген саны болуы "
-"мүмкін."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Пайдаланушы аты жарамсыз"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -235,16 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Сіз енгізген пайдаланушы аты қате. Пайдаланушы аты кіші әріптен басталуы "
-"керек, ол әріптен кейін сандар мен әріптер кез-келген түрде келуі мүмкін, "
-"және де 32 таңбадан аспауы тиіс."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Бұл пайдаланушы аты жүйелік қолдану үшін алынып қойған"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -254,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Сіз енгізген пайдаланушы аты (${USERNAME}) жүйелік қолдану үшін алынып "
-"қойған. Басқасын таңдаңыз."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Жаңа пайдаланушының паролін енгізіңіз:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -272,15 +206,13 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Енгізген парольдің дұрыстығын тексеру үшін, парольді тағы да бір рет "
-"енгізіңіз."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Пароль енгізу қатесі"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -288,14 +220,13 @@ msgstr "Пароль енгізу қатесі"
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
 msgstr ""
-"Сіз енгізген парольдар бір-бірімен сәйкес келмейді. Парольді қайта енгізіңіз."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Бос пароль"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -305,15 +236,13 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Сіз пароль жолын бос қалдырған сияқтысыз. Бос парольдерді қолдануға "
-"болмайды, сондықтан дұрыс пароль енгізіңіз."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "Көлеңкелі (shadow) парольдерді қолдауды қосу керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -325,18 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Көлеңкелі (shadow) парольдерді қолдану жүйеңіздің қауіпсіздігін арттырады, "
-"өйткені бұл кезде кәдімгі пайдаланушылар үшін шифрленген парольдерді көруге "
-"рұқсат жоқ. Шифрленген парольдерді тек кейбір бағдарламар оқи алатын файлда "
-"сақтау арқылы іске асырылады. Көлеңкелі парольдерді ерекше жағдайлардан "
-"басқа кезде (NIS-пен жұмыс істегенде) әрқашан қолдану ұсынылады."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Пайдаланушылардың тіркелгілерін мен парольдерін баптау"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -344,4 +268,4 @@ msgstr "Пайдаланушылардың тіркелгілерін мен п�
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Пайдаланушылардың тіркелгілерін мен парольдерін баптау..."
+msgstr ""

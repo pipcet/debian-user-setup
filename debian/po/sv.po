@@ -3,43 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Swedish messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Swedish translation by:
-# Per Olofsson <pelle@debian.org>
-# Daniel Nylander <po@danielnylander.se>, 2006.
-# Martin Bagge / brother <brother@bsnet.se>, 2012
-#
-# Translations from iso-codes:
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-# Mattias Newzella <newzella@linux.nu, 2001.
-# Alastair McKinstry <mckinstry@computer.org>, 2001.
-# Christian Rose <menthos@menthos.com>, 2004.
-# Daniel Nylander <po@danielnylander.se>, 2007.
-# Martin Bagge <martin.bagge@bthstudent.se>, 2008, 2016.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
-"Language: sv\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Tillåt inloggning som root?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -49,15 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Om du väljer att inte tillåta root att logga in kommer ett användarkonto att "
-"skapas och ges möjligheten att bli root genom kommandot \"sudo\"."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Root-lösenord:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -70,11 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Nu måste du ange ett lösenord för \"root\", systemadministratörskontot. En "
-"illvillig eller oerfaren användare med root-tillgång kan få katastrofala "
-"följder, så du bör se till att välja ett root-lösenord som inte är lätt att "
-"gissa. Det bör inte vara ett ord som kan hittas i ordbok, inte heller ett "
-"ord som lätt kan förknippas med dig."
 
 #. Type: password
 #. Description
@@ -87,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Ett bra lösenord innehåller en blandning av bokstäver, siffror och "
-"specialtecken och bör ändras regelbundet."
 
 #. Type: password
 #. Description
@@ -99,9 +59,6 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"Root-användaren bör inte ha ett tomt lösenord. Om du lämnar detta tomt så "
-"kommer root-kontot att inaktiveras och systemets första användarkonto kommer "
-"att ges möjligheten att bli root genom kommandot \"sudo\"."
 
 #. Type: password
 #. Description
@@ -109,7 +66,6 @@ msgstr ""
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
 msgstr ""
-"Observera att du inte kommer att kunna se lösenordet när du skriver det"
 
 #. Type: password
 #. Description
@@ -119,7 +75,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Ange lösenordet igen som bekräftelse:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -129,14 +85,13 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Ange samma root-lösenord igen för att bekräfta att du skrev det korrekt."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Skapa ett vanligt användarkonto nu?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -148,9 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Det är inte bra att använda root-kontot för dagliga aktiviteter som att läsa "
-"e-post eftersom även ett litet misstag kan sluta i katastrof. Du bör skapa "
-"ett vanligt användarkonto och använda det för dagliga sysslor."
 
 #. Type: boolean
 #. Description
@@ -161,16 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Observera att du kan skapa det senare (liksom ytterligare konton) genom att "
-"skriva \"adduser <användarnamn>\" som root, där <användarnamn> är ett "
-"användarnamn som \"imurdock\" eller \"rms\"."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Fullständigt namn för den nya användaren:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -180,8 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Ett användarkonto kommer att skapas som du bör använda istället för root-"
-"kontot för icke-administrativa sysslor."
 
 #. Type: string
 #. Description
@@ -193,17 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Ange användarens verkliga namn. Den här informationen kommer att användas "
-"för till exempel e-post som skickas av den här användaren och i stort sett "
-"alla program som visar eller använder användarens verkliga namn. Ditt "
-"fullständiga namn är ett rimligt val."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Användarnamn för ditt konto:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -214,16 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Välj ett användarnamn för det nya kontot. Ditt förnamn är ofta ett bra val. "
-"Användarnamnet bör inledas med liten bokstav och kan sedan följas av en "
-"godtycklig kombination av siffror och små bokstäver."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Ogiltigt användarnamn"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -234,16 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Användarnamnet som du angav är ogiltigt. Observera att användarnamn måste "
-"inledas med en liten bokstav, vilken sedan kan följas av en valfri "
-"kombination av siffror och fler gemena bokstäver."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Reserverat användarnamn"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -253,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Användarnamnet (${USERNAME}) som du angav är reserverat för användning av "
-"systemet. Välj ett annat namn."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Välj ett lösenord för den nya användaren:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -271,28 +206,27 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Ange samma användarlösenord igen för att bekräfta att du skrev det korrekt."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Inmatningsfel av lösenord"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "De två lösenorden som du angav var inte samma. Försök igen."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Blankt lösenord"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -302,15 +236,13 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Du angav ett blankt lösenord, som inte är tillåtet. Välj ett icke-blankt "
-"lösenord."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "Aktivera shadow-lösenord?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -322,17 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Shadow-lösenord gör ditt system säkrare eftersom ingen kan se ens krypterade "
-"lösenord. Lösenordet lagras i en separat fil som bara kan läsas av speciella "
-"program. Det rekommenderas starkt att du använder shadow-lösenord. Om du ska "
-"använda NIS kan du dock stöta på problem."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Skapa användare och lösenord"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -340,4 +268,4 @@ msgstr "Skapa användare och lösenord"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Ställer in användare och lösenord..."
+msgstr ""

@@ -3,45 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ru.po to Russian
-# Russian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-# Russian L10N Team <debian-l10n-russian@lists.debian.org>, 2004.
-# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005.
-# Dmitry Beloglazov <dm-guest@alioth.debian.org>, 2005.
-# Sergey Alyoshin <alyoshin.s@gmail.com>, 2011.
-# Yuri Kozlov <yuray@komyakino.ru>, 2005, 2006, 2007, 2008.
-# Yuri Kozlov <yuray@komyakino.ru>, 2009, 2010, 2011.
-# Alastair McKinstry <mckinstry@debian.org>, 2004.
-# Mikhail Zabaluev <mhz@altlinux.org>, 2006.
-# Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.
-# Pavel Maryanov <acid@jack.kiev.ua>, 2009,2010.
-# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
-"Language: ru\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Разрешить вход в систему суперпользователем root?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -51,16 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Если вы не разрешите входить в систему под именем root, то будет создана "
-"только пользовательская учётная запись, а для получения прав "
-"суперпользователя нужно будет использовать команду 'sudo'."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Пароль суперпользователя:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -73,12 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Необходимо ввести пароль учётной записи суперпользователя (root), "
-"используемой для администрирования системы. Доступ к компьютеру с "
-"использованием этой учётной записи злонамеренных или низкоквалифицированных "
-"пользователей может привести к катастрофическим последствиям. Поэтому пароль "
-"суперпользователя не должен легко угадываться, подбираться по словарю, и он "
-"не должен быть связан с вашей личностью."
 
 #. Type: password
 #. Description
@@ -91,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Хороший пароль представляет из себя смесь букв, цифр и знаков препинания, и "
-"должен периодически меняться."
 
 #. Type: password
 #. Description
@@ -103,10 +59,6 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"Пароль учётной записи суперпользователя не должен быть пустым, иначе она "
-"будет заблокирована, а настроенной в программе установки пользовательской "
-"учётной записи будет разрешено работать с правами суперпользователя через "
-"команду \"sudo\"."
 
 #. Type: password
 #. Description
@@ -114,7 +66,6 @@ msgstr ""
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
 msgstr ""
-"Во время ввода пароля вводимые символы не будут отображаться на экране."
 
 #. Type: password
 #. Description
@@ -124,7 +75,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Введите пароль ещё раз:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -134,14 +85,13 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Введите тот же самый пароль ещё раз, чтобы убедиться в правильности ввода."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Создать учётную запись обычного пользователя?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -153,11 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Использование учётной записи суперпользователя для выполнения повседневной "
-"работы, (чтения электронной почты, например), крайне нежелательно, так как в "
-"этом случае малейшая оплошность с вашей стороны может привести к катастрофе. "
-"Сейчас вы можете создать учётную запись обычного пользователя, от имени "
-"которого вы будете заниматься повседневной работой в системе."
 
 #. Type: boolean
 #. Description
@@ -168,17 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Вы сможете создать пользовательскую запись (или даже несколько) и позже, "
-"выполнив (от имени суперпользователя) команду 'adduser <имя>', где <имя> - "
-"имя пользователя (иначе называемое учётной записью), например 'imurdock' или "
-"'rms'."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Введите полное имя нового пользователя:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -188,9 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Будет создана учётная запись пользователя, которая будет использоваться "
-"вместо учётной записи суперпользователя (root) для выполнения всех действий, "
-"не связанных с администрированием."
 
 #. Type: string
 #. Description
@@ -202,17 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Введите реальное имя этого пользователя. Эта информация будет использована в "
-"письмах в поле \"От кого\", посылаемых этим пользователем, а также всеми "
-"программами, которые показывают или используют реальное имя пользователя в "
-"своей работе. Ваше имя и фамилия вполне подходят."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Имя вашей учётной записи:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -223,17 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Выберите имя пользователя (учётную запись), под которым вы будете известны в "
-"системе. В качестве учётной записи может быть использовано ваше реальное "
-"имя. Учётная запись должна начинаться со строчной латинской буквы, за "
-"которой может следовать любое количество строчных латинских букв или цифр."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Введено некорректное имя."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -244,16 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Вы ввели некорректное имя пользователя. Имя пользователя должно начинаться "
-"со строчной латинской буквы, за которой может следовать любая комбинация "
-"строчных латинских букв и цифр; длина не должна превышать 32 символов."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "зарезервированное имя пользователя"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -263,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Введённое вами имя пользователя (${USERNAME}) зарезервировано для системного "
-"использования. Введите другое."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Введите пароль для нового пользователя:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -281,29 +206,27 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Проверка правильности ввода осуществляется путём повторного ввода пароля и "
-"сравнения результатов."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Ошибка ввода пароля"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "Введённые вами пароли не совпадают. Попробуйте ещё раз."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Пустой пароль"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -312,14 +235,14 @@ msgstr "Пустой пароль"
 msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
-msgstr "Был введён пустой пароль, что запрещено. Введите не пустой пароль."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "Включить поддержку теневых (shadow) паролей?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -331,19 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Использование теневых (shadow) паролей повышает безопасность вашей системы, "
-"так как при этом блокируется доступ обычных пользователей к зашифрованным "
-"паролям. Это достигается путём хранения зашифрованных паролей в отдельном "
-"файле, доступ к котором имеют только специальные программы. Рекомендуется "
-"всегда использовать теневые пароли, за рядом исключений, например при работе "
-"с NIS."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Настройка учётных записей пользователей и паролей"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -351,4 +268,4 @@ msgstr "Настройка учётных записей пользовател�
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Настройка учётных записей пользователей и паролей..."
+msgstr ""

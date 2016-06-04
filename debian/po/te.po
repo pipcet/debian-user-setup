@@ -3,38 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of te.po to Telugu
-# Telugu translation for debian-installer
-# This file is distributed under the same license as the debian-installer package.
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-#
-# Translations from iso-codes:
-# వీవెన్ (Veeven) <launchpad.net>, 2007.
-# Y Giridhar Appaji Nag <giridhar@appaji.net>, 2008.
-# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010.
-# Y Giridhar Appaji Nag <appaji@debian.org>, 2008, 2009.
-# Krishna Babu K <kkrothap@redhat.com>, 2009.
-# Arjuna Rao Chavala <arjunaraoc@googlemail.com>, 2011, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: te\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: d-i <kde-i18n-doc@kde.org>\n"
-"Language: te\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "root లాగ్ ఇన్ అనుమతించాలా? "
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -44,15 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"root లాగ్ ఇన్ అనుమతించనట్లయితే, వాడుకరి ఖాతా సృష్టించి,'sudo' కమాండ్ ద్వారా దానికి  root వలే "
-"పనిచేయటానికి  అధికారము ఇవ్వబడుతుంది. "
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Root సంకేతపదం:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -65,9 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"సిస్టమ్ నిర్వహణ ఖాతా   'root' కి సంకేతపదం చేర్చాలి. దురుద్దేశపూరిత లేకఆర్హత లేని వాడుకరికి  root "
-"అధికారం వుంటే, వినాశకర ఫలితాలు సంభవించవచ్చు. అందుకని సులభంగా ఊహకు వీలులేకుండా వుండే root "
-"సంకేతపదంఎంపికలో జాగ్రత్త వహించాలి. మీకు సంబంధించినది కాని, పదకోశంలో వుండే పదం కాకూడదు."
 
 #. Type: password
 #. Description
@@ -80,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"మంచి సంకేత పదంలో అక్షరాలు, అంకెలు, సంఙ్ఞలు మిళితమై వుంటాయి, దానిని క్రమం తప్పక కొంత  సమయం తర్వాత "
-"మార్పుచేస్తుండాలి."
 
 #. Type: password
 #. Description
@@ -92,16 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"root  వాడుకరి  సంకేతపదం ఖాళీ గా వుండకూడదు. ఖాళీగా వుంచినట్లయితే, root ఖాతా అచేతనము "
-"చేయబడుతుంది. సిస్టమ్ యొక్క మొదటి వాడుకరి ఖాతా కి  \"sudo\" కమాండ్ ద్వారా  root అవటానికి  అధికారం  "
-"ఇవ్వబడతుంది."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "మీరు టైపు చేస్తున్నప్పుడు, మీ సంకేత పదం కనపడదని గుర్తుంచుకోండి."
+msgstr ""
 
 #. Type: password
 #. Description
@@ -111,7 +75,7 @@ msgstr "మీరు టైపు చేస్తున్నప్పుడు,
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "ధృవీకరణకు సంకేత పదాన్ని మరల  టైప్ చేయండి:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -120,14 +84,14 @@ msgstr "ధృవీకరణకు సంకేత పదాన్ని మర
 msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
-msgstr "సరిగా టైపు చేసినట్లు ధృవీకరణకు  అదే  సంకేత పదాన్ని మరల  టైప్ చేయండి"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "ఒక మామూలు వాడుకదారి ఖాతా ఇప్పుడు సృష్టించు?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -139,8 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"రూట్ ఖాతా ని ఎలెక్ట్రానిక్ మెయిల్ చదవడం లాంటి రోజువారి పనులకు వాడటం మంచి ఆలోచన కాదు ఎందుకంటే, చిన్న "
-"తప్పు,పెద్ద వినాశానికి దారితీయవచ్చు.  రోజువారి పనులకు సాధారణ వాడుకరి ఖాతా సృష్టించుకోండి."
 
 #. Type: boolean
 #. Description
@@ -151,15 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-" రూట్  గా    'adduser <username>'అనే కమాండ్ ద్వారా  దానిని  (మరియు అదనపు ఖాతాలను)తరువాత "
-"సృష్టించవచ్చని  తెలుసుకోండి. (<username> అనేది వాడుకరి పేరు  'imurdock' లేక 'rms' లాగా)"
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "కొత్త వాడుకరి యొక్క పూర్తి  పేరు:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -168,7 +128,7 @@ msgstr "కొత్త వాడుకరి యొక్క పూర్తి
 msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
-msgstr "నిర్వహణేతర పనులకు, root ఖాతా కాక, ఒక వాడుకరి ఖాతా  మీ కొరకు సృష్టించబడుతుంది."
+msgstr ""
 
 #. Type: string
 #. Description
@@ -180,15 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"వాడుకరి అసలు పేరు ప్రవేశపెట్టండి. ఈ వివరము, ఈ వాడుకరి పంపించే ఈ-మెయిళ్లుకి మూలం గా, ఏదైనా వాడుకరి "
-"అసలు పేరుని చూపించే లేక వాడే ప్రోగ్రామ్ లో వాడబడుతుంది. మీ పూర్తి పేరు మీ  ఇష్టానుసారంగా ఎంచుకోవచ్చు."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "ఖాతాకి వాడుకరి పేరు:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -199,15 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"కొత్త ఖాతా కి వాడుకరి పేరుని ఎంచుకో. మీ పూర్తి పేరు మీ  ఇష్టానుసారంగా ఎంచుకోవచ్చు.వాడుకరి పేరు ఆంగ్ల "
-"చిన్న అక్షరాలతో మొదలు పెట్టి, ఇంకొన్ని  అంకెలు, ఏక్కువ చిన్ని అక్షరాల మిళితమై వుండవచ్చు."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "చెల్లని వాడుకరి పేరు"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -218,15 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"మీరు ప్రవేశపెట్టిన వాడుకరిపేరు సరిగాలేదు. వాడుకరిపేరులు చిన్న అక్షరాలతో మొదలై, తరువాత అంకెలు లేక "
-"ఇంకొన్ని చిన్న అక్షరాల కలగలుపుగా వుంటాయి మరియు 32 అక్షరాలకు మించకూడదు."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "వాడుకరిపేరు  కేటాయించబడినది"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -236,14 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"మీరు ప్రవేశపెట్టిన వాడుకరిపేరు   (${USERNAME})  వ్యవస్థకు  కేటాయించబడినది. దయచేసి వేరొకటి ఎంచుకో"
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "కొత్త వాడుకరికి  సంకేతపదం  ఎంచుకో :"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -252,28 +205,28 @@ msgstr "కొత్త వాడుకరికి  సంకేతపదం  �
 msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
-msgstr "సరిగా టైపు చేసినట్లు ధృవీకరణకు  అదే  వాడుకరి  సంకేత పదాన్ని మరల  టైప్ చేయండి"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "సంకేత పదం ప్రవేశపెట్టటంలో తప్పు"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "మీరు ప్రవేశపెట్టిన  రెండు సంకేతపదాలు ఒకేలాగా లేవు. మరల ప్రయత్నించండి."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "ఖాళీ సంకేతపదం"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -282,14 +235,14 @@ msgstr "ఖాళీ సంకేతపదం"
 msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
-msgstr "మీరు ప్రవేశపెట్టిన   సంకేతపదం ఖాళీ గా వుంది.దీనికి అనుమతి లేదు. ఖాళీకాని సంకేతపదం ఎంచుకోండి."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "షాడో సంకేతపదాలని చేతనం చెయ్యి?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -301,16 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"షాడో  సంకేతపదాలు, మీ సిస్టమ్ కు ఎక్కువ రక్షణ కలిగిస్తాయి, ఎవరైనా  ఎన్క్రిప్టెడ్ సంకేతపదాలను చూడటానికి "
-"వీలుండదు. సంకేతపదాలు, ఒక ప్రత్యేక ఫైలులో  నిల్వచేస్తారు. దీనిని చదవడానికి ప్రత్యేక ప్రోగ్రాములు కావాలి. "
-"NIS పరిస్థితులలో తప్ప,షాడో  సంకేతపదాలు గట్టిగా సిఫారస్ చేయబడినవి."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "వాడుకరులను మరియ సంకేతపదాలను   సృష్టించు"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -318,4 +268,4 @@ msgstr "వాడుకరులను మరియ సంకేతపదాల�
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "వాడుకరులను మరియు సంకేతపదాలను అమరుస్తున్నాం..."
+msgstr ""

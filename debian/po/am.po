@@ -3,36 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Amharic translation for debian-installer
-# This file is distributed under the same license as the debian-installer package.
-# tegegne tefera <tefera@mekuria.com>, 2006.
-#
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Data taken from ICU-2.8; contributed by:
-#   - Daniel Yacob <yacob@geez.org>, Ge'ez Frontier Foundation
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2014-04-04 22:07+0100\n"
-"Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
-"Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
-"Language: am\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1;\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "እንደ ስር መግባትን አስችል፡፡"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -41,14 +17,14 @@ msgstr "እንደ ስር መግባትን አስችል፡፡"
 msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
-msgstr "ስር እንዲገባ ካልፈቀዱለት የተጠቃሚ መዝገብ ተከፍቶ 'sudo'ን በመጠቀም የስር ስልጣን እንዲኖረው ይደረጋል፡፡"
+msgstr ""
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "የስር ሚስጥር-ቃል፦"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -61,9 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"ለስርዓት አስተዳዳሪው የ'ስር' ማለፊያቃል መሰየም ያስፈልግዎታል፡፡ የስር ማለፊያቃል፣ ተንኮለኛ ወይም የሚሰራውን "
-"የማያውቅ ሰው እጅ ቢገባ በስርዓትዎ ላይ ከፍተኛ ጥፋት ሊደርስ ይችላል፡፡ ስለዚህ ማለፊያቃል በቀላሉ ሊገመት እንዳይችል፣ "
-"ከመዝገበቃላት የተገኘ ወይም ከርስዎ ጋር በቀላሉ ሊገናኝ የሚችል መሆን የለበትም፡፡"
 
 #. Type: password
 #. Description
@@ -76,7 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"ጥሩ ማለፊያቃል የፊደላት፣ የቁጥሮችና ሌሎች ምልክቶች ድብልቅ መሆን ሲገባው በተወሰነ ጊዜ መቀየር ይኖርበታል፡፡  "
 
 #. Type: password
 #. Description
@@ -87,15 +59,13 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"ስር ተጠቃሚ ባዶ ማለፊያ ቃል ሊኖረው አይገባም። ባዶ ካደረጉት የስር መዝገብ ይሰረዝና የስርዓቱ መጀመሪያ ተጠቃሚ መዝገብ "
-"የ\"sudo\" ትዕዛዝን በመጠቀም የስር ስልጣን ይኖረዋል።"
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "የማለፊያ ቃላትን በሚተይቡበ ጊዜ እንደማያዩዋቸው ያስተውሉ።"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -105,7 +75,7 @@ msgstr "የማለፊያ ቃላትን በሚተይቡበ ጊዜ እንደማያ�
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "ለማረጋገጥ ማለፊያቃልን እንደገና ያስገቡ፦"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -114,14 +84,14 @@ msgstr "ለማረጋገጥ ማለፊያቃልን እንደገና ያስገቡ፦
 msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
-msgstr "በትክክል መተየብዎን ለማረጋገጥ እባክዎን የማለፊያ ቃሉን እንደገና ይጻፉ።"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "የተራ ተጠቃሚ መዝገብ አሁን ይፈጠር?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -133,8 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"የስር መዝገብን ለቀን ተቀን ስራ፣ እንደ ኤ-መልዕክት ማንበብና ለመሳሰሉት መጠቀም አደገኛ ነው። ምክንያቱም ትንሽ እንኳን "
-"ስህተት ብትሆን ስርዓቱን ከጥቅም ወጭ ሊያደርገው ይችላል። ለቀን ተቀን ስራ የተራ ተጠቃሚ መዝገብ ይፍጠሩ።"
 
 #. Type: boolean
 #. Description
@@ -145,15 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"እንደ ስር 'adduser <username>' በመጻፍ አዲስ ተጠቃሚዎችን በኋላ መፍጠር እንደሚችሉ ይገንዘቡ።  "
-"<username> ማለት እንደ 'imurdock' or 'rms' ያለ የተጠቃሚ ስም ነው።"
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "የአዲሱ ተጠቃሚ ሙሉ ስም፦"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -162,7 +128,7 @@ msgstr "የአዲሱ ተጠቃሚ ሙሉ ስም፦"
 msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
-msgstr "ከስር(root) መዝገብ ይልቅ አስተዳደራዊ ላልሆኑ ነገሮች መጠቀሚያ ይሆን ዘንድ የተጠቃሚ መዝገብ ይከፈታል። "
+msgstr ""
 
 #. Type: string
 #. Description
@@ -174,15 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"እባክዎ የዚህን ተጠቃሚ ትክክለኛ ስም ይጻፉ። ይህ መረጃ ለምሳሌ ኤ-መዕክት ሲላክ ወይም ሌሎች የተጠቃሚን ስም ማሳየት "
-"የሚገባቸው ስልቶች ሲነሱ መጠቀሚያ ይሆናል።"
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "ለመዝገብዎ ተጠቃሚ-ስም፦"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -193,15 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"የተጠቃሚ ስም ለአዲሱ መዝገብ ይምረጡ። ለምሳሌ ስምዎ ጥሩ ምርጫ ነው። የተጠቃሚ ስም በትንሾቹ የእንግሊዘኛ ፊደል ጀምሮ "
-"ቁጥሮችንና ሌሎች ትንሽ ፊደሎችን ሊያካትት ይችላል።"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "የማይሰራ የተጠቃሚ ስም"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -212,15 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"ያስገቡት የተጠቃሚ ስም አይሰራም፡፡ የተጠቃሚ ስሞች የግድ በላቲን ትንሽ ፊደል መጀመር እንዳለባቸው፣  በማንኛውም ቁጥርና "
-"ተጨማሪ ትንሽ ፊደላት ሊከተል እስደሚችልና ከ32 ፊደል በላይ መሆን እንደሌለበ ያስተውሉ፡፡"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "የተከለለ ተጠቃሚ-ስም"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -229,14 +189,14 @@ msgstr "የተከለለ ተጠቃሚ-ስም"
 msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
-msgstr "ያስገቡት የተጠቃሚ ስም (${USERNAME}) ለስርዓቱ መጠቀሚያ የተጠበቀ ነው፡፡ እባክዎ ሌላ ይምረጡ፡፡"
+msgstr ""
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "ለአዲሱ ተጠቃሚ ማለፊያ ቃል ይምረጡ፦"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -245,28 +205,28 @@ msgstr "ለአዲሱ ተጠቃሚ ማለፊያ ቃል ይምረጡ፦"
 msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
-msgstr "በትክክል መጻፍዎትን ለማረጋገጥ የማለፊያ ቃሉን እንደገና ይጻፉት"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "ሚስጥር-ቃል ማስገባት ስህተት"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "ያስገቧቸው ሁለት ማለፊያ ቃላት አንድ አይነት አይደሉም፡፡ እባክዎ እንደገና ይሞክሩ፡፡"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "ባዶ የሚስጢር ቃል"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -275,14 +235,14 @@ msgstr "ባዶ የሚስጢር ቃል"
 msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
-msgstr "ባዶ ማለፊያ ቃል አስገብተዋል፡፡ ይህ አይፈቀድም፡፡ እባክዎ ባዶ ያልሆነ ማለፊያ ቃል ያስገቡ፡፡"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "ተጠባባቂ ማለፊያቃል ይከወን?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -294,16 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"ጥላ ማለፊያ ቃል የስርዓቱን ደህንንነት የበለጠ ያጠናክረዋል፣ ምክንያቱም ማንም ሰው የተመሰጥሩ ማለፊያ ቃሎችን እንኳን "
-"ማየት አይችልም። ማለፊያ ቃሎቹ ልዩ በሆነ ፕሮግራም ብቻ ሊነበብ በሚችል ፋይል ውስጥ ይቀመጣሉ። በአንዳንድ የNIS "
-"ከባቢዎች በስተቀር የጥላ ማለፊያ ቃል መጠቀም ጥሩ መሆኑን አበክረን እንመክራለን"
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "ተጠቃሚዎችንና ማለፊያ ቃላትን ሰይም"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -311,4 +268,4 @@ msgstr "ተጠቃሚዎችንና ማለፊያ ቃላትን ሰይም"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "ተጠቃሚዎችንና ማለፊያ-ቃሎችን በመሰየም ላይ... "
+msgstr ""

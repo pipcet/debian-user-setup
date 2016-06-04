@@ -3,34 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files
-#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
-"POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
-"Language: Tajik\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=1;\n"
-
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Барои ворид шудан ҳамчун root иҷозат медиҳед?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -40,16 +18,13 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Агар шумо интихоб кунед, ки ба root воридшавиро иҷозат надиҳед, он гоҳ "
-"ҳисоби корбар эҷод карда мешавад, ва он ҳисоб метавонад тавассути фармони "
-"\"sudo\" ба root табдил ёбад."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Пароли root:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -62,11 +37,6 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Шумо бояд барои \"root\", ҳисоби маъмурии система паролро таъин кунед. "
-"Корбари бадқасд ё бесалоҳият бо дастрасии root метавонад натиҷаҳои фоҷиавиро "
-"ба вуҷуд орад, барои ҳамин шумо бояд барои root паролеро интихоб кунед, ки "
-"дарёфтани он душвор аст. Он бояд калима ё ҷумлае набошад, ки дар луғатҳо "
-"ёфта мешавад, ё ба осонӣ бо шумо алоқаманд мешавад."
 
 #. Type: password
 #. Description
@@ -79,8 +49,6 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Пароли хуб дорои маҷмӯи ҳарфҳо, рақамҳо ва аломатҳои китобатӣ мебошад, ва "
-"бояд дар давраҳои доимӣ тағйир дода шавад."
 
 #. Type: password
 #. Description
@@ -91,9 +59,6 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"Корбари root наметавонад пароли холӣ дошта бошад. Агар шумо инро холӣ монед, "
-"ҳисоби root ғайрифаъол карда мешавад, ва ҳисоби аслии корбари система "
-"метавонад тавассути фармони \"sudo\" ба root табдил ёбад."
 
 #. Type: password
 #. Description
@@ -101,7 +66,6 @@ msgstr ""
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
 msgstr ""
-"Ба қайд гиред, ки шумо ҳангоми ворид кардани парол онро дида наметавонед."
 
 #. Type: password
 #. Description
@@ -111,7 +75,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Паролро барои тайид кардан аз нав ворид кунед:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -121,15 +85,13 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Лутфан, он пароли root як маротибаи дигар ворид кунед, то ин ки тасдиқ "
-"кунед, ки шумо онро ба таври дуруст чоп кардед."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Ҳисоби корбари оддиро ҳозир эҷод мекунед?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -141,10 +103,6 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Истифодаи ҳисоби root барои амалиётҳои муқаррарии рӯзона, ба мисли хондани "
-"почтаи электронӣ, тавсия намешавад, чунки ҳатто хатогии хурд метавонад "
-"сабаби фоҷиа гардад. Барои чунин вазифаҳои ҳаррӯза шумо бояд ҳисоби корбари "
-"муқаррариро эҷод кунед."
 
 #. Type: boolean
 #. Description
@@ -155,17 +113,13 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Ба қайд гиред, ки шумо метавонед онро баъдтар эҷод кунед (инчунин ягон "
-"ҳисоби иловагӣ) - барои ин фармони \"adduser <username>\"-ро ҳамчун root "
-"иҷро кунед, ки дар он ҷо <username> номи корбар мебошад, ба мисли \"imurdock"
-"\" ё \"rms\"."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Номи ҳақиқии шумо барои корбари нав:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -175,8 +129,6 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Барои амалҳои ғайримаъмурӣ, барои шумо ҳисоби корбар ба ҷойи ҳисоби решагӣ "
-"эҷод карда мешавад."
 
 #. Type: string
 #. Description
@@ -188,17 +140,13 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Лутфан, номи воқеии корбарро ворид кунед. Ин маълумот ҳангоми навиштани "
-"паёмҳои электронии ин корбар, инчунин бо ягон барномае, ки номи воқеии "
-"корбарро намиоиш медиҳад, истифода мешавад. Тавсия мешавад, ки номи пурраи "
-"худро ворид кунед."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Номи корбар барои ҳисоби шумо:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -209,16 +157,13 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Номи корбарро барои ҳисоби нав интихоб кунед. Номи шумо интихоби беҳтарин "
-"аст. Номи корбар бояд бо ҳарфи хурд оғоз ёбад, ки метавонад бо ягон маҷмӯи "
-"рақамҳо ва ҳарфҳои дигари хурд идома ёбад."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Номи корбари беэътибор"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -229,16 +174,13 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Номи корбаре, ки шумо ворид кардед нодуруст аст. Таваҷҷӯҳ кунед, ки номи "
-"корбар бояд бо ҳарфи хурд сар карда шавад ва бояд рақамҳо ва ҳарфҳои хурдро "
-"дар бар гирад, вале дарозии номи корбар бояд на зиёда аз 32 аломат бошад."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Номи корбари истифодашуда"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -248,15 +190,13 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Номи корбари воридшудаи (${USERNAME}) бо система истифода шудааст. Лутфан, "
-"номи дигареро интихоб кунед."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Паролеро барои корбари нав интихоб кунед:"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -266,15 +206,13 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Лутфан, он пароли корбарро як маротибаи дигар ворид кунед, то ин ки тасдиқ "
-"кунед, ки шумо онро ба таври дуруст чоп кардед."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Паролро нодуруст ворид кардед"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -282,15 +220,13 @@ msgstr "Паролро нодуруст ворид кардед"
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
 msgstr ""
-"Ду паролеро, ки шумо ворид кардед, бо ҳамдигар мувофиқат намекунанд. Лутфан, "
-"амалро такрор кунед."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Парол ворид нашудааст"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -300,15 +236,13 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Шумо пароли холиеро, ки иҷозат намешавад, ворид кардед. Лутфан, пароли "
-"дигареро интихоб кунед."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "Паролҳои соягиро фаъол мекунед?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -320,18 +254,13 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Паролҳои соягӣ амнияти системаи шуморо баландтар мегардонанд, чунки ягон "
-"нафар наметавонад ҳатто паролҳои рамздорро бинад. Паролҳо дар файли ҷудошуда "
-"нигоҳ дошта мешаванд, ки он файл метавонад танҳо бо барномаҳои мушаххас "
-"хонда шавад. Истифодаи паролҳои соягӣ тавсия мешавад, ба ғайр аз баъзе "
-"ҳолатҳо ба мисли муҳитҳои NIS."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Танзими корбарон ва паролҳо"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -339,4 +268,4 @@ msgstr "Танзими корбарон ва паролҳо"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Корбарон ва паролҳо танзим шуда истодаанд..."
+msgstr ""
