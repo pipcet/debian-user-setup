@@ -3,12 +3,43 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of debian-installer_packages_po_sublevel1_is.po to Icelandic
+# Icelandic messages for debian-installer.
+# This file is distributed under the same license as debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+#
+# Copyright (C) 2010 Free Software Foundation
+#
+# zorglubb <debian-user-icelandic@lists.debian.org>, 2008.
+# Sveinn í Felli <sveinki@nett.is>, 2010.
+# Alastair McKinstry, <mckinstry@computer.org>, 2002.
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Translations from iso-codes:
+# Copyright (C) 2002,2003, 2010, 2011, 2012 Free Software Foundation, Inc.
+# Translations from KDE:
+# Þórarinn Rúnar Einarsson <thori@mindspring.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer_packages_po_sublevel1_is\n"
+"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
+"POT-Creation-Date: 2012-02-16 22:49+0000\n"
+"PO-Revision-Date: 2012-04-06 10:43+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+">\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr ""
+msgstr "Leyfa innskráningu sem rót?"
 
 #. Type: boolean
 #. Description
@@ -18,13 +49,15 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
+"Ef þú velur að leyfa ekki innskráningu sem rót verður búinn til notandi sem "
+"getur verið rót með því að nota 'sudo' skipunina."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr ""
+msgstr "Root lykilorð:"
 
 #. Type: password
 #. Description
@@ -37,6 +70,10 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
+"Þú þarft að stilla lykilorð fyrir „root‟, reikninginn fyrir kerfisstjóra. "
+"Óhæfur eða illur notandi með root lykilorðið getur valdið mjög slæmum "
+"vandamálum. Þú ættir því að vanda valið á lykilorðinu. Þetta ætti ekki að "
+"vera orð sem má finna í orðabók eða orð sem auðveldlega má tengja við þig."
 
 #. Type: password
 #. Description
@@ -49,6 +86,8 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
+"Gott lykilorð inniheldur blöndu af stöfum, tölum og punktum og ætti að "
+"breyta reglulega."
 
 #. Type: password
 #. Description
@@ -59,13 +98,17 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
+"Rótarnotandinn (kerfisstjóri, root) ætti ekki að vera með autt lykilorð. Ef "
+"þetta er skilið eftir autt, verður root aðgangurinn gerður óvirkur og fyrsti "
+"notandi kerfisins mun fá möguleika á að gerast kerfisstjóri með því að nota "
+"\"sudo\" skipunina."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr ""
+msgstr "Athugaðu að þú munt ekki sjá lykilorðið þegar þú slærð það inn."
 
 #. Type: password
 #. Description
@@ -75,7 +118,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr ""
+msgstr "Sláðu lykilorð aftur inn til að staðfesta:"
 
 #. Type: password
 #. Description
@@ -85,13 +128,15 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
+"Sláðu inn sama kerfisstjóralykilorðið (root) aftur til að staðfesta að þú "
+"hafir slegið það rétt inn."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr ""
+msgstr "Búa til venjulegan notanda núna?"
 
 #. Type: boolean
 #. Description
@@ -103,6 +148,9 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
+"Það er ekki góð hugmynd að nota root aðganginn í dagleg verk, eins og að "
+"lesa tölvupóst, þar sem smávægileg mistök geta haft slæmar afleiðingar. Þú "
+"ættir að búa til venjulegan notanda til að nota í þessi daglegu verk."
 
 #. Type: boolean
 #. Description
@@ -113,13 +161,16 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
+"ATHUGAÐU að þú getur búið til fleiri notendur með því að skrifa 'adduser "
+"<notendanafn>' sem root, þar sem <notendanafn> er er notandanafnið, t.d "
+"'jon' eða 'siggi'."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr ""
+msgstr "Fullt nafn nýs notanda:"
 
 #. Type: string
 #. Description
@@ -129,6 +180,8 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
+"Notendareikningur verður stofnaður. Sem þú getur svo notað í stað root "
+"reikningsins í önnur verkefni en kerfisstjórn."
 
 #. Type: string
 #. Description
@@ -140,13 +193,16 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
+"Sláðu inn raunverulegt nafn þessa notanda. Þessar upplýsingar verða notaðar "
+"t.d. sem nafn á tölvupóst sem þessi notandi sendir og í hvaða forrit sem "
+"sýnir eða notar raunverulegt nafn notandans. Fullt nafn er ágætis kostur."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr ""
+msgstr "Notendanafn fyrir þennan reikning:"
 
 #. Type: string
 #. Description
@@ -157,13 +213,16 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
+"Veldu notendanafn fyrir nýja reikninginn. Skírnarnafnið þitt er ágætis "
+"kostur. Þetta notendanafn ætti að byrja á lágstaf, sem má fylgja eftir með "
+"einhverri blöndu af tölum og lágstöfum."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr ""
+msgstr "Ógilt notandanafn"
 
 #. Type: error
 #. Description
@@ -174,13 +233,16 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
+"Notandanafnið sem þú valdir er ógilt. Athugaðu að notendanöfn verða að byrja "
+"á lágstaf sem fylgja má eftir með hverskonar samsetningu talna og fleiri "
+"lágstafa og verður að vera minna en 32 stafa langt."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr ""
+msgstr "Frátekið notandanafn"
 
 #. Type: error
 #. Description
@@ -190,13 +252,14 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
+"Notendanafnið (${USERNAME}) er frátekið fyrir kerfið. Vinsamlega veldu annað."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr ""
+msgstr "Veldu lykilorð fyrir nýja notandann:"
 
 #. Type: password
 #. Description
@@ -206,27 +269,29 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
+"Sláðu lykilorð notandans aftur inn til að staðfesta að það hafi verið rétt "
+"slegið inn."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr ""
+msgstr "Villa í innslætti á lykilorði"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr ""
+msgstr "Lykilorðin sem þú slóst inn voru ekki eins. Reyndu aftur."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr ""
+msgstr "Tómt lykilorð"
 
 #. Type: error
 #. Description
@@ -236,13 +301,15 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
+"Þú slóst inn tómt lykilorð, sem er ekki leyfilegt. Veldu lykilorð sem er "
+"ekki tómt."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr ""
+msgstr "Virkja skugga-lykilorð?"
 
 #. Type: boolean
 #. Description
@@ -254,13 +321,17 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
+"Skugga-lykilorð gera kerfið þitt öruggara, þar sem enginn getur séð "
+"lykilorðin ekki einu sinni dulkóðuð. Lykilorðin eru geymd í sér skrá sem "
+"aðeins sérstök forrit geta lesið. Það er sterklega mælt með þessu, nema í "
+"einstaka tilvikum eins og t.d. NIS kerfum."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr ""
+msgstr "Stilla notendur og lykilorð"
 
 #. Type: text
 #. Description
@@ -268,4 +339,4 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr ""
+msgstr "Stilli notendur og lykilorð..."

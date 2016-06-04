@@ -3,12 +3,44 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Japanese messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
+#   Free Software Foundation, Inc., 2000, 2001, 2004, 2005, 2006
+#   IIDA Yosiaki <iida@gnu.org>, 2004, 2005, 2006.
+#   Kenshi Muto <kmuto@debian.org>, 2006-2007
+#   Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2001.
+#   Takuro Ashie <ashie@homa.ne.jp>, 2001.
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Translations from KDE: 
+#   - Taiki Komoda <kom@kde.gr.jp>
+#   Yasuaki Taniguchi <yasuakit@gmail.com>, 2010, 2011.
+#   Yukihiro Nakai <nakai@gnome.gr.jp>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
+"POT-Creation-Date: 2012-02-16 22:49+0000\n"
+"PO-Revision-Date: 2012-11-27 16:57+0900\n"
+"Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
+"Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr ""
+msgstr "root でのログインを許可しますか?"
 
 #. Type: boolean
 #. Description
@@ -18,13 +50,15 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
+"ここで root のログインを許可しない場合、ユーザアカウントが作成され、'sudo' コ"
+"マンドを使って root になる権限が与えられます。"
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr ""
+msgstr "root のパスワード:"
 
 #. Type: password
 #. Description
@@ -37,6 +71,11 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
+"'root' (システム管理者アカウント) のパスワードをここで設定する必要がありま"
+"す。悪意のある、あるいは資格のないユーザが root 権限を得てしまうことは大損害"
+"につながるので、root のパスワードは簡単に推測できるものにならないよう注意を払"
+"うべきです。辞書に載っている単語や、あなたのミドルネームのようにあなたに関連"
+"する語であってはなりません。"
 
 #. Type: password
 #. Description
@@ -49,6 +88,8 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
+"良いパスワードは、アルファベット・数字・記号で構成されます。また、定期的にパ"
+"スワードは変更されるべきです。"
 
 #. Type: password
 #. Description
@@ -59,13 +100,16 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
+"root ユーザのパスワードを空にすべきではありません。空のままにすると、root ア"
+"カウントは無効にされ、システムの初期ユーザアカウントに \"sudo\" コマンドを"
+"使って root になる権限が与えられます。"
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr ""
+msgstr "パスワードの入力時はパスワードが表示されないことに注意してください。"
 
 #. Type: password
 #. Description
@@ -75,7 +119,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr ""
+msgstr "確認のため、再度パスワードを入力してください:"
 
 #. Type: password
 #. Description
@@ -85,13 +129,14 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
+"確認のために、先ほど入力した同じ root のパスワードを再度入力してください。"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr ""
+msgstr "ここで一般ユーザアカウントを作成しますか?"
 
 #. Type: boolean
 #. Description
@@ -103,6 +148,9 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
+"root アカウントで電子メールのやりとりなどの日常業務を行うべきではありません。"
+"なぜなら、どんな小さなミスでも取り返しのつかない結果を招くからです。ここで、"
+"このような日常業務を行うための一般ユーザアカウントを作成しましょう。"
 
 #. Type: boolean
 #. Description
@@ -113,13 +161,17 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
+"Debian システムのインストール後でも、(追加ユーザアカウントの作成と同様に) あ"
+"なたのユーザアカウントを作成することができます。root アカウントで 'adduser <"
+"ユーザ名>' と入力してください。<ユーザ名> は 'imurdock' や 'rms' のようなアカ"
+"ウントの名称です。"
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr ""
+msgstr "新しいユーザの本名 (フルネーム):"
 
 #. Type: string
 #. Description
@@ -129,6 +181,8 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
+"ユーザアカウントは非管理者権限で、root アカウントの代わりとして使うために作成"
+"されます。"
 
 #. Type: string
 #. Description
@@ -140,13 +194,16 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
+"このユーザの本名を入力してください。この情報は、ユーザの本名を表示あるいは利"
+"用するプログラムのほか、このユーザから送られるメールのデフォルトの発信元と"
+"いった形で使われます。あなたのフルネームを入力するのが妥当な選択でしょう。"
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr ""
+msgstr "あなたのアカウントのユーザ名:"
 
 #. Type: string
 #. Description
@@ -157,13 +214,16 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
+"新しいアカウントのユーザ名を選んでください。あなたのファーストネームを使うの"
+"は妥当な選択です。ユーザ名の先頭は小文字アルファベットでなければならず、数"
+"字・小文字アルファベットの任意の組合わせで構成されます。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr ""
+msgstr "無効なユーザ名"
 
 #. Type: error
 #. Description
@@ -174,13 +234,16 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
+"入力されたユーザ名は無効です。 ユーザ名は数字・小文字アルファベットの任意の組"
+"合わせで構成されますが、ユーザ名の先頭はアルファベットの小文字でなければなら"
+"ず、32 文字以内の長さでなければなりません。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr ""
+msgstr "予約されたユーザ名"
 
 #. Type: error
 #. Description
@@ -190,13 +253,15 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
+"入力したユーザ名 (${USERNAME}) は、システムでの利用のために予約されています。"
+"異なるものを選択してください。"
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr ""
+msgstr "新しいユーザのパスワードを選んでください:"
 
 #. Type: password
 #. Description
@@ -206,27 +271,29 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
+"確認のため、先ほど入力したのと同じユーザパスワードを再度正確に入力してくださ"
+"い。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr ""
+msgstr "パスワード入力エラー"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr ""
+msgstr "2回入力されたパスワードは同じではありません。再度入力してください。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr ""
+msgstr "空のパスワード"
 
 #. Type: error
 #. Description
@@ -236,13 +303,15 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
+"許可されていない、空のパスワードが入力されました。空ではないパスワードを選ん"
+"でください。"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr ""
+msgstr "シャドーパスワードを有効にしますか?"
 
 #. Type: boolean
 #. Description
@@ -254,13 +323,17 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
+"シャドーパスワードを使うと、暗号化されたパスワード情報さえ誰も見ることができ"
+"なくなり、システムがより安全になります。パスワード情報は、特別なプログラムし"
+"か参照できない別ファイルに保存されます。NIS 環境などのごく限られた場合を除"
+"き、シャドーパスワードの導入を強く推奨します。"
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr ""
+msgstr "ユーザとパスワードのセットアップ"
 
 #. Type: text
 #. Description
@@ -268,4 +341,4 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr ""
+msgstr "ユーザとパスワードをセットアップ中..."

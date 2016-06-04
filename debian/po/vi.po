@@ -3,12 +3,40 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Vietnamese translation for Debian Installer Level 1.
+# Copyright © 2010 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+# Jean Christophe André <progfou@gmail.com>
+# Vũ Quang Trung <vu.quang.trung@auf.org>
+# Trịnh Minh Thành <tmthanh@yahoo.com>
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2010
+# Hai-Nam Nguyen <hainam@jcisio.com>, 2012
+#
+# Translations from iso-codes:
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+# Copyright © 2009 Free Software Foundation, Inc.
+# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer Level 1\n"
+"Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
+"POT-Creation-Date: 2012-02-16 22:49+0000\n"
+"PO-Revision-Date: 2012-04-11 00:58+0100\n"
+"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr ""
+msgstr "Cho phép đăng nhập như người chủ không?"
 
 #. Type: boolean
 #. Description
@@ -18,13 +46,15 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
+"Nếu bạn chọn không cho phép người chủ (root) đăng nhập, một tài khoản người "
+"dùng sẽ được tạo và được gán quyền trở thành người chủ bằng lệnh « sudo »."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr ""
+msgstr "Mật khẩu chủ :"
 
 #. Type: password
 #. Description
@@ -37,6 +67,13 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
+"Bạn cần phải đặt mật khẩu cho người chủ (root), tài khoản quản trị hệ thống. "
+"Một người dùng hiểm độc hoặc người dùng không có kinh nghiệm, khi có quyền "
+"truy cập của người chủ có thể gây ra kết quả tai hại. Vì vậy bạn nên chọn "
+"cẩn thận mật khẩu người chủ không phải dễ đoán. Đừng chọn từ nằm trong từ "
+"điển nào (có chương trình xử lý toàn bộ mỗi từ điển), hoặc từ liên quan đến "
+"bạn một cách dễ dàng. Mật khẩu mạnh gồm có cả chữ lẫn con số và có độ dài ít "
+"nhất 8 chữ (dài hơn là mạnh hơn)."
 
 #. Type: password
 #. Description
@@ -49,6 +86,8 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
+"Mật khẩu tốt chứa phối hợp chữ, con số và chấm câu, và nên được thay đổi "
+"theo định kỷ."
 
 #. Type: password
 #. Description
@@ -59,13 +98,16 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
+"Người dùng chủ không nên có mật khẩu trống. Nếu bạn để trống thì tài khoản "
+"người chủ bị tắt và người dùng đầu tiên của hệ thống được gán quyền trở "
+"thành người chủ bằng lệnh « sudo »."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr ""
+msgstr "Ghi chú rằng bạn sẽ không thể xem mật khẩu trong khi gõ."
 
 #. Type: password
 #. Description
@@ -75,7 +117,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr ""
+msgstr "Hãy nhập lại mật khẩu cần xác nhận:"
 
 #. Type: password
 #. Description
@@ -84,14 +126,14 @@ msgstr ""
 msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
-msgstr ""
+msgstr "Hãy nhập lại mật khẩu người chủ này, để xác nhận bạn đã gõ đúng."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr ""
+msgstr "Tạo một tài khoản người dùng chuẩn ngay bây giờ chứ?"
 
 #. Type: boolean
 #. Description
@@ -103,6 +145,10 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
+"Không phải là ý kiến tốt khi bạn sử dụng tài khoản người chủ để làm các công "
+"việc hàng ngày, như là đọc thư điện tử, vì ngay cả một lỗi nhỏ có thể gây ra "
+"kết thúc rất xấu. Bạn nên tạo một tài khoản người dùng chuẩn, để sử dụng khi "
+"làm các công việc hàng ngày như vậy. "
 
 #. Type: boolean
 #. Description
@@ -113,13 +159,16 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
+"Ghi chú rằng bạn có thể tạo nó sau này (cùng với tài khoản thêm nào) bằng "
+"cách gõ « adduser <tên_người_dùng> » với tư cách người chủ, mà "
+"<tên_người_dùng> là tên người dùng, v.d. « nguyenvan » hoặc « ngv »."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr ""
+msgstr "Họ tên của người dùng mới:"
 
 #. Type: string
 #. Description
@@ -129,6 +178,8 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
+"Một tài khoản người dùng sẽ được tạo cho bạn sử dụng thay cho tài khoản "
+"người chủ, khi làm việc khác quản trị."
 
 #. Type: string
 #. Description
@@ -140,13 +191,17 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
+"Hãy nhập họ tên thật của người dùng này. Thông tin này sẽ được dùng, chẳng "
+"hạn, như là gốc mặc định cho các thư điện tử được gởi bởi người dùng này, "
+"cũng như trong chương trình nào hiển thị hoặc sử dụng họ tên thật của người "
+"dùng. Họ tên của bạn là sự chọn hữu ích."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr ""
+msgstr "Tên người dùng cho tài khoản của bạn:"
 
 #. Type: string
 #. Description
@@ -157,13 +212,16 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
+"Hãy chọn tên người dùng cho tải khoản mới này. Tên của bạn là sự chọn hữu "
+"ích. Tên người dùng nên bắt đầu với chữ thường, với bất cứ phối hợp con số "
+"và chữ thường nào theo sau."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr ""
+msgstr "Tên người dùng không hợp lệ"
 
 #. Type: error
 #. Description
@@ -174,13 +232,16 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
+"Bạn đã nhập một tên người dùng không hợp lệ. Ghi chú rằng tên người dùng nên "
+"bắt đầu với chữ thường, với bất cứ phối hợp con số và chữ thường nào theo "
+"sau, và không được dài quá 32 kí tự."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr ""
+msgstr "Tên người dùng dành riêng"
 
 #. Type: error
 #. Description
@@ -190,13 +251,15 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
+"Bạn đã nhập một tên người dùng (${USERNAME}) được dành riêng cho hệ thống sử "
+"dụng. Hãy chọn tên khác."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr ""
+msgstr "Hãy chọn mật khẩu cho người dùng mới:"
 
 #. Type: password
 #. Description
@@ -205,28 +268,28 @@ msgstr ""
 msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
-msgstr ""
+msgstr "Hãy nhập lại mật khầu người dùng mới nhập, để xác nhận bạn đã gõ đúng."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr ""
+msgstr "Lỗi nhập mật khẩu"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr ""
+msgstr "Bạn đã gõ hai mật khẩu khác nhau. Hãy thử lại."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr ""
+msgstr "Mật khẩu rỗng"
 
 #. Type: error
 #. Description
@@ -236,13 +299,15 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
+"Bạn đã nhập một mật khẩu rỗng, mà không được phép. Hãy chọn một mật khẩu "
+"khác rỗng."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr ""
+msgstr "Bật mật khẩu bóng không?"
 
 #. Type: boolean
 #. Description
@@ -254,13 +319,18 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
+"Mật khẩu bóng (shadow passwords) làm cho hệ thống của bạn là bảo mật hơn, vì "
+"không có ai xem được ngay cả mật khẩu đã mật mã. Các mật khẩu được cất giữ "
+"vào một tập tin riêng mà chỉ có thể được đọc bởi chương trình đặc biệt. Rất "
+"khuyên bạn sử dụng mật khẩu bóng, trừ trong vài trường hợp như môi trường "
+"NIS."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr ""
+msgstr "Thiết lập người dùng và mật khẩu"
 
 #. Type: text
 #. Description
@@ -268,4 +338,4 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr ""
+msgstr "Đang đặt các người dùng và mật khẩu..."
