@@ -6,7 +6,7 @@
 # translation of debian-installer_packages_po_sublevel1_da.po to
 # Danish messages for debian-installer.
 # This file is distributed under the same license as debian-installer.
-# Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012, 2013, 2014, 2015.
+# Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012, 2013, 2014, 2015, 2016.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2010.
 # Mads Bille Lundby <lundbymads@gmail.com, 2009.
 # Henrik Christian Grove <debian@3001.dk>, 2008.
@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2015-08-16 20:20+0200\n"
+"PO-Revision-Date: 2016-09-18 20:20+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -132,7 +132,7 @@ msgstr "Bemærk at du ikke vil kunne se adgangskoden imens du skriver det."
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Angiv adgangskoden igen for at tjekke:"
+msgstr "Angiv adgangskoden igen for at verificere:"
 
 #. Type: password
 #. Description
@@ -142,8 +142,8 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Angiv den samme root-adgangskode igen for at tjekke at du har indtastet den "
-"korrekt."
+"Angiv den samme root-adgangskode igen for at verificere at du har indtastet "
+"den korrekt."
 
 #. Type: boolean
 #. Description
@@ -209,7 +209,7 @@ msgid ""
 "reasonable choice."
 msgstr ""
 "Angiv brugerens rigtige navn. Denne oplysning vil f.eks. blive brugt som "
-"standard afsendernavn for e-post, der sendes af denne bruger, og i alle "
+"standardafsendernavn for e-post, der sendes af denne bruger, og i alle "
 "programmer, der viser eller bruger brugerens rigtige navn. Dit fulde navn er "
 "et passende valg."
 
@@ -286,8 +286,8 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Angiv den samme brugeradgangskode igen for at tjekke at du har indtastet den "
-"korrekt."
+"Angiv den samme brugeradgangskode igen for at verificere at du har indtastet "
+"den korrekt."
 
 #. Type: error
 #. Description
