@@ -1,6 +1,7 @@
 user-setup (1.67) UNRELEASED; urgency=medium
 
   * Update reserved-usernames from base-passwd 3.5.41.
+  * Add dnsmasq to reserved-usernames.
 
  -- Colin Watson <cjwatson@debian.org>  Thu, 24 Nov 2016 16:31:56 +0000
 

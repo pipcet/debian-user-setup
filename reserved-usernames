@@ -86,6 +86,7 @@ cupsys
 dcc
 dhcp
 dictd
+dnsmasq
 dovecot
 fetchmail
 firebird
