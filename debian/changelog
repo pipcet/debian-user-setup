@@ -1,3 +1,9 @@
+user-setup (1.67) UNRELEASED; urgency=medium
+
+  * Update reserved-usernames from base-passwd 3.5.41.
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 24 Nov 2016 16:31:56 +0000
+
 user-setup (1.66) unstable; urgency=medium
 
   [ Updated translations ]

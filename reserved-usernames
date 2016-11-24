@@ -1,4 +1,4 @@
-# Static users from base-passwd/passwd.master (3.5.39).
+# Static users from base-passwd/passwd.master (3.5.41).
 root
 daemon
 bin
@@ -18,7 +18,7 @@ irc
 gnats
 nobody
 
-# Other static groups from base-passwd/group.master (3.5.39).
+# Other static groups from base-passwd/group.master (3.5.41).
 adm
 tty
 disk
@@ -43,7 +43,7 @@ staff
 users
 nogroup
 
-# Reserved usernames listed in base-passwd/README (3.5.39).
+# Reserved usernames listed in base-passwd/README (3.5.41).
 netplan
 ftn
 mysql
@@ -69,6 +69,7 @@ grsec-sock-srv
 grsec-proc
 ceph
 opensrf
+libvirt-qemu
 
 # Ubuntu creates the admin group and adds the first user to it in order to
 # grant them sudo privileges.
