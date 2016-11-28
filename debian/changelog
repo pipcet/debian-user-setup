@@ -1,9 +1,10 @@
-user-setup (1.67) UNRELEASED; urgency=medium
+user-setup (1.67) unstable; urgency=medium
 
+  [ Colin Watson ]
   * Update reserved-usernames from base-passwd 3.5.41.
   * Add dnsmasq to reserved-usernames.
 
- -- Colin Watson <cjwatson@debian.org>  Thu, 24 Nov 2016 16:31:56 +0000
+ -- Christian Perrier <bubulle@debian.org>  Mon, 28 Nov 2016 06:49:41 +0100
 
 user-setup (1.66) unstable; urgency=medium
 
