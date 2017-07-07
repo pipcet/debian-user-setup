@@ -1,3 +1,13 @@
+user-setup (1.69) UNRELEASED; urgency=medium
+
+  [ Steve McIntyre ]
+  * Add myself to uploaders
+  * Cope with a different *disabled* root password ("!*") in /etc/shadow as
+    well as the normal unset one ("*"). Closes: #866206, fixing a major
+    bug in the live installer.
+
+ -- Steve McIntyre <93sam@debian.org>  Fri, 07 Jul 2017 16:14:20 +0100
+
 user-setup (1.68) unstable; urgency=medium
 
   [ Updated translations ]
