@@ -1,4 +1,4 @@
-user-setup (1.69) UNRELEASED; urgency=medium
+user-setup (1.69) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * Add myself to uploaders
@@ -6,7 +6,7 @@ user-setup (1.69) UNRELEASED; urgency=medium
     well as the normal unset one ("*"). Closes: #866206, fixing a major
     bug in the live installer.
 
- -- Steve McIntyre <93sam@debian.org>  Fri, 07 Jul 2017 16:14:20 +0100
+ -- Christian Perrier <bubulle@debian.org>  Fri, 21 Jul 2017 07:18:27 +0200
 
 user-setup (1.68) unstable; urgency=medium
 
