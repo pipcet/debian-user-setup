@@ -1,4 +1,4 @@
-user-setup (1.70) UNRELEASED; urgency=medium
+user-setup (1.71) unstable; urgency=medium
 
   [ Didier Raboud ]
   * As kdesudo got removed from stretch, remove the kde-specific
@@ -8,7 +8,10 @@ user-setup (1.70) UNRELEASED; urgency=medium
   * Drop spepcific handling of logins for some users including
     myself..:-). Closes: #875909
 
- -- Christian Perrier <bubulle@debian.org>  Sat, 16 Sep 2017 07:36:33 +0200
+  [ Updated translations ]
+  * Albanian (sq.po) by Redon Skikuli
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 16 Sep 2017 07:38:12 +0200
 
 user-setup (1.69) unstable; urgency=medium
 
