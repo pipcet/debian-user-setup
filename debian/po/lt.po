@@ -19,21 +19,21 @@
 # Gediminas Paulauskas <menesis@delfi.lt>, 2000-2001.
 # Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
 # Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004, 2006, 2008, 2009, 2010.
-# Rimas Kudelis <rq@akl.lt>, 2012.
+# Rimas Kudelis <rq@akl.lt>, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-05-27 19:07+0300\n"
+"PO-Revision-Date: 2017-11-26 20:23+0000\n"
 "Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 
 #. Type: boolean
 #. Description
@@ -50,9 +50,9 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Jei pasirinksite neleisti supernaudotojui root prisijungti prie sistemos, "
-"bus sukurta eilinio naudotojo paskyra su galimybe įgyti root teises, "
-"pasinaudojus 'sudo' komanda."
+"Jei pasirinksite neleisti supernaudotojui „root“ prisijungti prie sistemos, "
+"bus sukurta paprasto naudotojo paskyra su galimybe įgyti „root“ teises, "
+"pasinaudojus „sudo“ komanda."
 
 #. Type: password
 #. Description
@@ -72,13 +72,13 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Turite nurodyti naudotojo 'root' (sistemos administravimo paskyros) "
-"slaptažodį. Piktavalis ar nekvalifikuotas naudotojas, turintis 'root' "
+"Turite nurodyti naudotojo „root“ (sistemos administravimo paskyros) "
+"slaptažodį. Piktavalis ar nekvalifikuotas naudotojas, turintis „root“ "
 "teises, gali sugadinti sistemą, todėl turėtumėte pasirinkti slaptažodį, kurį "
 "būtų sunku atspėti. Tai neturėtų būti žodis, randamas žodyne ar lengvai "
 "susiejamas su jumis. Geras slaptažodis turėtų būti sudarytas iš raidžių, "
 "skaitmenų ir skyrybos ženklų, ir turėtų būti reguliariai keičiamas. "
-"Slaptažodis keičiamas programa 'passwd'."
+"Slaptažodis keičiamas programa „passwd“."
 
 #. Type: password
 #. Description
@@ -104,9 +104,9 @@ msgid ""
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
 "Naudotojas root negali neturėti slaptažodžio. Jei Jūs paliksite jį tuščią, "
-"root (administratoriaus) paskyra bus uždrausta, ir pirmajai kuriamai "
-"naudotojo paskyrai bus suteikta galimybė įgyti root teises, pasinaudojus "
-"\"sudo\" komanda."
+"„root“ (administratoriaus) paskyra bus uždrausta, ir pirmajai kuriamai "
+"naudotojo paskyrai bus suteikta galimybė įgyti „root“ teises, pasinaudojus "
+"„sudo“ komanda."
 
 #. Type: password
 #. Description
@@ -133,8 +133,8 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Prašau įvesti tą patį 'root' slaptažodį dar kartą, kad būtų galima "
-"patikrinti, ar teisingai įvedėte."
+"Pakartokite įvestą „root“ slaptažodį – taip įsitikinsite, jog jį teisingai "
+"įvedėte."
 
 #. Type: boolean
 #. Description
@@ -187,8 +187,8 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Jums bus sukurta naudotojo paskyra (account), kurią galėsite naudoti vietoje "
-"'root' paskyros ne administravimo darbams atlikti."
+"Jums bus sukurta naudotojo paskyra, kurią galėsite naudoti vietoje „root“ "
+"paskyros ne administravimo darbams atlikti."
 
 #. Type: string
 #. Description
@@ -200,7 +200,7 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Įveskite naudotojo realų vardą. Ši informacija bus naudojama šio naudotojo "
+"Įveskite naudotojo tikrą vardą. Ši informacija bus naudojama šio naudotojo "
 "siunčiamų el. laiškų siuntėjui įvardinti bei kitose programose, kurios rodo "
 "ar naudoja naudotojo vardą. Paprastai čia įvedamas Jūsų vardas ir pavardė."
 
@@ -229,7 +229,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Netaisyklingas naudotojo vardas."
+msgstr "Netaisyklingas naudotojo vardas"
 
 #. Type: error
 #. Description
@@ -249,7 +249,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Rezervuotas naudotojo vardas."
+msgstr "Rezervuotas naudotojo vardas"
 
 #. Type: error
 #. Description
@@ -277,7 +277,8 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Prašau įvesti tą patį slaptažodį vėl, patikrinimui ar teisingai jį įvedėte."
+"Pakartokite įvestą naudotojo slaptažodį – taip įsitikinsite, jog jį "
+"teisingai įvedėte."
 
 #. Type: error
 #. Description
