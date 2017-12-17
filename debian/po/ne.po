@@ -5,28 +5,33 @@
 #
 # translation of debian-installer_packages_po_sublevel1_ne.po to Nepali
 # Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
-# Shiva Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Shiva Pokharel <shiva@mpp.org.np>, 2006.
 # Shyam Krishna Bal <shyam@mpp.org.np>, 2006.
-# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Shiva Prasad Pokharel <shiva@mpp.org.np>, 2006.
 # Shiva Pokharel <shiva@mpp.org.np>, 2007, 2008.
 # Shiva Prasad Pokharel <pokharelshiv@gmail.com>, 2007.
 # shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
 # Nabin Gautam <nabin@mpp.org.np>, 2007.
 # Shyam Krishna Bal <balshyam24@yahoo.com>, 2008.
-# Shiva Prasad Pokharel <shiva@mpp.org.np>, 2008, 2010.
+# Shiva Prasad Pokharel <shiva@mpp.org.np>, 2008, 2010, 2011.
+# Jeewal Kunwar <jeewalkunwar1@gmail.com>, 2017.
+#
+# Translations from iso-codes:
+#   Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
+#   Shiva Prasad Pokharel <shiva@mpp.org.np>, 2006, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_ne\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2010-07-09 12:14+0545\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2017-12-17 18:40+0000\n"
+"Last-Translator: Jeewal Kunwar <jeewalkunwar1@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n !=1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -100,7 +105,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "द्रष्टब्य यो छ कि तपाईँले यसरी टाइप गर्नु भएको पासवर्ड तपाईँ देख्न सक्नुहुन्न ।  "
+msgstr "ध्यान दिनुहोस् कि तपाईंले टाइप गर्नुहुने पासवर्ड हेर्न सक्नुहुन्न।"
 
 #. Type: password
 #. Description
@@ -221,10 +226,6 @@ msgstr "अवैध प्रयोगकर्ता नाम"
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 #, fuzzy
-#| msgid ""
-#| "The username you entered is invalid. Note that usernames must start with "
-#| "a lower-case letter, which can be followed by any combination of numbers "
-#| "and more lower-case letters."
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
