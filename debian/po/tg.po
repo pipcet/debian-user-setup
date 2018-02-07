@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2018-01-21 20:21+0500\n"
+"PO-Revision-Date: 2018-02-07 12:45+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -40,8 +40,8 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Агар шумо интихоб кунед, ки ба root воридшавиро иҷозат надиҳед, он гоҳ "
-"ҳисоби корбар эҷод карда мешавад, ва он ҳисоб метавонад тавассути фармони "
+"Агар шумо интихоб намоед, ки ба root воридшавиро иҷозат надиҳед, он гоҳ "
+"ҳисоби корбар эҷод карда мешавад ва он ҳисоб метавонад тавассути фармони "
 "\"sudo\" ба root табдил ёбад."
 
 #. Type: password
@@ -62,9 +62,9 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Шумо бояд барои \"root\", ҳисоби маъмурии низом ниҳонвожаро таъин кунед. "
+"Шумо бояд барои \"root\", ҳисоби маъмурии низом ниҳонвожаро таъин намоед. "
 "Корбари бадқасд ё бесалоҳият бо дастрасии root метавонад натиҷаҳои фоҷиавиро "
-"ба вуҷуд орад, барои ҳамин шумо бояд барои root ниҳонвожаеро интихоб кунед, "
+"ба вуҷуд орад, барои ҳамин шумо бояд барои root ниҳонвожаеро интихоб намоед, "
 "ки дарёфтани он душвор аст. Он бояд калима ё ҷумлае набошад, ки дар луғатҳо "
 "ёфта мешавад, ё ба осонӣ бо шумо алоқаманд мешавад."
 
@@ -79,8 +79,8 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Ниҳонвожаи хуб дорои маҷмӯи ҳарфҳо, рақамҳо ва аломатҳои китобатӣ мебошад, "
-"ва бояд дар давраҳои доимӣ тағйир дода шавад."
+"Ниҳонвожаи хуб дорои маҷмӯи ҳарфҳо, рақамҳо ва аломатҳои китобатӣ мебошад ва "
+"бояд дар давраҳои доимӣ тағйир дода шавад."
 
 #. Type: password
 #. Description
@@ -92,7 +92,7 @@ msgid ""
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
 "Корбари root наметавонад ниҳонвожаи холӣ дошта бошад. Агар шумо инро холӣ "
-"монед, ҳисоби root ғайрифаъол карда мешавад, ва ҳисоби аслии корбари низом "
+"монед, ҳисоби root ғайрифаъол карда мешавад ва ҳисоби аслии корбари низом "
 "метавонад тавассути фармони \"sudo\" ба root табдил ёбад."
 
 #. Type: password
@@ -111,7 +111,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Ниҳонвожаро барои тайид кардан аз нав ворид кунед:"
+msgstr "Ниҳонвожаро барои тайид кардан аз нав ворид намоед:"
 
 #. Type: password
 #. Description
@@ -121,8 +121,8 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Лутфан, он ниҳонвожаи root як маротибаи дигар ворид кунед, то ин ки тасдиқ "
-"кунед, ки шумо онро ба таври дуруст чоп кардед."
+"Лутфан, он ниҳонвожаи root як маротибаи дигар ворид намоед, то ин ки тасдиқ "
+"намоед, ки шумо онро ба таври дуруст чоп кардед."
 
 #. Type: boolean
 #. Description
@@ -144,7 +144,7 @@ msgstr ""
 "Истифодаи ҳисоби root барои амалиётҳои муқаррарии рӯзона, ба мисли хондани "
 "почтаи электронӣ, тавсия намешавад, чунки ҳатто хатои хурд метавонад сабаби "
 "фоҷиа гардад. Барои чунин вазифаҳои ҳаррӯза шумо бояд ҳисоби корбари "
-"муқаррариро эҷод кунед."
+"муқаррариро эҷод намоед."
 
 #. Type: boolean
 #. Description
@@ -155,9 +155,9 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Ба қайд гиред, ки шумо метавонед онро баъдтар эҷод кунед (инчунин ягон "
+"Ба қайд гиред, ки шумо метавонед онро баъдтар эҷод намоед (инчунин ягон "
 "ҳисоби иловагӣ) - барои ин фармони \"adduser <username>\"-ро ҳамчун root "
-"иҷро кунед, ки дар он ҷо <username> номи корбар мебошад, ба мисли \"imurdock"
+"иҷро намоед, ки дар он ҷо <username> номи корбар мебошад, ба мисли \"imurdock"
 "\" ё \"rms\"."
 
 #. Type: string
@@ -188,10 +188,10 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Лутфан, номи воқеии корбарро ворид кунед. Ин маълумот ҳангоми навиштани "
+"Лутфан, номи воқеии корбарро ворид намоед. Ин маълумот ҳангоми навиштани "
 "паёмҳои электронии ин корбар, инчунин бо ягон барномае, ки номи воқеии "
 "корбарро намиоиш медиҳад, истифода мешавад. Тавсия мешавад, ки номи пурраи "
-"худро ворид кунед."
+"худро ворид намоед."
 
 #. Type: string
 #. Description
@@ -209,7 +209,7 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Номи корбарро барои ҳисоби нав интихоб кунед. Номи шумо интихоби беҳтарин "
+"Номи корбарро барои ҳисоби нав интихоб намоед. Номи шумо интихоби беҳтарин "
 "аст. Номи корбар бояд бо ҳарфи хурд оғоз ёбад, ки метавонад бо ягон маҷмӯи "
 "рақамҳо ва ҳарфҳои дигари хурд идома ёбад."
 
@@ -229,7 +229,7 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Номи корбаре, ки шумо ворид кардед нодуруст аст. Таваҷҷӯҳ кунед, ки номи "
+"Номи корбаре, ки шумо ворид кардед нодуруст аст. Таваҷҷӯҳ намоед, ки номи "
 "корбар бояд бо ҳарфи хурд сар карда шавад ва бояд рақамҳо ва ҳарфҳои хурдро "
 "дар бар гирад, вале дарозии номи корбар бояд на зиёда аз 32 аломат бошад."
 
@@ -249,14 +249,14 @@ msgid ""
 "Please select a different one."
 msgstr ""
 "Номи корбари воридшудаи (${USERNAME}) бо низом истифода шудааст. Лутфан, "
-"номи дигареро интихоб кунед."
+"номи дигареро интихоб намоед."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Ниҳонвожаеро барои корбари нав интихоб кунед:"
+msgstr "Ниҳонвожаеро барои корбари нав интихоб намоед:"
 
 #. Type: password
 #. Description
@@ -266,8 +266,8 @@ msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
 msgstr ""
-"Лутфан, он ниҳонвожаи корбарро як маротибаи дигар ворид кунед, то ин ки "
-"тасдиқ кунед, ки шумо онро ба таври дуруст чоп кардед."
+"Лутфан, он ниҳонвожаи корбарро як маротибаи дигар ворид намоед, то ин ки "
+"тасдиқ намоед, ки шумо онро ба таври дуруст чоп кардед."
 
 #. Type: error
 #. Description
@@ -283,7 +283,7 @@ msgstr "Ниҳонвожаро нодуруст ворид кардед"
 msgid "The two passwords you entered were not the same. Please try again."
 msgstr ""
 "Ду ниҳонвожаеро, ки шумо ворид кардед, бо ҳамдигар мувофиқат намекунанд. "
-"Лутфан, амалро такрор кунед."
+"Лутфан, амалро такрор намоед."
 
 #. Type: error
 #. Description
@@ -301,7 +301,7 @@ msgid ""
 "empty password."
 msgstr ""
 "Шумо ниҳонвожаи холиеро, ки иҷозат намешавад, ворид кардед. Лутфан, "
-"ниҳонвожаи дигареро интихоб кунед."
+"ниҳонвожаи дигареро интихоб намоед."
 
 #. Type: boolean
 #. Description
