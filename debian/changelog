@@ -1,3 +1,9 @@
+user-setup (1.78) UNRELEASED; urgency=medium
+
+  * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:43:07 +0200
+
 user-setup (1.77) unstable; urgency=medium
 
   [ Updated translations ]
