@@ -15,13 +15,14 @@
 # Y Giridhar Appaji Nag <appaji@debian.org>, 2008, 2009.
 # Krishna Babu K <kkrothap@redhat.com>, 2009.
 # Arjuna Rao Chavala <arjunaraoc@googlemail.com>, 2011, 2012.
+# Praveen Illa <mail2ipn@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-03-08 22:29+0530\n"
-"Last-Translator: Arjuna Rao Chavala <arjunaraoc@googlemail.com>\n"
+"PO-Revision-Date: 2018-07-23 06:44+0000\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
 "Language-Team: d-i <kde-i18n-doc@kde.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +35,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "root లాగ్ ఇన్ అనుమతించాలా? "
+msgstr "rootగా ప్రవేశించడాన్ని అనుమతించాలా?"
 
 #. Type: boolean
 #. Description
