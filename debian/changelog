@@ -1,3 +1,10 @@
+user-setup (1.79) UNRELEASED; urgency=medium
+
+  * Change priority of user-setup binary package to optional, since
+    "Priority: extra" is now deprecated.
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 29 Oct 2018 09:24:16 +0000
+
 user-setup (1.78) unstable; urgency=medium
 
   * Team upload
