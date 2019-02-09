@@ -1,8 +1,13 @@
-user-setup (1.80) UNRELEASED; urgency=medium
+user-setup (1.80) unstable; urgency=medium
+  * Team upload
 
   * Remove trailing whitespace from changelog file, to fix lintian tag.
 
- -- Holger Wansing <hwansing@mailbox.org>  Tue, 08 Jan 2019 00:26:41 +0100
+  [ Updated translations ]
+  * Persian (fa.po) by nima sahraneshin
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 09 Feb 2019 22:50:35 +0100
 
 user-setup (1.79) unstable; urgency=medium
 
