@@ -1,3 +1,11 @@
+user-setup (1.81) unstable; urgency=medium
+  * Team upload
+
+  [ Updated translations ]
+  * Vietnamese (vi.po) by Trần Ngọc Quân
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 06 Mar 2019 23:17:33 +0100
+
 user-setup (1.80) unstable; urgency=medium
   * Team upload
 
