@@ -1,3 +1,10 @@
+user-setup (1.82) UNRELEASED; urgency=medium
+
+  * Remove Christian Perrier from Uploaders, with many thanks for all
+    his contributions over the years!
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:42:10 +0200
+
 user-setup (1.81) unstable; urgency=medium
   * Team upload
 
