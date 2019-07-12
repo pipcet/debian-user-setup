@@ -1,7 +1,11 @@
 user-setup (1.82) UNRELEASED; urgency=medium
 
+  [ Cyril Brulebois ]
   * Remove Christian Perrier from Uploaders, with many thanks for all
     his contributions over the years!
+
+  [ Philip Hands ]
+  * enable salsa-CI pipeline
 
  -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:42:10 +0200
 
