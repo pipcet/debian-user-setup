@@ -8,6 +8,8 @@ user-setup (1.82) UNRELEASED; urgency=medium
   * enable salsa-CI pipeline
   * emphasise that it is OK to leave root password empty
     (closes: #931911)
+  * remove the recommendation to change passwords regularly
+    (closes: #656509, #868869)
 
  -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:42:10 +0200
 
