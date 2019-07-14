@@ -6,4 +6,4 @@ include:
 piuparts:
   only:
     variables:
-      - $UNDEFINED_VAR_TO_DISABLE_THIS
+      - $UNDEFINED_VAR_DISABLES_THIS
