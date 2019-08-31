@@ -18,21 +18,22 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-05-21 13:17+0100\n"
-"Last-Translator: Tegegne Tefera <tefera.tegegne@gmail.com>\n"
-"Language-Team: Amharic\n"
-"Language: \n"
+"PO-Revision-Date: 2019-08-28 18:09+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
+"Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
+#, fuzzy
 msgid "Allow login as root?"
-msgstr "እንደ ስር መግባትን አስችል፡፡"
+msgstr "እንደ ስር መግባትን አስችል፡፡?"
 
 #. Type: boolean
 #. Description
