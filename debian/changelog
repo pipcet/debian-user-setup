@@ -1,4 +1,6 @@
-user-setup (1.82) UNRELEASED; urgency=medium
+user-setup (1.82) unstable; urgency=medium
+
+  * Team upload
 
   [ Cyril Brulebois ]
   * Remove Christian Perrier from Uploaders, with many thanks for all
@@ -7,9 +9,15 @@ user-setup (1.82) UNRELEASED; urgency=medium
   [ Philip Hands ]
   * enable salsa-CI pipeline
 
- -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:42:10 +0200
+  [ Updated translations ]
+  * Croatian (hr.po) by gogogogi
+  * Icelandic (is.po) by Sveinn í Felli
+  * Portuguese (pt.po) by Miguel Figueiredo
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 12 Oct 2019 23:34:49 +0200
 
 user-setup (1.81) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -18,6 +26,7 @@ user-setup (1.81) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Wed, 06 Mar 2019 23:17:33 +0100
 
 user-setup (1.80) unstable; urgency=medium
+
   * Team upload
 
   * Remove trailing whitespace from changelog file, to fix lintian tag.
