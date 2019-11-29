@@ -1,3 +1,10 @@
+user-setup (1.83) UNRELEASED; urgency=medium
+
+  * Add input, kvm, and render to reserved-usernames; udev.postinst adds
+    these as system groups.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Nov 2019 12:55:42 +0000
+
 user-setup (1.82) unstable; urgency=medium
 
   * Team upload

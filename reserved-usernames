@@ -96,14 +96,17 @@ gdm
 haldaemon
 hplilp
 identd
+input
 jwhois
 klog
+kvm
 lpadmin
 messagebus
 mythtv
 netdev
 powerdev
 radvd
+render
 saned
 sbuild
 scanner
