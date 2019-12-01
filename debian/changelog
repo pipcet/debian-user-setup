@@ -1,7 +1,12 @@
 user-setup (1.83) UNRELEASED; urgency=medium
 
+  [ Colin Watson ]
   * Add input, kvm, and render to reserved-usernames; udev.postinst adds
     these as system groups.
+
+  [ Holger Wansing ]
+  * Fix missing package name in 'Project-Id-Version' header of template.pot
+    file, to allow correct declaration in po|pot files.
 
  -- Colin Watson <cjwatson@debian.org>  Fri, 29 Nov 2019 12:55:42 +0000
 
