@@ -1,4 +1,6 @@
-user-setup (1.83) UNRELEASED; urgency=medium
+user-setup (1.83) unstable; urgency=medium
+
+  * Team upload
 
   [ Colin Watson ]
   * Add input, kvm, and render to reserved-usernames; udev.postinst adds
@@ -8,7 +10,10 @@ user-setup (1.83) UNRELEASED; urgency=medium
   * Fix missing package name in 'Project-Id-Version' header of template.pot
     file, to allow correct declaration in po|pot files.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 29 Nov 2019 12:55:42 +0000
+  [ Updated translations ]
+  * Czech (cs.po) by Miroslav Kure
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 01 Feb 2020 07:16:14 +0100
 
 user-setup (1.82) unstable; urgency=medium
 
