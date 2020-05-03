@@ -21,14 +21,14 @@
 # Meni Livne <livne@kde.org>, 2000.
 # Meital Bourvine <meitalbourvine@gmail.com>, 2007.
 # Lior Kaplan <kaplan@debian.org>, 2004-2007, 2008, 2010, 2011, 2015, 2017.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2019-01-18 15:20+0000\n"
+"PO-Revision-Date: 2020-05-01 13:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -120,7 +120,7 @@ msgstr "לתשומת לבך: לא ניתן לצפות בססמה בזמן הקל
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "נא להכניס את הססמה שוב לצורך אימות:"
+msgstr "נא למלא את הססמה שוב לצורך אימות:"
 
 #. Type: password
 #. Description
@@ -221,7 +221,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "שם המשתמש שהוכנס אינו חוקי"
+msgstr "שם המשתמש אינו חוקי"
 
 #. Type: error
 #. Description
@@ -232,8 +232,8 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"שם המשתמש שהוכנס אינו חוקי. שים לב ששמות משתמש חייבים להתחיל באות קטנה, "
-"ואחריה כל צירוף של מספרים ואותיות קטנות, ואורכם המקסימלי הינו 32 תווים."
+"שם המשתמש שמילאת אינו חוקי. נא לשים לב ששמות משתמש חייבים להתחיל באות קטנה "
+"ולאחריה צירוף כלשהו של מספרים ואותיות קטנות, אורכו המרבי הוא 32 תווים."
 
 #. Type: error
 #. Description
@@ -250,7 +250,7 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"שם המשתמש שהכנסת (${USERNAME}) הנו שמור לשימוש על ידי המערכת. בחר שם משתמש "
+"שם המשתמש שמילאת (${USERNAME}) שמור לשימוש על ידי המערכת. נא לבחור שם משתמש "
 "אחר."
 
 #. Type: password
@@ -274,21 +274,21 @@ msgstr "נא להזין את ססמת המשתמש פעם נוספת כדי לו
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "שגיאה בקליטת הסיסמה"
+msgstr "שגיאה בקליטת הססמה"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "שתי הסיסמאות שהכנסת אינן זהות. אנא נסה שוב."
+msgstr "שתי הססמאות שמילאת אינן זהות. נא לנסות שוב."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "סיסמה ריקה"
+msgstr "ססמה ריקה"
 
 #. Type: error
 #. Description
@@ -297,14 +297,14 @@ msgstr "סיסמה ריקה"
 msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
-msgstr "הכנסת סיסמה ריקה, דבר שאינו מורשה. בחר סיסמה שאינה ריקה."
+msgstr "מילאת ססמה ריקה, אסור לעשות זאת. נא לבחור ססמה לא ריקה."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "האם להפעיל הצללת סיסמאות?"
+msgstr "להפעיל הצללת ססמאות?"
 
 #. Type: boolean
 #. Description
@@ -316,9 +316,9 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"הצללת סיסמאות הופכת את המערכת שלך לבטוחה יותר, מאחר ואף אחד לא יוכל לראות "
-"אפילו סיסמאות מוצפנות. הסיסמאות נשמרות בקובץ נפרד שניתן לקריאה רק על ידי "
-"תוכניות מיוחדות. השימוש בהצללת סיסמאות מומלץ בחום, למעט במספר מקרים כמו למשל "
+"הצללת ססמאות משפרת את אבטחת המערכת שלך כיוון שלאף אחד לא אין אפשרות לצפות "
+"בססמאות המוצפנות. הססמאות נשמרות בקובץ נפרד שזמין לקריאה רק מצד תכניות "
+"מיוחדות. השימוש בהצללת ססמאות מומלץ בחום, למעט במספר מקרים בודדים כמו למשל "
 "בסביבות NIS."
 
 #  Type: text
