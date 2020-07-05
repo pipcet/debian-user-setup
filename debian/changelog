@@ -1,3 +1,14 @@
+user-setup (1.84) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Icelandic (is.po) by Sveinn í Felli
+  * Norwegian Bokmal (nb.po) by Allan Nordhøy
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 05 Jul 2020 22:00:27 +0200
+
 user-setup (1.83) unstable; urgency=medium
 
   * Team upload
