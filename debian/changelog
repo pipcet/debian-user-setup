@@ -1,3 +1,13 @@
+user-setup (1.85) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * French (fr.po) by Baptiste Jammet
+  * Serbian (sr.po) by Filipovic Dragan
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 21 Sep 2020 22:09:01 +0200
+
 user-setup (1.84) unstable; urgency=medium
 
   * Team upload
