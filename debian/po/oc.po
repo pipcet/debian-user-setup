@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2020-10-04 13:50+0200\n"
+"PO-Revision-Date: 2020-10-11 15:47+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -221,7 +221,6 @@ msgstr "Nom d'utilizaire invalid"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
@@ -229,7 +228,7 @@ msgid ""
 msgstr ""
 "Lo nom d'utilizaire qu'avètz picat es pas valid. Lo nom d'utilizaire deu "
 "començar per una letra minuscula seguida d'un nombre que que siá, de chifras "
-"e de letras minusculas."
+"e de letras minusculas e deu pas despassar 32 caractèrs."
 
 #. Type: error
 #. Description
@@ -294,7 +293,8 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Avètz picat un senhal void e aquò es pas possible. Causissètz un senhal."
+"Avètz picat un senhal void e aquò es pas possible. Causissètz un senhal pas "
+"void."
 
 #. Type: boolean
 #. Description
