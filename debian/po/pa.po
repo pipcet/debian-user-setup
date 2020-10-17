@@ -20,15 +20,16 @@
 # Amanpreet Singh Brar <aalam@users.sf.net>, 2008.
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
 # Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
-# A S Alam <aalam@users.sf.net>, 2009, 2012.
+# A S Alam <aalam@users.sf.net>, 2009, 2012, 2014, 2017.
+# Aman ALam <alam.yellow@gmail.com>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-05-06 12:14+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"PO-Revision-Date: 2020-10-15 04:26+0000\n"
+"Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -147,9 +148,9 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"ਪ੍ਰਬੰਧਕ (root) ਅਕਾਊਂਟ ਨੂੰ ਰੋਜ਼ਾਨਾ ਦੇ ਕੰਮਾਂ, ਜਿਵੇਂ ਕਿ ਈ-ਮੇਲ ਪੜ੍ਹਨ, ਲਈ ਵਰਤਣਾ ਇੱਕ ਗਲਤ ਹੈ, ਕਿਉਕਿ "
-"ਇੱਕ ਛੋਟੀ ਜਿਹੀ ਗਲਤੀ ਨਾਲ ਵੀ ਵੱਡੀ ਸਮੱਸਿਆ ਆ ਸਕਦੀ ਹੈ। ਤੁਹਾਨੂੰ ਇਸਤਰਾਂ ਦੀ ਵਰਤੋਂ ਲਈ ਇੱਕ ਸਧਾਰਨ "
-"ਅਕਾਊਂਟ  ਬਣਾਉਣਾ ਚਾਹੀਦਾ ਹੈ।"
+"ਪਰਸ਼ਾਸ਼ਕ (root) ਅਕਾਊਂਟ ਨੂੰ ਰੋਜ਼ਾਨਾ ਦੇ ਕੰਮਾਂ, ਜਿਵੇਂ ਕਿ ਈ-ਮੇਲ ਪੜ੍ਹਨ, ਲਈ ਵਰਤਣਾ ਇੱਕ ਗਲਤ ਹੈ, "
+"ਕਿਉਕਿ ਇੱਕ ਛੋਟੀ ਜਿਹੀ ਗਲਤੀ ਨਾਲ ਵੀ ਵੱਡੀ ਸਮੱਸਿਆ ਆ ਸਕਦੀ ਹੈ। ਤੁਹਾਨੂੰ ਇਸਤਰਾਂ ਦੀ ਵਰਤੋਂ ਲਈ ਇੱਕ "
+"ਸਧਾਰਨ ਅਕਾਊਂਟ ਬਣਾਉਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 #. Type: boolean
 #. Description
