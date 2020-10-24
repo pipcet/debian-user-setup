@@ -3,34 +3,30 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Occitan (post 1500) translation for debian-installer
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# Kabyle translation for debian-installer
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
 # This file is distributed under the same license as the debian-installer package.
-# Yannig MARCHEGAY <yannick.marchegay@lokanova.com>, 2006.
-# Cédric VALMARY <cvalmary@yahoo.fr>, 2016.
-# Quentin PAGÈS <quentinantonin@free.fr>, 2020.
-#
+# Slimane Selyan Amiri <selyan.kab@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2020-10-23 16:26+0000\n"
-"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
-"Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
-"Language: oc\n"
+"PO-Revision-Date: 2020-10-24 15:08+0100\n"
+"Last-Translator: Slimane Selyan Amiri <selyan.kab@gmail.com>\n"
+"Language-Team: Kabyle <kab@li.org>\n"
+"Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Autorizar las connexions del superutilizaire ?"
+msgstr "Sireg tuqqna s root?"
 
 #. Type: boolean
 #. Description
@@ -40,16 +36,15 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Se causissètz de desactivar las connexions del superutilizaire (« root »), "
-"lo primièr compte que serà creat, obtendrà los privilègis del "
-"superutilizaire amb la comanda « sudo »."
+"Ma yella tferneḍ ur tsirigeḍ ara anekcum i uẓar, ad yettwarnu umiḍan n "
+"useqdac yerna ad yesɛu tazmert ad yuɣal d aẓar s useqdec n tladna \"sudo\"."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Senhal del superutilizaire(« root ») :"
+msgstr "Awal n uɛeddi aẓar:"
 
 #. Type: password
 #. Description
@@ -62,10 +57,11 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"Avètz besonh de causir un senhal pel superutilizaire (aquò vòl dire lo "
-"compte d'administracion del sistèma). Un utilizaire malonèst o pas tròp "
-"saberut, amb un accès a aqueste compte pòt provocar mai d'un problèma. "
-"Doncas, lo senhal deu èsser especific e vertadièrament secret."
+"Tesriḍ ad tesbaduḍ awal n uɛeddi i \"uẓar\", amiḍan n unedbal n unagraw. Yir "
+"aseqdac neɣ win aseqdac ur nessin ara s unekcum aẓar ad d-yeglu s wuguren "
+"meqqren, ɣef waya ilaq ad textireḍ s leɛqel-ik·im awal n uɛeddi ara yiwɛiren "
+"i tifin. Ur ilaq ara ad yili d awal i yellan deg yimawalen neɣ d awal yesɛan "
+"srid assaɣ yid-k·m."
 
 #. Type: password
 #. Description
@@ -78,8 +74,8 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Un senhal de qualitat se compausa d'un mescladís de letras, chifras e signes "
-"de ponctuacion. Cal que siá cambiat amb regularitat."
+"Awal-a uffir iǧehden ad yili yexleḍ s yisekkilen, imḍanen d usigez yerna "
+"ilaq ad yettbeddal ɣef yizilalen iluganen."
 
 #. Type: password
 #. Description
@@ -90,17 +86,17 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"Lo superutilizaire (« root ») deu pas aver un senhal void. Se daissatz "
-"aqueste camp void, lo compte del superutilizaire serà desactivat e lo "
-"primièr compte que serà creat aurà la possibilitat d'obténer los privilègis "
-"del superutilizaire amb la comanda « sudo »."
+"Aseqdac aẓar ur ilaq ara ad yesɛu awal n uɛeddi d ilem. Ma yella yeǧga-t d "
+"ilem, amiḍan aẓar ad yens syen amiḍan n useqdac agejdan n unagraw ad yesɛu "
+"tazmert ad yuɣal d aẓar s useqdec n tladna \"sudo\"."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Notatz que lo senhal serà pas afichat pendent sa picada."
+msgstr ""
+"Ẓer belli ur tettizmireḍ ara ad twaliḍ awal n uɛeddi akken i t-tettaruḍ."
 
 #. Type: password
 #. Description
@@ -110,7 +106,7 @@ msgstr "Notatz que lo senhal serà pas afichat pendent sa picada."
 #. :sl1:
 #: ../user-setup-udeb.templates:7001 ../user-setup-udeb.templates:14001
 msgid "Re-enter password to verify:"
-msgstr "Tornatz picar lo senhal per verificar :"
+msgstr "Ales asekcem n wawal n uɛeddi i usenqed:"
 
 #. Type: password
 #. Description
@@ -120,15 +116,15 @@ msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Picatz un còp de mai lo senhal del superutilizaire per verificar s'es "
-"corrècte."
+"Ttxil-k·m sekcem tikkelt-nniḍen awal uffir i teskecmeḍ tazwara i wakken ad "
+"twaliḍ ma yella turiḍ-t swaswa."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "Crear un compte d'utilizaire normal ?"
+msgstr "Rnu tura amiḍan n useqdac amagnu?"
 
 #. Type: boolean
 #. Description
@@ -140,9 +136,9 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Caldriá melhor utilizar pas de compte de superutilizaire («root») pendent "
-"l'utilizacion normala del sistèma, per exemple la lectura del corrièr. En "
-"fait, un error pichona poiriá alara aver de consequéncias catastroficas."
+"Aseqdec n umiḍan aẓar i tigawin n yal ass timugna, am tɣuri n yimaylen "
+"iliktṛunanen ula d tuccḍa tamecṭuḥt ad d-teglu s wuguren meqqren. Ilaq ad "
+"ternuḍ amiḍan n useqdac amagnu i useqdec n tigawin-a n yal ass."
 
 #. Type: boolean
 #. Description
@@ -153,17 +149,16 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Notatz que lo podètz crear ulteriorament (del meteis biais qu'un compte "
-"suplementari) en utilizant la comanda « adduser <utilizaire> » en tant que "
-"« root », ont <utilizaire> representa lo compte de crear, per exemple "
-"« imurdock » o « rms »."
+"Ẓer belli tzemreḍ ad t-ternuḍ mbeɛd (am yal amiḍan n zzyada) s tira n "
+"'adduser <username>' d aẓar, anida <username> d isem n useqdac, am "
+"'imurdock' neɣ 'rms'."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "Nom complet de l'utilizaire novèl :"
+msgstr "Isem ummid i useqdac amaynut:"
 
 #. Type: string
 #. Description
@@ -173,8 +168,8 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Un compte d'utilizaire serà creat per qu'ajatz un compte diferent de lo del "
-"superutilizaire (« root ») per l'utilizacion correnta del sistèma."
+"Amiḍan n useqdac ad yettwarnu i kečč·kemm i wakken ad yettuseqdec deg ubdil "
+"n umiḍan aẓar i tigawin ur nelli n unedbal."
 
 #. Type: string
 #. Description
@@ -186,17 +181,17 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Picatz lo nom complet de l'utilizaire novèl. Aquesta informacion servirà, "
-"per exemple, dins lo nom d'expeditor dels corrièrs electronics mandats, atal "
-"coma dins totes los programas, qu'afichan o utilizan lo nom complet. Vòstre "
-"nom es una bona causida."
+"Ttxil-k·m sekcem isem n tidet n useqdac-a. Talɣut-a ad tettuseqdec d amedya "
+"aɣbalu amezwer i yimaylen yettwaznen sɣur useqdac-a akked yal ahil ara d-"
+"iseknen neɣ ad iseqdec isem aḥeqqani n useqdac. Isem-inek·inem ummid d afran "
+"n ṣṣwab."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Nom d'utilizaire pel vòstre compte :"
+msgstr "Isem n useqdac i umiḍan-inek·inem:"
 
 #. Type: string
 #. Description
@@ -207,17 +202,17 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"Causissètz un identificant (« login ») pel compte novèl. Lo vòstre pichon "
-"nom es un causida possibla. Los identificants devon començar per una letra "
-"minuscula, seguida d'un nombre quin que siá de chifras e de letras "
-"minusculas."
+"Fren isem n useqdac i umiḍan amaynut. Isem-inek·inem amezwaru d lxetyaṛ n "
+"ṣṣwab. Ẓer belli ismawen n useqdac ilaq ad bdun s usekkil ameẓẓyan, i "
+"izemren ad d-ttuḍefren s yal tuddsa n yimḍanen d yisekkilen, daɣen ur ilaq "
+"ara ad iɛeddi nnig n 32 yisekkilen."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Nom d'utilizaire invalid"
+msgstr "Isem n useqdac d urameɣtu"
 
 #. Type: error
 #. Description
@@ -228,16 +223,16 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Lo nom d'utilizaire qu'avètz picat es pas valid. Lo nom d'utilizaire deu "
-"començar per una letra minuscula seguida d'un nombre quin que siá, de "
-"chifras e de letras minusculas e deu pas despassar 32 caractèrs."
+"Isem n useqdac i teskecmeḍ d arameɣtu. Ẓer belli ismawen n useqdac ilaq ad "
+"bdun s usekkil ameẓẓyan, i izemren ad d-ttuḍefren s yal tuddsa n yimḍanen d "
+"yisekkilen, daɣen ur ilaq ara ad iɛeddi nnig n 32 yisekkilen."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "Nom d'utilizaire reservat"
+msgstr "Isem n umseqdac yettuḥarren"
 
 #. Type: error
 #. Description
@@ -247,15 +242,15 @@ msgid ""
 "The username you entered (${USERNAME}) is reserved for use by the system. "
 "Please select a different one."
 msgstr ""
-"Lo nom d'utilizaire qu'avètz picat (${USERNAME}) es reservat per "
-"l'utilizacion del sistèma. Seleccionatz-ne un autre."
+"Isem n useqdac i teskecmeḍ (${USERNAME}) yettuḥeṛṛ i useqdec sɣur unagraw. "
+"Ttxil-k·m fren wayeḍ-nniḍen."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Senhal per l'utilizaire novèl :"
+msgstr "Fren awal uffir i useqdac amaynut:"
 
 #. Type: password
 #. Description
@@ -264,28 +259,31 @@ msgstr "Senhal per l'utilizaire novèl :"
 msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
-msgstr "Picatz lo meteis senhal per verificar que l'avètz picat corrèctament."
+msgstr ""
+"Ttxil-k·m sekcem tikkelt-nniḍen awal uffir i teskecmeḍ tazwara i wakken ad "
+"twaliḍ ma turiḍ-t swaswa."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "Password input error"
-msgstr "Error de picada del senhal"
+msgstr "Tuccḍa n unekcum n wawal uffir"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:15001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "Los dos senhals qu'avètz picats èran diferents. Tornatz ensajar."
+msgstr ""
+"I sin n wawalen uffiren i teskecmeḍ mačči yiwen-nsen. Ttxil-k·m εreḍ ticki."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:16001
 msgid "Empty password"
-msgstr "Senhal void"
+msgstr "Awal uffir d ilem"
 
 #. Type: error
 #. Description
@@ -295,15 +293,15 @@ msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
 msgstr ""
-"Avètz picat un senhal void e aquò es pas possible. Causissètz un senhal pas "
-"void."
+"Awal uffir i teskecmeḍ d ilem, d ayen ur nettusireg ara. Ttxil-k·m fren awal "
+"uffir ur nelli d ilem."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "Cal activar los senhals amagats (« shadow passwords ») ?"
+msgstr "Rmed awalen n uɛeddi yeffren?"
 
 #. Type: boolean
 #. Description
@@ -315,18 +313,17 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"Los senhals amagats rendon lo sistèma mai segur perque degun aurà pas accès "
-"als senhals chifrats. Los senhals seràn conservats dins un fichièr separat e "
-"poiràn pas èsser legits que per de programas especials. L'utilizacion dels "
-"senhals amagats es fòrtament recomandada levat dins de cases rares coma al "
-"moment de l'utilizacion de NIS."
+"Awalen n uɛeddi uffiren ttarran anagraw-inek·inem d aɣellsan ugar acku ulac "
+"akk win ara yizmiren ad iwali awalen uffiren iwgelhanen. Awalen n uɛeddi "
+"ttukelsen deg yiwen n ufaylu yettuɛezlen i izemren ad yettwaɣra kan s "
+"wahilen imeẓliyen, slid deg kra n tegnatin am twennaḍin NIS."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Configurar d'utilizaires e de senhals"
+msgstr "Swel iseqdacen d wawalen uffiren"
 
 #. Type: text
 #. Description
@@ -334,4 +331,4 @@ msgstr "Configurar d'utilizaires e de senhals"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Configuracion dels utilizaires e dels senhals..."
+msgstr "Asbadu n yiseqdac d wawalen uffiren..."
