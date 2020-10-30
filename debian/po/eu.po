@@ -20,27 +20,28 @@
 # Marcos Goienetxe <marcos_g@infonegocio.com>, 2002.
 # Piarres Beobide <pi@beobide.net>, 2008.
 # Xabier Bilbao <xabidu@gmail.com>, 2008.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-04-13 00:19+0200\n"
-"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
-"Language-Team: debian-l10n-eu@lists.debian.org\n"
+"PO-Revision-Date: 2020-10-28 20:33+0100\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
+"Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Content-Transfer-Encoding=UTF-8Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "Root bezala saio hastea onartu?"
+msgstr "Root gisa saioa hastea onartu?"
 
 #. Type: boolean
 #. Description
@@ -72,7 +73,7 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"'root', sistemako administratzailearen pasahitza zehaztu behar duzu. "
+"'root' sistemako administratzailearen pasahitza zehaztu behar duzu. "
 "Erabiltzaile maltzur edo ez-jakin bat root gisa sartzen bada sisteman "
 "hondamendia sor dezake, beraz, kontu handiz aukeratu pasahitza, eta ziurtatu "
 "ez dela asmatzeko erraza izango. Ez luke hiztegian aurki daitekeen hitzik "
@@ -101,17 +102,17 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"Root (administratzaile) erabiltzailearen pasahitza ez litzateke zurian egon "
-"beharko. Hau zurian utziaz gero root kontua desgaitu eta \"sudo\" "
-"komandoaren bidez root bihurtzeko baimena gehituko zaion erabiltzaile arrunt "
-"kontu bat sortuko da."
+"'root' erabiltzaileak ez luke pasahitz hutsik eduki beharko. Hau hutsik "
+"utziz gero, root kontua desgaituko da, hasierako erabiltzailearen kontua "
+"erabiliz  administratzailearen ahalmenak \"sudo\" komandoaren bidez "
+"eskuratzeko."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Jakin ezazu idazten duzun heinean pasahitza ez duzula ikusiko."
+msgstr "Jakin ezazu idazten duzun heinean ez duzula pasahitza ikusiko."
 
 #. Type: password
 #. Description
@@ -337,7 +338,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Set up users and passwords"
-msgstr "Konfiguratu erabiltzailea eta pasahitzak"
+msgstr "Konfiguratu erabiltzaileak eta pasahitzak"
 
 #. Type: text
 #. Description
@@ -345,4 +346,4 @@ msgstr "Konfiguratu erabiltzailea eta pasahitzak"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "Erabiltzailea eta pasahitzak ezartzen..."
+msgstr "Erabiltzaileak eta pasahitzak ezartzen..."
