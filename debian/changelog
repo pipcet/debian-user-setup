@@ -1,3 +1,20 @@
+user-setup (1.86) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Greek (el.po) by Vangelis Skarmoutsos
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * Persian (fa.po) by سهیل خانعلی‌پور
+  * Marathi (mr.po) by Prachi Joshi
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+
+  [ New translations ]
+  * Kabyle (kab.po) by Slimane Selyan Amiri
+  * Occitan (oc.po) by Quentin PAGÈS
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 04 Nov 2020 19:58:43 +0100
+
 user-setup (1.85) unstable; urgency=medium
 
   * Team upload
