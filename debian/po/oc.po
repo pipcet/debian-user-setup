@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2020-10-23 16:26+0000\n"
+"PO-Revision-Date: 2020-11-15 18:28+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -142,7 +142,7 @@ msgid ""
 msgstr ""
 "Caldriá melhor utilizar pas de compte de superutilizaire («root») pendent "
 "l'utilizacion normala del sistèma, per exemple la lectura del corrièr. En "
-"fait, un error pichona poiriá alara aver de consequéncias catastroficas."
+"fach, una error pichona poiriá alara aver de consequéncias catastroficas."
 
 #. Type: boolean
 #. Description
