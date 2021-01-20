@@ -3,8 +3,7 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_hi.po to Hindi
-# translation of debian-installer_packages_po_sublevel1_hi.po to
+# translation of debian-installer_packages_po_sublevel1 to Hindi
 # Debian Installer master translation file template
 # Don't forget to properly fill-in the header of PO files
 # Debian Installer translators, please read the D-I i18n documentation
@@ -25,20 +24,26 @@
 # Kumar Appaiah <kumar.appaiah@gmail.com>, 2009.
 #   Alastair McKinstry <mckinstry@debian.org>, 2004.
 # Kumar Appaiah <a.kumar@alumni.iitm.ac.in>, 2008.
-# Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011.
+# Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011, 2012.
+# Sruthi Chandran <srud@openmailbox.org>, 2018.
+# Himanshu Awasthi <johim9493@gmail.com>, 2018.
+# KushagraKarira <kushagrakarira@gmail.com>, 2020, 2021.
+# षिखर् <dnitesigm@gmail.com>, 2020.
+# Indrani Roy <indrani@scriptek.co.in>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-02-22 12:05-0600\n"
-"Last-Translator: Kumar Appaiah\n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: en_US\n"
+"PO-Revision-Date: 2021-01-20 18:26+0000\n"
+"Last-Translator: KushagraKarira <kushagrakarira@gmail.com>\n"
+"Language-Team: \n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: 2X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -104,9 +109,9 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-" रूट लॉगिन का कूट शब्द रिक्त नहीं होना चाहिए. अगर आप इसे रिक्त छोडते हैं, तो प्रथम "
-"उपयोक्ता खाता को ऐसा अधिकार दिया जाएगा कि वह 'sudo' कमांड का प्रयोग करके रूट बन "
-"जाए."
+"रूट यूजर के पास खाली पासवर्ड नहीं होना चाहिए। यदि आप इसे खाली छोड़ देते हैं, तो रूट खाता "
+"अक्षम कर दिया जाएगा और सिस्टम के प्रारंभिक उपयोगकर्ता खाते को \"sudo\" कमांड का "
+"उपयोग करके रूट बनने की शक्ति दी जाएगी।"
 
 #. Type: password
 #. Description
@@ -226,7 +231,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "अवैध उपयोक्ता  नाम"
+msgstr "अमान्य उपयोगकर्ता नाम"
 
 #. Type: error
 #. Description
