@@ -5,6 +5,8 @@
 #
 # Traditional Chinese messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
+# Louies <louies0623@gmail.com>, 2019, 2021.
+# Walter Cheuk <wwycheuk@gmail.com>, 2019.
 # This file is distributed under the same license as debian-installer.
 #
 #
@@ -25,20 +27,22 @@
 #   JOE MAN <trmetal@yahoo.com.hk>, 2001.
 #   Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005.
 #   Yao Wei (魏銘廷) <mwei@lxde.org>, 2012.
+#   Walter Cheuk <wwycheuk@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2012-04-03 03:11+0800\n"
-"Last-Translator: Yao Wei (魏銘廷) <mwei@lxde.org>\n"
+"PO-Revision-Date: 2021-02-16 09:50+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
-"Language: \n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Type: boolean
 #. Description
@@ -330,4 +334,4 @@ msgstr "設定使用者及密碼"
 #. :sl1:
 #: ../user-setup-udeb.templates:19001
 msgid "Setting users and passwords..."
-msgstr "正在設定使用者及密碼……"
+msgstr "正在設定使用者及密碼…"
