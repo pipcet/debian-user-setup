@@ -1,3 +1,10 @@
+user-setup (1.88) UNRELEASED; urgency=medium
+
+  [ Michel Le Bihan ]
+  * Allow underscore in username of first account. Closes: #977214
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 20 Feb 2021 17:27:21 +0100
+
 user-setup (1.87) unstable; urgency=medium
 
   * Team upload
