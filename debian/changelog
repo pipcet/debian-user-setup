@@ -1,7 +1,14 @@
-user-setup (1.88) UNRELEASED; urgency=medium
+user-setup (1.88) unstable; urgency=medium
+
+  * Team upload
 
   [ Michel Le Bihan ]
   * Allow underscore in username of first account. Closes: #977214
+
+  [ Updated translations ]
+  * Hindi (hi.po) by KushagraKarira
+  * Tamil (ta.po) by Vasudevan Tirumurti
+  * Traditional Chinese (zh_TW.po) by louies0623
 
  -- Holger Wansing <hwansing@mailbox.org>  Sat, 20 Feb 2021 17:27:21 +0100
 
