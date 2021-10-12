@@ -14,7 +14,7 @@ Architecture: all
 Priority: standard
 XB-Installer-Menu-Item: 2400
 Description: Set up users and passwords
-Depends: cdebconf-udeb (>= 0.133)
+Depends: cdebconf-udeb (>= 0.133), ${misc:Depends}
 
 Package: user-setup
 Architecture: all
