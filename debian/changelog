@@ -1,3 +1,13 @@
+user-setup (1.89) UNRELEASED; urgency=medium
+
+  [ Debian Janitor ]
+  * Add missing ${misc:Depends} to Depends for user-setup-udeb.
+  * Bump debhelper from deprecated 9 to 13.
+  * Set debhelper-compat version in Build-Depends.
+  * Update renamed lintian tag names in lintian overrides.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Jan 2022 21:28:43 +0100
+
 user-setup (1.88) unstable; urgency=medium
 
   * Team upload
