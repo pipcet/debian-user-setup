@@ -1,4 +1,11 @@
-user-setup (1.89) UNRELEASED; urgency=medium
+user-setup (1.89) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Norwegian Nynorsk (nn.po) by aujawindar
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
 
   [ Debian Janitor ]
   * Add missing ${misc:Depends} to Depends for user-setup-udeb.
@@ -6,7 +13,7 @@ user-setup (1.89) UNRELEASED; urgency=medium
   * Set debhelper-compat version in Build-Depends.
   * Update renamed lintian tag names in lintian overrides.
 
- -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Jan 2022 21:28:43 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 26 May 2022 23:50:50 +0200
 
 user-setup (1.88) unstable; urgency=medium
 
