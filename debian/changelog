@@ -1,3 +1,9 @@
+user-setup (1.90) UNRELEASED; urgency=medium
+
+  * Adapt lintian-overrides to recent 'pointed hints' changings.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 08 Jul 2022 21:33:15 +0200
+
 user-setup (1.89) unstable; urgency=medium
 
   * Team upload
