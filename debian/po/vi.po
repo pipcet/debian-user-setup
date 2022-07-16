@@ -12,14 +12,14 @@
 # Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
 # Hai-Nam Nguyen <hainam@jcisio.com>, 2012
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2019-02-27 14:34+0700\n"
+"PO-Revision-Date: 2022-07-16 14:23+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
@@ -43,8 +43,9 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"Nếu bạn chọn không cho phép người chủ (root) đăng nhập, một tài khoản người "
-"dùng sẽ được tạo và được gán quyền trở thành người chủ bằng lệnh “sudo”."
+"Nếu bạn chọn không cho phép tài khoản siêu quản trị (root) đăng nhập, một "
+"tài khoản người dùng sẽ được tạo và được gán quyền trở thành người siêu quản "
+"trị khi dùng lệnh “sudo”."
 
 #. Type: password
 #. Description
@@ -83,8 +84,8 @@ msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
 msgstr ""
-"Mật khẩu tốt chứa phối hợp chữ, con số và chấm câu, và nên được thay đổi "
-"theo định kỷ."
+"Mật khẩu mạnh sẽ chứa phối hợp chữ, con số và chấm câu, và nên được thay đổi "
+"theo định kỳ."
 
 #. Type: password
 #. Description
@@ -104,7 +105,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note that you will not be able to see the password as you type it."
-msgstr "Ghi chú rằng bạn sẽ không thể xem mật khẩu trong khi gõ."
+msgstr "Chú ý là bạn sẽ không thể xem mật khẩu trong khi gõ."
 
 #. Type: password
 #. Description
@@ -123,7 +124,7 @@ msgstr "Hãy nhập lại mật khẩu cần xác nhận:"
 msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
-msgstr "Hãy nhập lại mật khẩu người chủ này, để xác nhận bạn đã gõ đúng."
+msgstr "Hãy nhập lại mật khẩu root này, để xác nhận bạn đã gõ đúng."
 
 #. Type: boolean
 #. Description
@@ -142,10 +143,10 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"Không phải là ý kiến tốt khi bạn sử dụng tài khoản người chủ để làm các công "
-"việc hàng ngày, như là đọc thư điện tử, vì ngay cả một lỗi nhỏ có thể gây ra "
-"kết thúc rất xấu. Bạn nên tạo một tài khoản người dùng chuẩn, để sử dụng khi "
-"làm các công việc hàng ngày như vậy. "
+"Không phải là ý kiến tốt khi bạn sử dụng tài khoản siêu quản trị root để làm "
+"các công việc hàng ngày, như là đọc thư điện tử, vì ngay cả một lỗi nhỏ có "
+"thể gây ra một thảm họa. Bạn nên tạo một tài khoản người dùng chuẩn, để sử "
+"dụng khi làm các công việc hàng ngày như vậy."
 
 #. Type: boolean
 #. Description
@@ -156,8 +157,8 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Ghi chú rằng bạn có thể tạo nó sau này (cùng với tài khoản thêm nào) bằng "
-"cách gõ “adduser <tên_người_dùng>” với tư cách người chủ, mà "
+"Chú ý là bạn có thể tạo nó sau này (cùng với tài khoản thêm nào) bằng cách "
+"gõ “adduser <tên_người_dùng>” với tư cách siêu quản trị root, mà "
 "<tên_người_dùng> là tên người dùng, v.d. “nguyenvan” hoặc “ngv”."
 
 #. Type: string
