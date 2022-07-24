@@ -28,15 +28,19 @@
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 # Yangfl <mmyangfl@gmail.com>, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2020.
+# 玉堂白鹤 <yjwork@qq.com>, 2020.
+# TTT DEAL <ikmn2jlt@linshiyouxiang.net>, 2021.
+# Wenbin Lv <wenbin816@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2017-06-11 18:20+0800\n"
-"Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
-"Language-Team:  <debian-l10n-chinese@lists.debian.org>\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>\n"
+"Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,15 +62,15 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"如果您选择不允许根用户登录，那么将会有一个普通用户被创建并被赋予通过“sudo”命"
-"令变身为根用户的权限。"
+"如果您选择不允许根用户登录，那么将会创建一个普通用户账户，并将赋予它通过 "
+"\"sudo\" 命令提升为根用户的权限。"
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "Root 用户密码："
+msgstr "Root 密码："
 
 #. Type: password
 #. Description
@@ -79,10 +83,10 @@ msgid ""
 "It should not be a word found in dictionaries, or a word that could be "
 "easily associated with you."
 msgstr ""
-"您需要为“root”用户 (即系统管理员帐号) 设置一个密码。如果恶意或无资格的用户获"
-"得了 root 权限将可能会导致灾难性的结果，因此您应该小心地选择一个不容易猜出的 "
-"root 密码。它不应该是一个能在字典中找得到的单词或者一个跟您本人有紧密关系的词"
-"语。"
+"您需要为 \"root\" 用户 (即系统管理员帐号) 设置一个密码。如果恶意或不够格的用"
+"户获得了 root 权限，则可能会导致灾难性的结果，因此您应该小心地选择一个不容易"
+"猜出的 root 密码。您不应该选择一个能在字典中找得到的单词或者一个跟您本人有紧"
+"密关系的词语。"
 
 #. Type: password
 #. Description
@@ -94,7 +98,7 @@ msgstr ""
 msgid ""
 "A good password will contain a mixture of letters, numbers and punctuation "
 "and should be changed at regular intervals."
-msgstr "一个安全的密码应该是由字母、数字和标点符号组合而成，而且要定期更新。"
+msgstr "一个安全的密码应该由字母、数字和标点符号组合而成，而且要定期更新。"
 
 #. Type: password
 #. Description
@@ -105,8 +109,8 @@ msgid ""
 "the root account will be disabled and the system's initial user account will "
 "be given the power to become root using the \"sudo\" command."
 msgstr ""
-"根用户不应使用空密码。如果您将此留空，根用户账户会被禁用且系统的初始用户账户"
-"会被给予权限通过“sudo”命令获得根用户权限。"
+"根用户不应使用空密码。如果您将此栏置空，根用户账户会被禁用，且系统的初始用户"
+"账户将会被赋予通过 \"sudo\" 命令提升为根用户的权限。"
 
 #. Type: password
 #. Description
@@ -132,14 +136,14 @@ msgstr "请再次输入密码以验证其正确性："
 msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
-msgstr "为了保证您的密码正确无误，请再次输入相同的 root 密码。"
+msgstr "请再次输入相同的 root 密码以保证您的输入没有出错。"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "现在就创建一个普通用户帐号吗？"
+msgstr "现在就创建一个普通用户账户吗？"
 
 #. Type: boolean
 #. Description
@@ -151,9 +155,9 @@ msgid ""
 "result in disaster. You should create a normal user account to use for those "
 "day-to-day tasks."
 msgstr ""
-"以 root 帐户进行诸如阅读电子邮件这类普通的日常操作是一个糟糕的主意。因为在 "
+"以 root 账户进行诸如阅读电子邮件这类普通的日常操作是一个糟糕的主意。因为在 "
 "root 权限下，哪怕犯一个极小的错误，其结果也可能会是灾难性的。您现在就可以创建"
-"一个普通用户帐号来进行那些日常任务。"
+"一个普通用户账户来进行那些日常任务。"
 
 #. Type: boolean
 #. Description
@@ -164,9 +168,9 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is an username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"请注意，您也可以稍后再创建此帐户 (也包括任何其他帐户)。方法是以 root 身份执"
-"行“adduser <username>”，此处的 <username> 就是一个用户名，例"
-"如“imurdock”或“rms”。"
+"请注意，您也可以稍后再创建此账户 (也包括任何其他账户)。方法是以 root 身份执"
+"行 \"adduser <username>\"，此处的 <username> 是一个用户名，例如 \"imurdock\" "
+"或 \"rms\"。"
 
 #. Type: string
 #. Description
@@ -182,7 +186,7 @@ msgstr "请输入新用户的全名："
 msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
-msgstr "程序将创建一个用来取代 root 执行非管理任务的普通用户帐号。"
+msgstr "将要创建一个用来取代 root 用户执行非管理任务的普通用户帐号。"
 
 #. Type: string
 #. Description
@@ -194,15 +198,15 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"请输入此用户的真实名称。这项信息将被用作该用户所发邮件的默认来源，同时还会被"
-"用于所有显示和使用该用户真实名称的程序中。您的全名就是一个很合适的选择。"
+"请输入此用户的真实姓名。这项信息将用于该用户所发邮件的默认发件人名字，以及所"
+"有需要显示或使用该用户真实姓名的程序，等等。您的全名就是一个很合适的选择。"
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "您的帐号的用户名："
+msgstr "您的账户的用户名："
 
 #. Type: string
 #. Description
@@ -213,8 +217,8 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"请为新的帐号选择用户名。比如，您的名字就是一个合适的选择。用户名必须以一个小"
-"写字母开头，接着是任意数字和其他小写字母的组合。"
+"请为新的账户选择一个用户名。比如，您的名字就是一个合适的选择。用户名必须以一"
+"个小写字母开头，接着是任意数字和小写字母的组合。"
 
 #. Type: error
 #. Description
@@ -233,7 +237,7 @@ msgid ""
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
 "您所输入的用户名是无效的。请注意，用户名必须以一个小写字母开头，接着是数字和"
-"其他小写字母的任意组合，且不得多于 32 个字符。"
+"小写字母的任意组合，且不得多于 32 个字符。"
 
 #. Type: error
 #. Description
@@ -266,7 +270,7 @@ msgstr "请为新用户选择一个密码："
 msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
-msgstr "请再次输入相同用户密码以保证您的输入不会出错。"
+msgstr "请再次输入相同的用户密码以保证您的输入没有出错。"
 
 #. Type: error
 #. Description
@@ -296,14 +300,14 @@ msgstr "空密码"
 msgid ""
 "You entered an empty password, which is not allowed. Please choose a non-"
 "empty password."
-msgstr "您输入的是空密码，这不被系统所接受。请选择一个非空的密码。"
+msgstr "您输入的是空密码，这是不允许的。请选择一个非空的密码。"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:17001
 msgid "Enable shadow passwords?"
-msgstr "启用影子口令吗？"
+msgstr "启用影子密码吗？"
 
 #. Type: boolean
 #. Description
@@ -315,9 +319,9 @@ msgid ""
 "can only be read by special programs. The use of shadow passwords is "
 "strongly recommended, except in a few cases such as NIS environments."
 msgstr ""
-"使用影子口令后没人能看到哪怕是已加密过的口令内容，所以它将使系统更加安全。口"
-"令将被保存在一个单独的文件中，而且只能被特定程序读取。除了极少数情况外，例如 "
-"NIS 环境，我们强烈推荐您使用影子口令。"
+"使用影子密码后，即使是已经经过加密的密码，也没有人可以查看，因此可以使系统更"
+"加安全。密码将被保存在一个单独的文件中，而且只能被特定程序读取。除了极少数情"
+"况 (例如 NIS 环境) 以外，我们强烈推荐您使用影子密码。"
 
 #. Type: title
 #. Description

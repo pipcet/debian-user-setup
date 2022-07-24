@@ -9,6 +9,9 @@
 #
 # Håvard Korsvoll <korsvoll@skulelinux.no>, 2004, 2005, 2006, 2007, 2008.
 # Eirik U. Birkeland <eirbir@gmail.com>, 2010.
+# Allan Nordhøy <epost@anotheragency.no>, 2017.
+# Alexander Jansen <bornxlo@gmail.com>, 2018.
+# aujawindar <eivind.odegard@sogn.no>, 2022.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -24,8 +27,8 @@ msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: user-setup@packages.debian.org\n"
 "POT-Creation-Date: 2012-02-16 22:49+0000\n"
-"PO-Revision-Date: 2017-11-24 15:19+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
+"Last-Translator: aujawindar <eivind.odegard@sogn.no>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
@@ -228,15 +231,14 @@ msgstr "Ugyldig brukarnamn"
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
-#, fuzzy
 msgid ""
 "The username you entered is invalid. Note that usernames must start with a "
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Brukarnamnet du skreiv inn er ugyldig. Merk at brukarnamn må starte med ein "
+"Brukarnamnet du skreiv inn er ugyldig. Merk at brukarnamn må byrja med ein "
 "liten bokstav, resten av brukarnamnet kan vere ein kombinasjon av tal og "
-"fleire små bokstavar."
+"fleire små bokstavar og må ikje vera meir enn 32 teikn langt."
 
 #. Type: error
 #. Description
